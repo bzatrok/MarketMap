@@ -7,9 +7,6 @@ export default function Header() {
         Market Map
       </Link>
       <nav className="flex gap-4 text-sm">
-        <Link href="/map" className="text-gray-600 hover:text-primary">
-          Map
-        </Link>
         <Link href="/markets" className="text-gray-600 hover:text-primary">
           Markets
         </Link>

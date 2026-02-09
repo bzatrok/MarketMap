@@ -3,7 +3,7 @@ export default function manifest() {
     name: 'Market Map',
     short_name: 'MarketMap',
     description: 'Find weekly markets in the Netherlands and surrounding regions.',
-    start_url: '/map',
+    start_url: '/',
     display: 'standalone',
     background_color: '#f8fafc',
     theme_color: '#2563eb',

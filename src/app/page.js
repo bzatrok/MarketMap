@@ -1,18 +1,64 @@
-import Link from 'next/link';
+'use client';
 
-export default function Home() {
+import { useState, useEffect, useCallback } from 'react';
+import dynamic from 'next/dynamic';
+import Sidebar from '@/components/Sidebar';
+import SearchInput from '@/components/SearchInput';
+import FilterBar from '@/components/FilterBar';
+import MarketCard from '@/components/MarketCard';
+
+const Map = dynamic(() => import('@/components/Map'), { ssr: false });
+
+export default function HomePage() {
+  const [markets, setMarkets] = useState([]);
+  const [query, setQuery] = useState('');
+  const [selectedDays, setSelectedDays] = useState([]);
+  const [selectedProvince, setSelectedProvince] = useState('');
+  const [loading, setLoading] = useState(true);
+
+  const fetchMarkets = useCallback(async () => {
+    setLoading(true);
+    const params = new URLSearchParams();
+    if (query) params.set('q', query);
+    if (selectedDays.length) params.set('days', selectedDays.join(','));
+    if (selectedProvince) params.set('province', selectedProvince);
+
+    const res = await fetch(`/api/markets?${params}`);
+    const data = await res.json();
+    setMarkets(data.hits || []);
+    setLoading(false);
+  }, [query, selectedDays, selectedProvince]);
+
+  useEffect(() => {
+    fetchMarkets();
+  }, [fetchMarkets]);
+
+  const handleMarkerClick = useCallback((market) => {
+    // Could scroll to card in sidebar, open detail, etc.
+  }, []);
+
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-surface">
-      <h1 className="text-4xl font-bold mb-4">Market Map</h1>
-      <p className="text-lg text-gray-600 mb-8 text-center max-w-md">
-        Discover weekly markets in the Netherlands and surrounding regions.
-      </p>
-      <Link
-        href="/map"
-        className="bg-primary text-white px-6 py-3 rounded-lg text-lg hover:opacity-90 transition-opacity"
-      >
-        Open Map
-      </Link>
-    </main>
+    <div className="relative w-full h-full">
+      <Sidebar>
+        <SearchInput value={query} onChange={setQuery} />
+        <FilterBar
+          selectedDays={selectedDays}
+          onDaysChange={setSelectedDays}
+          selectedProvince={selectedProvince}
+          onProvinceChange={setSelectedProvince}
+        />
+        <div>
+          <div className="text-xs text-gray-500 mb-2">
+            {loading ? 'Loading...' : `${markets.length} markets found`}
+          </div>
+          <div className="space-y-2">
+            {markets.map((m) => (
+              <MarketCard key={m.id} market={m} onClick={handleMarkerClick} />
+            ))}
+          </div>
+        </div>
+      </Sidebar>
+      <Map markets={markets} onMarkerClick={handleMarkerClick} />
+    </div>
   );
 }

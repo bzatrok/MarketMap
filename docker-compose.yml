@@ -9,10 +9,25 @@ services:
     volumes:
       - meili_data:/meili_data
     healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--spider", "http://localhost:7700/health"]
+      test: ["CMD", "wget", "--no-verbose", "--spider", "http://127.0.0.1:7700/health"]
       interval: 5s
       timeout: 3s
       retries: 5
+      start_period: 10s
+
+  seed:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+    environment:
+      - MEILI_URL=http://meilisearch:7700
+      - MEILI_MASTER_KEY=${MEILI_MASTER_KEY:-devMasterKey123}
+    depends_on:
+      meilisearch:
+        condition: service_healthy
+    command: node data/seed.mjs
+    restart: "no"
 
 volumes:
   meili_data:
