@@ -13,7 +13,8 @@ export default function HomePage() {
   const [markets, setMarkets] = useState([]);
   const [query, setQuery] = useState('');
   const [selectedDays, setSelectedDays] = useState([]);
-  const [selectedProvince, setSelectedProvince] = useState('');
+  const [selectedProvinces, setSelectedProvinces] = useState([]);
+  const [selectedMarket, setSelectedMarket] = useState(null);
   const [loading, setLoading] = useState(true);
 
   const fetchMarkets = useCallback(async () => {
@@ -21,20 +22,20 @@ export default function HomePage() {
     const params = new URLSearchParams();
     if (query) params.set('q', query);
     if (selectedDays.length) params.set('days', selectedDays.join(','));
-    if (selectedProvince) params.set('province', selectedProvince);
+    if (selectedProvinces.length) params.set('provinces', selectedProvinces.join(','));
 
     const res = await fetch(`/api/markets?${params}`);
     const data = await res.json();
     setMarkets(data.hits || []);
     setLoading(false);
-  }, [query, selectedDays, selectedProvince]);
+  }, [query, selectedDays, selectedProvinces]);
 
   useEffect(() => {
     fetchMarkets();
   }, [fetchMarkets]);
 
   const handleMarkerClick = useCallback((market) => {
-    // Could scroll to card in sidebar, open detail, etc.
+    setSelectedMarket(market);
   }, []);
 
   return (
@@ -44,8 +45,8 @@ export default function HomePage() {
         <FilterBar
           selectedDays={selectedDays}
           onDaysChange={setSelectedDays}
-          selectedProvince={selectedProvince}
-          onProvinceChange={setSelectedProvince}
+          selectedProvinces={selectedProvinces}
+          onProvincesChange={setSelectedProvinces}
         />
         <div>
           <div className="text-xs text-gray-500 mb-2">
@@ -58,7 +59,12 @@ export default function HomePage() {
           </div>
         </div>
       </Sidebar>
-      <Map markets={markets} onMarkerClick={handleMarkerClick} />
+      <Map
+        markets={markets}
+        onMarkerClick={handleMarkerClick}
+        selectedMarket={selectedMarket}
+        selectedProvinces={selectedProvinces}
+      />
     </div>
   );
 }

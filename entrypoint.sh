@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 # Entrypoint script: waits for Meilisearch, seeds data, starts the app
 
-MEILI_URL="${MEILI_URL:-http://localhost:7700}"
+MEILI_INTERNAL_URL="${MEILI_INTERNAL_URL:-http://localhost:7700}"
 
-echo "Waiting for Meilisearch at $MEILI_URL..."
-until wget -q --spider "$MEILI_URL/health" 2>/dev/null; do
+echo "Waiting for Meilisearch at $MEILI_INTERNAL_URL..."
+until wget -q --spider "$MEILI_INTERNAL_URL/health" 2>/dev/null; do
   sleep 1
 done
 echo "Meilisearch is ready."

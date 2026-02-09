@@ -35,8 +35,9 @@ Thumbs.db
 # docker
 docker-compose.override.yml
 
-# geocache
+# geocache / API caches
 data/geocache.json
+data/province-cache.json
 
 # misc
 *.tsbuildinfo

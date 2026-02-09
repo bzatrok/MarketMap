@@ -7,11 +7,11 @@ export async function GET(request) {
 
   const q = searchParams.get('q') || '';
   const days = searchParams.get('days')?.split(',').filter(Boolean) || [];
-  const province = searchParams.get('province') || '';
+  const provinces = searchParams.get('provinces')?.split(',').filter(Boolean) || [];
   const type = searchParams.get('type') || '';
   const limit = Math.min(parseInt(searchParams.get('limit') || '200', 10), 500);
 
-  const filter = buildFilterArray({ days, province, type });
+  const filter = buildFilterArray({ days, provinces, type });
 
   const index = client.index('markets');
   const results = await index.search(q, {

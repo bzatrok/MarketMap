@@ -2,11 +2,11 @@
  * Build a Meilisearch filter string from UI filter state.
  * @param {Object} params
  * @param {string[]} [params.days] - Selected days (multi-select)
- * @param {string} [params.province] - Province name
+ * @param {string[]} [params.provinces] - Province names (multi-select)
  * @param {string} [params.type] - Market type
  * @returns {string[]} Array of filter strings for Meilisearch
  */
-export function buildFilterArray({ days, province, type } = {}) {
+export function buildFilterArray({ days, provinces, type } = {}) {
   const filters = [];
 
   if (days && days.length > 0) {
@@ -14,8 +14,9 @@ export function buildFilterArray({ days, province, type } = {}) {
     filters.push(`(${dayFilters.join(' OR ')})`);
   }
 
-  if (province) {
-    filters.push(`province = "${province}"`);
+  if (provinces && provinces.length > 0) {
+    const provFilters = provinces.map((p) => `province = "${p}"`);
+    filters.push(`(${provFilters.join(' OR ')})`);
   }
 
   if (type) {

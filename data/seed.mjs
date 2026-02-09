@@ -10,7 +10,7 @@ const SOURCE_PATH = join(ROOT, 'static', 'weekly_markets_netherlands.json');
 const INDEX_NAME = 'markets';
 
 const client = new MeiliSearch({
-  host: process.env.MEILI_URL || 'http://localhost:7700',
+  host: process.env.MEILI_INTERNAL_URL || process.env.MEILI_URL || 'http://localhost:7700',
   apiKey: process.env.MEILI_MASTER_KEY || 'devMasterKey123',
 });
 
@@ -110,16 +110,11 @@ async function seed() {
   let skipped = 0;
 
   for (const raw of markets) {
-    const geo = await geocode(raw.city_town, raw.location);
+    // Use pre-baked _geo from source data, fall back to Nominatim
+    const geo = raw._geo || await geocode(raw.city_town, raw.location);
     if (!geo) {
       skipped++;
       continue;
-    }
-
-    // Only hit Nominatim rate limit if we actually made a request (not cached)
-    const cacheKey = `${raw.city_town}|${raw.location}`;
-    if (!geocache[cacheKey] || geocache[cacheKey] === geo) {
-      geocoded++;
     }
 
     documents.push(transformMarket(raw, geo));

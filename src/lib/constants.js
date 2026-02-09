@@ -33,6 +33,21 @@ export const PROVINCES = [
   'Zuid-Holland',
 ];
 
+export const PROVINCE_LABELS = {
+  'Drenthe': 'DR',
+  'Flevoland': 'FL',
+  'Friesland': 'FR',
+  'Gelderland': 'GLD',
+  'Groningen': 'GR',
+  'Limburg': 'LB',
+  'Noord-Brabant': 'NB',
+  'Noord-Holland': 'NH',
+  'Overijssel': 'OV',
+  'Utrecht': 'UT',
+  'Zeeland': 'ZL',
+  'Zuid-Holland': 'ZH',
+};
+
 export const MAP_DEFAULTS = {
   center: [52.1326, 5.2913], // Netherlands center
   zoom: 7,
