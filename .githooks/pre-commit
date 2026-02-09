@@ -1,0 +1,71 @@
+#!/bin/bash
+# Pre-commit hook: block commits containing secrets or personal info
+
+RED='\033[0;31m'
+NC='\033[0m'
+
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM)
+
+if [ -z "$STAGED_FILES" ]; then
+  exit 0
+fi
+
+FOUND=0
+
+check_pattern() {
+  local description="$1"
+  local pattern="$2"
+
+  for FILE in $STAGED_FILES; do
+    # skip binary files
+    if file "$FILE" | grep -q "binary"; then
+      continue
+    fi
+    MATCH=$(grep -En "$pattern" "$FILE" 2>/dev/null)
+    if [ -n "$MATCH" ]; then
+      if [ "$FOUND" -eq 0 ]; then
+        echo -e "${RED}=== SECRET DETECTED - COMMIT BLOCKED ===${NC}"
+      fi
+      FOUND=1
+      echo -e "${RED}[!] ${description}${NC} found in:"
+      echo "$MATCH" | while read -r LINE; do
+        echo "    $FILE:$LINE"
+      done
+    fi
+  done
+}
+
+# AWS Access Key
+check_pattern "AWS Access Key" 'AKIA[0-9A-Z]{16}'
+
+# OpenAI / Stripe secret key
+check_pattern "OpenAI/Stripe secret key" 'sk-[a-zA-Z0-9]{20,}'
+
+# Anthropic API key
+check_pattern "Anthropic API key" 'sk-ant-[a-zA-Z0-9-]{20,}'
+
+# GitHub tokens
+check_pattern "GitHub token" 'gh[po]_[a-zA-Z0-9]{36}'
+
+# Slack token
+check_pattern "Slack token" 'xox[bpors]-[a-zA-Z0-9-]+'
+
+# Private keys
+check_pattern "Private key" '-----BEGIN .*(PRIVATE KEY)-----'
+
+# Hardcoded passwords/secrets/tokens/api keys (key = "value" or key: "value")
+check_pattern "Hardcoded password" 'password[[:space:]]*[:=][[:space:]]*"[^"]{4,}"'
+check_pattern "Hardcoded secret" 'secret[[:space:]]*[:=][[:space:]]*"[^"]{4,}"'
+check_pattern "Hardcoded token" 'token[[:space:]]*[:=][[:space:]]*"[^"]{4,}"'
+check_pattern "Hardcoded API key" 'api[_-]?key[[:space:]]*[:=][[:space:]]*"[^"]{4,}"'
+
+# Personal info
+check_pattern "Personal username" 'bzatrok'
+
+if [ "$FOUND" -ne 0 ]; then
+  echo ""
+  echo "If this is a false positive, use: git commit --no-verify"
+  exit 1
+fi
+
+exit 0
