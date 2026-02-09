@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.gitignore
+.githooks
+.env
+.env.*
+data/geocache.json
+*.md
