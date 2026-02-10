@@ -21,11 +21,14 @@ function buildPopupHTML(market) {
     <strong>${market.name}</strong><br/>
     ${scheduleLines}
     ${locationLine ? `<br/><span style="color:#666">${locationLine}</span>` : ''}
+    ${market.url ? `<br/><a href="${market.url}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Website →</a>` : ''}
+    ${market.sourceUrl ? `<br/><a href="${market.sourceUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Source →</a>` : ''}
+    ${market.municipalityUrl ? `<br/><a href="${market.municipalityUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Municipality →</a>` : ''}
     <br/><a href="${navUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Navigate →</a>
   </div>`;
 }
 
-export default function Map({ markets = [], onMarkerClick, selectedMarket, selectedProvinces = [] }) {
+export default function Map({ markets = [], onMarkerClick, selectedMarket, selectedProvinces = [], sidebarOpen = true }) {
   const containerRef = useRef(null);
   const mapRef = useRef(null);
   const markersRef = useRef([]);
@@ -211,7 +214,34 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
       markersRef.current.push(marker);
       popupsRef.current.set(market.id, marker);
     });
-  }, [markets, onMarkerClick]);
+
+    // Fit map viewport to results
+    const withGeo = markets.filter((m) => m._geo);
+    const pad = { top: 60, bottom: 60, left: sidebarOpen ? 420 : 60, right: 60 };
+
+    if (withGeo.length >= 2) {
+      let minLng = Infinity, minLat = Infinity, maxLng = -Infinity, maxLat = -Infinity;
+      withGeo.forEach(({ _geo }) => {
+        if (_geo.lng < minLng) minLng = _geo.lng;
+        if (_geo.lng > maxLng) maxLng = _geo.lng;
+        if (_geo.lat < minLat) minLat = _geo.lat;
+        if (_geo.lat > maxLat) maxLat = _geo.lat;
+      });
+      mapRef.current.fitBounds([[minLng, minLat], [maxLng, maxLat]], { padding: pad });
+    } else if (withGeo.length === 1) {
+      mapRef.current.flyTo({
+        center: [withGeo[0]._geo.lng, withGeo[0]._geo.lat],
+        zoom: 14,
+        padding: pad,
+      });
+    } else {
+      mapRef.current.flyTo({
+        center: [MAP_DEFAULTS.center[1], MAP_DEFAULTS.center[0]],
+        zoom: MAP_DEFAULTS.zoom,
+        padding: { top: 0, bottom: 0, left: sidebarOpen ? 380 : 0, right: 0 },
+      });
+    }
+  }, [markets, onMarkerClick, sidebarOpen]);
 
   // Fly to selected market and open its popup
   useEffect(() => {

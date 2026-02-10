@@ -1,16 +1,13 @@
 'use client';
 
-import { useState } from 'react';
-
-export default function Sidebar({ children }) {
-  const [open, setOpen] = useState(true);
+export default function Sidebar({ children, open, onToggle }) {
 
   return (
     <>
       {/* Toggle button — only visible when sidebar is closed */}
       {!open && (
         <button
-          onClick={() => setOpen(true)}
+          onClick={() => onToggle(true)}
           className="absolute top-2 left-2 z-20 bg-white border border-gray-300 rounded-md p-2 shadow-sm hover:bg-gray-50 transition-colors"
           aria-label="Open sidebar"
         >
@@ -43,7 +40,7 @@ export default function Sidebar({ children }) {
           {/* Header row: back arrow + first child (SearchInput) */}
           <div className="flex items-center gap-2 pt-3 pb-3 sticky top-0 bg-white z-10">
             <button
-              onClick={() => setOpen(false)}
+              onClick={() => onToggle(false)}
               className="flex-shrink-0 bg-white border border-gray-300 rounded-md p-2 hover:bg-gray-50 transition-colors"
               aria-label="Close sidebar"
             >

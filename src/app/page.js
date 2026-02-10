@@ -15,6 +15,7 @@ export default function HomePage() {
   const [selectedDays, setSelectedDays] = useState([]);
   const [selectedProvinces, setSelectedProvinces] = useState([]);
   const [selectedMarket, setSelectedMarket] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(true);
   const [loading, setLoading] = useState(true);
 
   const fetchMarkets = useCallback(async () => {
@@ -40,7 +41,7 @@ export default function HomePage() {
 
   return (
     <div className="relative w-full h-full">
-      <Sidebar>
+      <Sidebar open={sidebarOpen} onToggle={setSidebarOpen}>
         <SearchInput value={query} onChange={setQuery} />
         <FilterBar
           selectedDays={selectedDays}
@@ -64,6 +65,7 @@ export default function HomePage() {
         onMarkerClick={handleMarkerClick}
         selectedMarket={selectedMarket}
         selectedProvinces={selectedProvinces}
+        sidebarOpen={sidebarOpen}
       />
     </div>
   );
