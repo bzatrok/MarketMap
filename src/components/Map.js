@@ -249,19 +249,24 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
 
     const marker = popupsRef.current.get(selectedMarket.id);
 
+    // Close all popups before flying
+    markersRef.current.forEach((m) => {
+      if (m.getPopup()?.isOpen()) m.togglePopup();
+    });
+
     mapRef.current.flyTo({
       center: [selectedMarket._geo.lng, selectedMarket._geo.lat],
       zoom: 14,
       duration: 1000,
     });
 
+    // Open popup after flyTo animation completes
     if (marker) {
-      markersRef.current.forEach((m) => {
-        if (m.getPopup()?.isOpen()) m.togglePopup();
+      mapRef.current.once('moveend', () => {
+        if (!marker.getPopup()?.isOpen()) {
+          marker.togglePopup();
+        }
       });
-      if (!marker.getPopup()?.isOpen()) {
-        marker.togglePopup();
-      }
     }
   }, [selectedMarket]);
 

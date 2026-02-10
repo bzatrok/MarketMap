@@ -36,7 +36,7 @@ export default function HomePage() {
   }, [fetchMarkets]);
 
   const handleMarkerClick = useCallback((market) => {
-    setSelectedMarket(market);
+    setSelectedMarket({ ...market, _ts: Date.now() });
   }, []);
 
   return (
