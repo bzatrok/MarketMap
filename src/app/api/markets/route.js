@@ -9,7 +9,7 @@ export async function GET(request) {
   const days = searchParams.get('days')?.split(',').filter(Boolean) || [];
   const provinces = searchParams.get('provinces')?.split(',').filter(Boolean) || [];
   const type = searchParams.get('type') || '';
-  const limit = Math.min(parseInt(searchParams.get('limit') || '200', 10), 500);
+  const limit = Math.min(parseInt(searchParams.get('limit') || '2000', 10), 2000);
 
   const filter = buildFilterArray({ days, provinces, type });
 
