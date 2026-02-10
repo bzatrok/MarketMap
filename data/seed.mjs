@@ -70,30 +70,45 @@ function slugify(str) {
     .replace(/(^-|-$)/g, '');
 }
 
-function transformMarket(raw, geo) {
-  const id = slugify(`${raw.city_town}-${raw.location}-${raw.day}`);
-  const name = raw.location === raw.city_town
-    ? `${raw.city_town} Weekmarkt`
-    : `${raw.city_town} - ${raw.location}`;
+const DAY_ORDER = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
+
+function groupMarkets(markets) {
+  const groups = new Map();
+  for (const raw of markets) {
+    const key = `${raw.city_town}|${raw.location}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(raw);
+  }
+  return groups;
+}
+
+function transformGroup(entries, geo) {
+  const first = entries[0];
+  const id = slugify(`${first.city_town}-${first.location}`);
+  const name = first.location === first.city_town
+    ? `${first.city_town} Weekmarkt`
+    : `${first.city_town} - ${first.location}`;
+
+  // Merge and sort schedule slots by day order
+  const schedule = entries
+    .map((e) => ({ day: e.day, timeStart: e.time_from, timeEnd: e.time_to }))
+    .sort((a, b) => DAY_ORDER.indexOf(a.day) - DAY_ORDER.indexOf(b.day));
 
   return {
     id,
     name,
-    type: raw.type,
+    type: first.type,
     _geo: geo,
-    schedule: {
-      days: [raw.day],
-      timeStart: raw.time_from,
-      timeEnd: raw.time_to,
-    },
-    seasonNote: raw.season_note || null,
-    province: raw.province,
+    scheduleDays: schedule.map((s) => s.day),
+    schedule,
+    seasonNote: first.season_note || null,
+    province: first.province,
     country: 'NL',
-    cityTown: raw.city_town,
-    location: raw.location,
-    sourceUrl: raw.source_url || null,
-    municipalityUrl: raw.municipality_url || null,
-    lastVerified: raw.last_verified,
+    cityTown: first.city_town,
+    location: first.location,
+    sourceUrl: first.source_url || null,
+    municipalityUrl: first.municipality_url || null,
+    lastVerified: first.last_verified,
   };
 }
 
@@ -102,25 +117,25 @@ function transformMarket(raw, geo) {
 async function seed() {
   const source = JSON.parse(readFileSync(SOURCE_PATH, 'utf-8'));
   const markets = source.markets;
-  console.log(`Found ${markets.length} markets in source data.`);
+  console.log(`Found ${markets.length} source entries.`);
 
-  // Transform and geocode
+  // Group by (city_town, location) and geocode per group
+  const groups = groupMarkets(markets);
   const documents = [];
-  let geocoded = 0;
   let skipped = 0;
 
-  for (const raw of markets) {
-    // Use pre-baked _geo from source data, fall back to Nominatim
-    const geo = raw._geo || await geocode(raw.city_town, raw.location);
+  for (const [key, entries] of groups) {
+    const first = entries[0];
+    const geo = first._geo || await geocode(first.city_town, first.location);
     if (!geo) {
       skipped++;
       continue;
     }
 
-    documents.push(transformMarket(raw, geo));
+    documents.push(transformGroup(entries, geo));
   }
 
-  console.log(`Transformed ${documents.length} markets (${skipped} skipped due to geocoding failure).`);
+  console.log(`Merged into ${documents.length} unique markets (${skipped} skipped, was ${markets.length} entries).`);
 
   // Create/update index
   try {
@@ -134,12 +149,17 @@ async function seed() {
 
   // Configure index settings
   const settingsTask = await index.updateSettings({
-    filterableAttributes: ['type', 'schedule.days', 'province', 'country', '_geo'],
+    filterableAttributes: ['type', 'scheduleDays', 'province', 'country', '_geo'],
     searchableAttributes: ['name', 'cityTown', 'location', 'province'],
     sortableAttributes: ['name', '_geo'],
   });
   await client.waitForTask(settingsTask.taskUid);
   console.log('Index settings configured.');
+
+  // Delete all existing documents (old day-suffixed IDs would persist otherwise)
+  const deleteTask = await index.deleteAllDocuments();
+  await client.waitForTask(deleteTask.taskUid);
+  console.log('Cleared existing documents.');
 
   // Add documents
   const addTask = await index.addDocuments(documents);

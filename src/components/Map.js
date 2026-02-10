@@ -11,13 +11,15 @@ const PROVINCE_FILL_LAYER = 'province-fill';
 const PROVINCE_LINE_LAYER = 'province-line';
 
 function buildPopupHTML(market) {
-  const dayLabel = market.schedule.days.map((d) => DAY_LABELS[d] || d).join(', ');
+  const scheduleLines = market.schedule
+    .map((s) => `${DAY_LABELS[s.day] || s.day} · ${s.timeStart}–${s.timeEnd}`)
+    .join('<br/>');
   const locationLine = [market.location, market.cityTown].filter(Boolean).join(', ');
   const navUrl = `https://www.google.com/maps/dir/?api=1&destination=${market._geo.lat},${market._geo.lng}`;
 
   return `<div style="font-size:13px;max-width:220px">
     <strong>${market.name}</strong><br/>
-    <span>${dayLabel} · ${market.schedule.timeStart}–${market.schedule.timeEnd}</span>
+    ${scheduleLines}
     ${locationLine ? `<br/><span style="color:#666">${locationLine}</span>` : ''}
     <br/><a href="${navUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Navigate →</a>
   </div>`;

@@ -10,7 +10,7 @@ export function buildFilterArray({ days, provinces, type } = {}) {
   const filters = [];
 
   if (days && days.length > 0) {
-    const dayFilters = days.map((d) => `schedule.days = "${d}"`);
+    const dayFilters = days.map((d) => `scheduleDays = "${d}"`);
     filters.push(`(${dayFilters.join(' OR ')})`);
   }
 
@@ -28,19 +28,19 @@ export function buildFilterArray({ days, provinces, type } = {}) {
 
 /**
  * Check if a market is currently open based on its schedule.
- * @param {Object} schedule - Market schedule object
+ * @param {Object[]} schedule - Array of { day, timeStart, timeEnd } slots
  * @param {Date} [now] - Current date/time (defaults to now)
  * @returns {boolean}
  */
 export function isMarketOpenNow(schedule, now = new Date()) {
   const dayNames = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
   const currentDay = dayNames[now.getDay()];
-
-  if (!schedule.days.includes(currentDay)) return false;
-
   const currentMinutes = now.getHours() * 60 + now.getMinutes();
-  const [startH, startM] = schedule.timeStart.split(':').map(Number);
-  const [endH, endM] = schedule.timeEnd.split(':').map(Number);
 
-  return currentMinutes >= startH * 60 + startM && currentMinutes <= endH * 60 + endM;
+  return schedule.some((slot) => {
+    if (slot.day !== currentDay) return false;
+    const [startH, startM] = slot.timeStart.split(':').map(Number);
+    const [endH, endM] = slot.timeEnd.split(':').map(Number);
+    return currentMinutes >= startH * 60 + startM && currentMinutes <= endH * 60 + endM;
+  });
 }
