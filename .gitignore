@@ -39,6 +39,9 @@ docker-compose.override.yml
 data/geocache.json
 data/province-cache.json
 
+# downloaded source HTML (ephemeral)
+data/sources/
+
 # misc
 *.tsbuildinfo
 next-env.d.ts

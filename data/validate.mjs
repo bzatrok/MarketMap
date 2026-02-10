@@ -97,6 +97,16 @@ for (let i = 0; i < markets.length; i++) {
   if (!m.source_url) {
     issue(i, m, `Missing source_url`);
   }
+
+  // verified_* fields must be null, "conclusive", or "inconclusive"
+  const VALID_VERIFIED = [null, 'conclusive', 'inconclusive'];
+  for (const field of ['verified_geo', 'verified_times', 'verified_info']) {
+    if (!(field in m)) {
+      issue(i, m, `Missing field: ${field}`);
+    } else if (!VALID_VERIFIED.includes(m[field])) {
+      issue(i, m, `Invalid ${field}: "${m[field]}" (expected null, "conclusive", or "inconclusive")`);
+    }
+  }
 }
 
 // Report

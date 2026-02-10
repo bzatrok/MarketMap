@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "seed": "node data/seed.mjs",
-    "validate": "node data/validate.mjs"
+    "validate": "node data/validate.mjs",
+    "download-sources": "node data/download-sources.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^4.7.1",
