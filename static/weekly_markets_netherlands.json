@@ -22,7 +22,7 @@
       "Zuid-Holland"
     ],
     "provinces_todo": [],
-    "total_markets": 855
+    "total_markets": 856
   },
   "markets": [
     {
@@ -34,6 +34,7 @@
       "time_to": "14:00",
       "season_note": "",
       "type": "weekly_market",
+      "url": "https://www.apeldoorn.nl/weekmarkt",
       "source_url": "https://evenementenlijst.nl/de-7-weekmarkten-in-apeldoorn/",
       "municipality_url": "https://www.apeldoorn.nl",
       "data_status": "aggregator",
@@ -41,7 +42,8 @@
       "_geo": {
         "lat": 52.2153453,
         "lng": 5.9629718
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -52,6 +54,7 @@
       "time_to": "13:00",
       "season_note": "",
       "type": "weekly_market",
+      "url": "https://www.ede.nl/weekmarkt",
       "source_url": "https://evenementenlijst.nl/weekmarkten-in-de-gemeente-ede/",
       "municipality_url": "https://www.ede.nl",
       "data_status": "aggregator",
@@ -59,7 +62,8 @@
       "_geo": {
         "lat": 51.9985809,
         "lng": 5.6764147
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -77,7 +81,8 @@
       "_geo": {
         "lat": 51.8462546,
         "lng": 5.8706817
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -86,8 +91,8 @@
       "day": "monday",
       "time_from": "09:00",
       "time_to": "14:00",
-      "season_note": "",
-      "type": "weekly_market",
+      "season_note": "Lusemert vlooienmarkt",
+      "type": "antique_market",
       "source_url": "https://evenementenlijst.nl/weekmarkten-in-nijmegen/",
       "municipality_url": "https://www.nijmegen.nl",
       "data_status": "aggregator",
@@ -95,7 +100,8 @@
       "_geo": {
         "lat": 51.8473709,
         "lng": 5.8641943
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -113,7 +119,8 @@
       "_geo": {
         "lat": 51.8474946,
         "lng": 5.8637771
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -131,7 +138,8 @@
       "_geo": {
         "lat": 52.1572821,
         "lng": 6.3015597
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -149,7 +157,8 @@
       "_geo": {
         "lat": 52.1938295,
         "lng": 6.0045932
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -167,7 +176,8 @@
       "_geo": {
         "lat": 51.9876005,
         "lng": 5.9429188
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -185,7 +195,8 @@
       "_geo": {
         "lat": 51.9822468,
         "lng": 5.9065596
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -203,7 +214,8 @@
       "_geo": {
         "lat": 51.8630079,
         "lng": 5.771517
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -221,7 +233,8 @@
       "_geo": {
         "lat": 52.0873088,
         "lng": 6.1571773
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -239,7 +252,8 @@
       "_geo": {
         "lat": 51.9576163,
         "lng": 5.225145
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -257,7 +271,8 @@
       "_geo": {
         "lat": 51.965678,
         "lng": 6.293686
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -275,7 +290,8 @@
       "_geo": {
         "lat": 51.9492875,
         "lng": 6.0230097
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -293,7 +309,8 @@
       "_geo": {
         "lat": 52.1043677,
         "lng": 6.0591144
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -311,7 +328,8 @@
       "_geo": {
         "lat": 52.1019365,
         "lng": 6.6486642
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -329,7 +347,8 @@
       "_geo": {
         "lat": 52.4469801,
         "lng": 5.8369499
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -347,7 +366,8 @@
       "_geo": {
         "lat": 52.3001728,
         "lng": 5.617904
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -365,7 +385,8 @@
       "_geo": {
         "lat": 51.77702,
         "lng": 5.9343066
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -383,7 +404,8 @@
       "_geo": {
         "lat": 52.2075015,
         "lng": 6.297922
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -401,7 +423,8 @@
       "_geo": {
         "lat": 52.1323114,
         "lng": 6.6116561
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -419,7 +442,8 @@
       "_geo": {
         "lat": 51.8323993,
         "lng": 5.780319
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -437,7 +461,8 @@
       "_geo": {
         "lat": 51.9700857,
         "lng": 5.7219227
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -455,13 +480,14 @@
       "_geo": {
         "lat": 52.0260317,
         "lng": 5.5541925
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
       "city_town": "Wekerom",
       "location": "Edeseweg",
-      "day": "tuesday",
+      "day": "wednesday",
       "time_from": "08:30",
       "time_to": "12:30",
       "season_note": "",
@@ -473,7 +499,8 @@
       "_geo": {
         "lat": 52.1108397,
         "lng": 5.7131335
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -491,7 +518,8 @@
       "_geo": {
         "lat": 51.782164,
         "lng": 5.1898267
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -509,7 +537,8 @@
       "_geo": {
         "lat": 51.9295181,
         "lng": 5.7121582
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -527,7 +556,8 @@
       "_geo": {
         "lat": 52.1795738,
         "lng": 5.9300775
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -545,7 +575,8 @@
       "_geo": {
         "lat": 51.9687594,
         "lng": 5.8970593
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -563,7 +594,8 @@
       "_geo": {
         "lat": 52.1162293,
         "lng": 6.5246298
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -581,7 +613,8 @@
       "_geo": {
         "lat": 51.8845134,
         "lng": 5.5515886
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -599,7 +632,8 @@
       "_geo": {
         "lat": 52.0510076,
         "lng": 6.1022891
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -617,7 +651,8 @@
       "_geo": {
         "lat": 52.0139605,
         "lng": 6.1393699
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -635,7 +670,8 @@
       "_geo": {
         "lat": 52.1709839,
         "lng": 6.2269387
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -653,7 +689,8 @@
       "_geo": {
         "lat": 52.3482134,
         "lng": 5.9851734
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -671,7 +708,8 @@
       "_geo": {
         "lat": 52.1996486,
         "lng": 6.2002185
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -689,15 +727,16 @@
       "_geo": {
         "lat": 52.3235617,
         "lng": 5.6010859
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
       "city_town": "Hattem",
-      "location": "Centrum",
+      "location": "Stadslaan",
       "day": "wednesday",
-      "time_from": "08:00",
-      "time_to": "12:30",
+      "time_from": "13:00",
+      "time_to": "17:00",
       "season_note": "",
       "type": "weekly_market",
       "source_url": "https://evenementenlijst.nl/weekmarkt-in-hattem-gemeente-hattem/",
@@ -705,9 +744,10 @@
       "data_status": "aggregator",
       "last_verified": "2025-02-10",
       "_geo": {
-        "lat": 52.4771551,
-        "lng": 6.0683824
-      }
+        "lat": 52.4710418,
+        "lng": 6.0672441
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -725,7 +765,8 @@
       "_geo": {
         "lat": 52.1715131,
         "lng": 6.3436582
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -743,7 +784,8 @@
       "_geo": {
         "lat": 51.8642776,
         "lng": 6.0457927
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -761,7 +803,8 @@
       "_geo": {
         "lat": 51.805568,
         "lng": 5.8272738
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -779,7 +822,8 @@
       "_geo": {
         "lat": 51.8474946,
         "lng": 5.8637771
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -797,25 +841,27 @@
       "_geo": {
         "lat": 52.2616162,
         "lng": 5.6073377
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
-      "province": "Friesland",
+      "province": "Gelderland",
       "city_town": "Scherpenzeel",
-      "location": "Centrum",
+      "location": "Marktstraat",
       "day": "wednesday",
-      "time_from": "08:30",
-      "time_to": "12:30",
+      "time_from": "08:00",
+      "time_to": "13:00",
       "season_note": "",
       "type": "weekly_market",
       "source_url": "https://evenementenlijst.nl/weekmarkt-in-scherpenzeel-gemeente-scherpenzeel/",
       "municipality_url": "",
       "data_status": "aggregator",
-      "last_verified": "2025-02-10",
+      "last_verified": "2026-02-10",
       "_geo": {
-        "lat": 52.8325177,
-        "lng": 5.8749702
-      }
+        "lat": 52.0859713,
+        "lng": 5.4914871
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -831,17 +877,18 @@
       "data_status": "confirmed",
       "last_verified": "2025-02-10",
       "_geo": {
-        "lat": 51.9685817,
-        "lng": 5.6682981
-      }
+        "lat": 51.9663016,
+        "lng": 5.6662814
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
       "city_town": "Warnsveld",
       "location": "Winkelcentrum De Dreiumme",
       "day": "wednesday",
-      "time_from": "09:00",
-      "time_to": "12:00",
+      "time_from": "07:30",
+      "time_to": "13:00",
       "season_note": "",
       "type": "weekly_market",
       "source_url": "https://evenementenlijst.nl/weekmarkten-in-de-gemeente-zutphen/",
@@ -851,7 +898,8 @@
       "_geo": {
         "lat": 52.1443409,
         "lng": 6.2268734
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -869,7 +917,8 @@
       "_geo": {
         "lat": 51.9680214,
         "lng": 6.7378723
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -887,7 +936,8 @@
       "_geo": {
         "lat": 51.8623653,
         "lng": 6.4884358
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -905,7 +955,8 @@
       "_geo": {
         "lat": 52.2067008,
         "lng": 5.9234123
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -923,7 +974,8 @@
       "_geo": {
         "lat": 52.2292995,
         "lng": 5.9862559
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -941,7 +993,8 @@
       "_geo": {
         "lat": 52.1374165,
         "lng": 5.5866243
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -959,15 +1012,16 @@
       "_geo": {
         "lat": 52.0671503,
         "lng": 6.5619666
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
       "city_town": "Bemmel",
       "location": "Markt",
       "day": "thursday",
-      "time_from": "08:00",
-      "time_to": "13:00",
+      "time_from": "13:30",
+      "time_to": "18:00",
       "season_note": "",
       "type": "weekly_market",
       "source_url": "https://evenementenlijst.nl/weekmarkten-in-de-gemeente-lingewaard/",
@@ -977,7 +1031,8 @@
       "_geo": {
         "lat": 51.8918925,
         "lng": 5.8986072
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -995,7 +1050,8 @@
       "_geo": {
         "lat": 52.0178693,
         "lng": 5.6490881
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1013,7 +1069,8 @@
       "_geo": {
         "lat": 51.9187914,
         "lng": 5.8452555
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1031,7 +1088,8 @@
       "_geo": {
         "lat": 51.8779448,
         "lng": 6.2548363
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -1049,7 +1107,8 @@
       "_geo": {
         "lat": 52.2565894,
         "lng": 5.2251925
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1067,7 +1126,8 @@
       "_geo": {
         "lat": 51.8474946,
         "lng": 5.8637771
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1085,7 +1145,8 @@
       "_geo": {
         "lat": 52.3372909,
         "lng": 5.7956364
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1103,7 +1164,8 @@
       "_geo": {
         "lat": 51.9785448,
         "lng": 5.8382369
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1121,7 +1183,8 @@
       "_geo": {
         "lat": 51.9260391,
         "lng": 5.6374111
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1139,7 +1202,8 @@
       "_geo": {
         "lat": 52.0947949,
         "lng": 6.7233869
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1157,7 +1221,8 @@
       "_geo": {
         "lat": 51.9112354,
         "lng": 6.3814387
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1175,7 +1240,8 @@
       "_geo": {
         "lat": 51.9949176,
         "lng": 5.9747266
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1193,7 +1259,8 @@
       "_geo": {
         "lat": 51.9608387,
         "lng": 6.2112763
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1211,7 +1278,8 @@
       "_geo": {
         "lat": 52.4606224,
         "lng": 6.0003894
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1229,7 +1297,8 @@
       "_geo": {
         "lat": 51.8070214,
         "lng": 5.7263437
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1247,7 +1316,8 @@
       "_geo": {
         "lat": 52.1400607,
         "lng": 6.1972386
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1255,7 +1325,7 @@
       "location": "Schubertplein",
       "day": "friday",
       "time_from": "08:30",
-      "time_to": "14:00",
+      "time_to": "12:30",
       "season_note": "",
       "type": "weekly_market",
       "source_url": "https://evenementenlijst.nl/de-7-weekmarkten-in-apeldoorn/",
@@ -1265,7 +1335,28 @@
       "_geo": {
         "lat": 52.1901373,
         "lng": 5.9658839
-      }
+      },
+      "geo_filled_from": "nominatim"
+    },
+    {
+      "province": "Gelderland",
+      "city_town": "Apeldoorn",
+      "location": "Marktplein",
+      "day": "saturday",
+      "time_from": "08:30",
+      "time_to": "17:00",
+      "season_note": "",
+      "type": "weekly_market",
+      "url": "https://www.apeldoorn.nl/weekmarkt",
+      "source_url": "https://evenementenlijst.nl/de-7-weekmarkten-in-apeldoorn/",
+      "municipality_url": "https://www.apeldoorn.nl",
+      "data_status": "aggregator",
+      "last_verified": "2026-02-10",
+      "_geo": {
+        "lat": 52.2153453,
+        "lng": 5.9629718
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1283,7 +1374,8 @@
       "_geo": {
         "lat": 51.984257,
         "lng": 5.9108573
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1301,7 +1393,8 @@
       "_geo": {
         "lat": 51.8809765,
         "lng": 5.5096395
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1319,15 +1412,16 @@
       "_geo": {
         "lat": 51.9985809,
         "lng": 5.6764147
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
       "city_town": "Dinxperlo",
-      "location": "Centrum",
+      "location": "Kerkstraat",
       "day": "friday",
-      "time_from": "08:30",
-      "time_to": "12:30",
+      "time_from": "12:00",
+      "time_to": "19:00",
       "season_note": "",
       "type": "weekly_market",
       "source_url": "https://evenementenlijst.nl/weekmarkten-in-de-gemeente-aalten/",
@@ -1335,17 +1429,18 @@
       "data_status": "aggregator",
       "last_verified": "2025-02-10",
       "_geo": {
-        "lat": 51.8623653,
-        "lng": 6.4884358
-      }
+        "lat": 51.861967,
+        "lng": 6.4873945
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
       "city_town": "Didam",
-      "location": "Lieve Vrouweplein",
+      "location": "Didamse Markthal",
       "day": "friday",
-      "time_from": "08:00",
-      "time_to": "12:30",
+      "time_from": "10:30",
+      "time_to": "17:30",
       "season_note": "",
       "type": "weekly_market",
       "source_url": "https://evenementenlijst.nl/weekmarkten-in-de-gemeente-montferland/",
@@ -1353,9 +1448,10 @@
       "data_status": "aggregator",
       "last_verified": "2025-02-10",
       "_geo": {
-        "lat": 51.9375196,
-        "lng": 6.1268685
-      }
+        "lat": 51.937228,
+        "lng": 6.1275981
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1373,7 +1469,8 @@
       "_geo": {
         "lat": 51.890802,
         "lng": 5.6097054
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1391,7 +1488,8 @@
       "_geo": {
         "lat": 52.0623492,
         "lng": 5.5680005
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1409,7 +1507,8 @@
       "_geo": {
         "lat": 51.8833318,
         "lng": 5.2893063
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1427,7 +1526,8 @@
       "_geo": {
         "lat": 51.8721987,
         "lng": 6.3777787
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1445,7 +1545,8 @@
       "_geo": {
         "lat": 51.8780981,
         "lng": 5.971794
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1463,7 +1564,8 @@
       "_geo": {
         "lat": 52.0541286,
         "lng": 6.3072777
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1481,14 +1583,15 @@
       "_geo": {
         "lat": 51.9554341,
         "lng": 5.7573215
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
       "city_town": "Hoevelaken",
-      "location": "Brink",
+      "location": "De Wiekslag",
       "day": "friday",
-      "time_from": "13:00",
+      "time_from": "08:30",
       "time_to": "18:00",
       "season_note": "",
       "type": "weekly_market",
@@ -1497,9 +1600,10 @@
       "data_status": "aggregator",
       "last_verified": "2025-02-10",
       "_geo": {
-        "lat": 52.175912,
-        "lng": 5.4554205
-      }
+        "lat": 52.1750348,
+        "lng": 5.4559715
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1517,7 +1621,8 @@
       "_geo": {
         "lat": 51.9371749,
         "lng": 5.9432438
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1535,7 +1640,8 @@
       "_geo": {
         "lat": 52.2241026,
         "lng": 5.48446
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1553,7 +1659,8 @@
       "_geo": {
         "lat": 52.4471159,
         "lng": 5.8979661
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1564,14 +1671,15 @@
       "time_to": "12:30",
       "season_note": "",
       "type": "weekly_market",
-      "source_url": "",
-      "municipality_url": "https://lokaleregelgeving.overheid.nl/CVDR222545",
+      "source_url": "https://evenementenlijst.nl/weekmarkten-in-de-gemeente-renkum/",
+      "municipality_url": "https://www.renkum.nl",
       "data_status": "confirmed",
       "last_verified": "2025-02-10",
       "_geo": {
         "lat": 52.0056717,
         "lng": 5.7923944
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1589,7 +1697,8 @@
       "_geo": {
         "lat": 51.9791779,
         "lng": 5.9101475
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1607,7 +1716,8 @@
       "_geo": {
         "lat": 52.0017554,
         "lng": 5.9411505
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1623,9 +1733,10 @@
       "data_status": "confirmed",
       "last_verified": "2025-02-10",
       "_geo": {
-        "lat": 51.9685817,
-        "lng": 5.6682981
-      }
+        "lat": 51.9663016,
+        "lng": 5.6662814
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1643,7 +1754,8 @@
       "_geo": {
         "lat": 51.8474946,
         "lng": 5.8637771
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -1661,7 +1773,8 @@
       "_geo": {
         "lat": 51.8474946,
         "lng": 5.8637771
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1679,7 +1792,8 @@
       "_geo": {
         "lat": 53.2007895,
         "lng": 5.7957029
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1697,7 +1811,8 @@
       "_geo": {
         "lat": 53.033548,
         "lng": 5.6611029
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1715,7 +1830,8 @@
       "_geo": {
         "lat": 53.2613359,
         "lng": 5.7597849
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1733,7 +1849,8 @@
       "_geo": {
         "lat": 53.3273086,
         "lng": 5.9977961
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1751,7 +1868,8 @@
       "_geo": {
         "lat": 53.1866684,
         "lng": 5.540197
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1769,7 +1887,8 @@
       "_geo": {
         "lat": 53.0059606,
         "lng": 6.0641634
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1787,7 +1906,8 @@
       "_geo": {
         "lat": 53.1745763,
         "lng": 5.4215168
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1805,7 +1925,8 @@
       "_geo": {
         "lat": 52.9644286,
         "lng": 5.8026709
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1823,7 +1944,8 @@
       "_geo": {
         "lat": 53.2005936,
         "lng": 5.7918548
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1841,7 +1963,8 @@
       "_geo": {
         "lat": 53.2156913,
         "lng": 5.795573
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1859,7 +1982,8 @@
       "_geo": {
         "lat": 53.0582462,
         "lng": 5.4047063
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1877,7 +2001,8 @@
       "_geo": {
         "lat": 52.8762872,
         "lng": 6.001764
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1895,7 +2020,8 @@
       "_geo": {
         "lat": 53.0620178,
         "lng": 5.5228964
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1913,7 +2039,8 @@
       "_geo": {
         "lat": 53.104997,
         "lng": 6.0994054
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1931,7 +2058,8 @@
       "_geo": {
         "lat": 52.8444859,
         "lng": 5.7099136
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1949,7 +2077,8 @@
       "_geo": {
         "lat": 52.9778491,
         "lng": 5.4464091
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1967,7 +2096,8 @@
       "_geo": {
         "lat": 52.8974922,
         "lng": 5.5797206
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -1985,7 +2115,8 @@
       "_geo": {
         "lat": 53.1954807,
         "lng": 5.9871063
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2003,7 +2134,8 @@
       "_geo": {
         "lat": 53.2147926,
         "lng": 5.9413122
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2021,7 +2153,8 @@
       "_geo": {
         "lat": 53.1996272,
         "lng": 5.7933148
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2039,7 +2172,8 @@
       "_geo": {
         "lat": 52.8892311,
         "lng": 6.1412076
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2057,7 +2191,8 @@
       "_geo": {
         "lat": 53.104997,
         "lng": 6.0994054
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2075,7 +2210,8 @@
       "_geo": {
         "lat": 53.1866684,
         "lng": 5.540197
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2093,7 +2229,8 @@
       "_geo": {
         "lat": 53.2422241,
         "lng": 5.8904824
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2111,7 +2248,8 @@
       "_geo": {
         "lat": 53.1621576,
         "lng": 5.4294134
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2129,7 +2267,8 @@
       "_geo": {
         "lat": 52.9338565,
         "lng": 5.9555337
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2147,7 +2286,8 @@
       "_geo": {
         "lat": 53.010841,
         "lng": 5.6237574
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2165,7 +2305,8 @@
       "_geo": {
         "lat": 53.2005936,
         "lng": 5.7918548
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Friesland",
@@ -2183,7 +2324,8 @@
       "_geo": {
         "lat": 53.0310858,
         "lng": 5.661091
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2201,7 +2343,8 @@
       "_geo": {
         "lat": 53.1069348,
         "lng": 6.8762549
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2219,7 +2362,8 @@
       "_geo": {
         "lat": 53.2190652,
         "lng": 6.5680077
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2237,7 +2381,8 @@
       "_geo": {
         "lat": 53.2773154,
         "lng": 6.6951182
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2255,7 +2400,8 @@
       "_geo": {
         "lat": 53.328409,
         "lng": 6.5163966
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2273,7 +2419,8 @@
       "_geo": {
         "lat": 53.3312806,
         "lng": 6.9261096
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2291,7 +2438,8 @@
       "_geo": {
         "lat": 53.3636399,
         "lng": 6.4610108
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2309,7 +2457,8 @@
       "_geo": {
         "lat": 53.2190652,
         "lng": 6.5680077
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2327,7 +2476,8 @@
       "_geo": {
         "lat": 53.1982834,
         "lng": 6.558734
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2345,7 +2495,8 @@
       "_geo": {
         "lat": 53.236073,
         "lng": 6.61891
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2363,7 +2514,8 @@
       "_geo": {
         "lat": 53.2374689,
         "lng": 6.5222906
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2381,7 +2533,8 @@
       "_geo": {
         "lat": 53.2320599,
         "lng": 6.5690518
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2399,7 +2552,8 @@
       "_geo": {
         "lat": 53.3599254,
         "lng": 6.3775996
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2417,7 +2571,8 @@
       "_geo": {
         "lat": 53.3474429,
         "lng": 6.6418516
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2428,20 +2583,21 @@
       "time_to": "17:00",
       "season_note": "",
       "type": "weekly_market",
-      "source_url": "",
-      "municipality_url": "",
+      "source_url": "https://www.pekela.nl/Onderwerpen/Recreatie_en_activiteiten/Doen_in_Pekela/Markt_in_Pekela",
+      "municipality_url": "https://www.pekela.nl",
       "data_status": "aggregator",
       "last_verified": "2025-02-10",
       "_geo": {
         "lat": 53.0801656,
         "lng": 6.9658159
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
       "city_town": "Sellingen",
       "location": "Dorpsstraat",
-      "day": "wednesday",
+      "day": "tuesday",
       "time_from": "12:00",
       "time_to": "17:00",
       "season_note": "",
@@ -2453,7 +2609,8 @@
       "_geo": {
         "lat": 52.9467572,
         "lng": 7.147338
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2471,7 +2628,8 @@
       "_geo": {
         "lat": 53.3003141,
         "lng": 6.5961866
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2489,7 +2647,8 @@
       "_geo": {
         "lat": 53.218802,
         "lng": 6.5672907
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2507,7 +2666,8 @@
       "_geo": {
         "lat": 53.2190652,
         "lng": 6.5680077
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2525,7 +2685,8 @@
       "_geo": {
         "lat": 53.226659,
         "lng": 6.5274003
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2543,7 +2704,8 @@
       "_geo": {
         "lat": 53.2150401,
         "lng": 6.5014133
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2561,7 +2723,8 @@
       "_geo": {
         "lat": 53.1637372,
         "lng": 6.3893628
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2572,14 +2735,15 @@
       "time_to": "17:00",
       "season_note": "",
       "type": "weekly_market",
-      "source_url": "",
-      "municipality_url": "",
+      "source_url": "https://www.pekela.nl/Onderwerpen/Recreatie_en_activiteiten/Doen_in_Pekela/Markt_in_Pekela",
+      "municipality_url": "https://www.pekela.nl",
       "data_status": "aggregator",
       "last_verified": "2025-02-10",
       "_geo": {
         "lat": 53.1074318,
         "lng": 7.013857
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2597,7 +2761,8 @@
       "_geo": {
         "lat": 53.1761091,
         "lng": 6.9718957
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2615,7 +2780,8 @@
       "_geo": {
         "lat": 52.8742433,
         "lng": 7.0617746
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2633,7 +2799,8 @@
       "_geo": {
         "lat": 53.1069348,
         "lng": 6.8762549
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2651,7 +2818,8 @@
       "_geo": {
         "lat": 53.2190652,
         "lng": 6.5680077
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2669,7 +2837,8 @@
       "_geo": {
         "lat": 53.2164949,
         "lng": 6.2874472
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2687,7 +2856,8 @@
       "_geo": {
         "lat": 53.1736032,
         "lng": 6.6038223
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2705,7 +2875,8 @@
       "_geo": {
         "lat": 53.3320009,
         "lng": 6.7470199
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2723,7 +2894,8 @@
       "_geo": {
         "lat": 53.1454062,
         "lng": 6.2675108
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2741,7 +2913,8 @@
       "_geo": {
         "lat": 52.930019,
         "lng": 7.0153912
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2759,7 +2932,8 @@
       "_geo": {
         "lat": 53.0260951,
         "lng": 7.1122345
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2777,7 +2951,8 @@
       "_geo": {
         "lat": 53.2437263,
         "lng": 6.408624
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2795,7 +2970,8 @@
       "_geo": {
         "lat": 53.3203375,
         "lng": 6.8591995
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2813,7 +2989,8 @@
       "_geo": {
         "lat": 53.2190652,
         "lng": 6.5680077
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2831,7 +3008,8 @@
       "_geo": {
         "lat": 52.9962401,
         "lng": 7.0014349
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2849,7 +3027,8 @@
       "_geo": {
         "lat": 53.4074413,
         "lng": 6.6732202
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2867,7 +3046,8 @@
       "_geo": {
         "lat": 53.4159396,
         "lng": 6.7255446
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2885,7 +3065,8 @@
       "_geo": {
         "lat": 53.1451014,
         "lng": 7.03412
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2903,7 +3084,8 @@
       "_geo": {
         "lat": 53.2172209,
         "lng": 6.5648775
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Groningen",
@@ -2921,7 +3103,8 @@
       "_geo": {
         "lat": 53.2190652,
         "lng": 6.5680077
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -2939,7 +3122,8 @@
       "_geo": {
         "lat": 52.6611943,
         "lng": 6.7410322
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -2957,7 +3141,8 @@
       "_geo": {
         "lat": 53.056286,
         "lng": 6.7275703
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -2975,7 +3160,8 @@
       "_geo": {
         "lat": 52.924488,
         "lng": 6.7934386
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -2993,7 +3179,8 @@
       "_geo": {
         "lat": 52.8334709,
         "lng": 6.3667019
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3011,7 +3198,8 @@
       "_geo": {
         "lat": 53.1119991,
         "lng": 6.5598398
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3029,7 +3217,8 @@
       "_geo": {
         "lat": 52.6735934,
         "lng": 6.4290084
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3047,7 +3236,8 @@
       "_geo": {
         "lat": 52.997225,
         "lng": 6.5506458
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3065,7 +3255,8 @@
       "_geo": {
         "lat": 53.133729,
         "lng": 6.5846076
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3083,11 +3274,12 @@
       "_geo": {
         "lat": 52.7714336,
         "lng": 6.236168
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
-      "city_town": "Nijveen",
+      "city_town": "Nijeveen",
       "location": "Dorpsstraat",
       "day": "wednesday",
       "time_from": "08:00",
@@ -3099,9 +3291,10 @@
       "data_status": "aggregator",
       "last_verified": "2025-02-10",
       "_geo": {
-        "lat": 53.0419448,
-        "lng": 6.4945098
-      }
+        "lat": 52.7357219,
+        "lng": 6.1776573
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3119,7 +3312,8 @@
       "_geo": {
         "lat": 53.0668359,
         "lng": 6.4555453
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3137,7 +3331,8 @@
       "_geo": {
         "lat": 52.73071,
         "lng": 6.27307
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3155,7 +3350,8 @@
       "_geo": {
         "lat": 52.8612972,
         "lng": 6.4965601
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3173,7 +3369,8 @@
       "_geo": {
         "lat": 53.0019989,
         "lng": 6.7645173
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3191,7 +3388,8 @@
       "_geo": {
         "lat": 52.7246921,
         "lng": 6.4787936
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3209,7 +3407,8 @@
       "_geo": {
         "lat": 52.6972235,
         "lng": 6.1897948
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3227,7 +3426,8 @@
       "_geo": {
         "lat": 53.1473837,
         "lng": 6.493987
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3245,7 +3445,8 @@
       "_geo": {
         "lat": 52.857893,
         "lng": 6.207247
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3263,7 +3464,8 @@
       "_geo": {
         "lat": 52.7528662,
         "lng": 6.9525135
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3281,7 +3483,8 @@
       "_geo": {
         "lat": 52.6987518,
         "lng": 6.32072
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3299,7 +3502,8 @@
       "_geo": {
         "lat": 53.1398921,
         "lng": 6.4299733
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3317,7 +3521,8 @@
       "_geo": {
         "lat": 52.9843788,
         "lng": 6.6487151
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3335,7 +3540,8 @@
       "_geo": {
         "lat": 52.946487,
         "lng": 6.4509559
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3353,7 +3559,8 @@
       "_geo": {
         "lat": 53.0930931,
         "lng": 6.6882082
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3371,7 +3578,8 @@
       "_geo": {
         "lat": 52.8492168,
         "lng": 6.6103067
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3389,7 +3597,8 @@
       "_geo": {
         "lat": 52.6721062,
         "lng": 6.2886884
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3407,7 +3616,8 @@
       "_geo": {
         "lat": 52.997225,
         "lng": 6.5506458
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3425,7 +3635,8 @@
       "_geo": {
         "lat": 52.7246921,
         "lng": 6.4787936
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3443,7 +3654,8 @@
       "_geo": {
         "lat": 52.6972235,
         "lng": 6.1897948
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3461,7 +3673,8 @@
       "_geo": {
         "lat": 52.8041623,
         "lng": 7.0285469
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3479,7 +3692,8 @@
       "_geo": {
         "lat": 52.7237526,
         "lng": 7.0117837
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Drenthe",
@@ -3497,7 +3711,8 @@
       "_geo": {
         "lat": 52.7638422,
         "lng": 6.3602777
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3515,7 +3730,8 @@
       "_geo": {
         "lat": 52.4357953,
         "lng": 6.2341002
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3533,7 +3749,8 @@
       "_geo": {
         "lat": 52.6007212,
         "lng": 6.4563898
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3551,7 +3768,8 @@
       "_geo": {
         "lat": 52.5588134,
         "lng": 5.9146301
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3569,7 +3787,8 @@
       "_geo": {
         "lat": 52.3116616,
         "lng": 6.9241615
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3587,7 +3806,8 @@
       "_geo": {
         "lat": 52.3080276,
         "lng": 6.5213004
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3605,7 +3825,8 @@
       "_geo": {
         "lat": 52.249695,
         "lng": 6.2850786
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3623,7 +3844,8 @@
       "_geo": {
         "lat": 52.2572326,
         "lng": 6.164027
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3641,7 +3863,8 @@
       "_geo": {
         "lat": 52.2181162,
         "lng": 6.8960584
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3659,7 +3882,8 @@
       "_geo": {
         "lat": 52.6233682,
         "lng": 6.0410358
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3677,7 +3901,8 @@
       "_geo": {
         "lat": 52.2350344,
         "lng": 6.493561
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3695,7 +3920,8 @@
       "_geo": {
         "lat": 52.5188764,
         "lng": 6.4242178
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3713,7 +3939,8 @@
       "_geo": {
         "lat": 52.4068595,
         "lng": 6.7830657
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3731,7 +3958,8 @@
       "_geo": {
         "lat": 52.4618786,
         "lng": 6.5665608
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3749,7 +3977,8 @@
       "_geo": {
         "lat": 52.6818606,
         "lng": 5.948121
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3767,7 +3996,8 @@
       "_geo": {
         "lat": 52.3519522,
         "lng": 6.5674484
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3785,7 +4015,8 @@
       "_geo": {
         "lat": 52.5310833,
         "lng": 6.1004904
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3803,7 +4034,8 @@
       "_geo": {
         "lat": 52.3004342,
         "lng": 6.7549225
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3821,7 +4053,8 @@
       "_geo": {
         "lat": 52.6007212,
         "lng": 6.4563898
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3839,7 +4072,8 @@
       "_geo": {
         "lat": 52.3743503,
         "lng": 7.0048223
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3857,7 +4091,8 @@
       "_geo": {
         "lat": 52.2689529,
         "lng": 6.1655827
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3875,7 +4110,8 @@
       "_geo": {
         "lat": 52.2142707,
         "lng": 6.9707301
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3893,7 +4129,8 @@
       "_geo": {
         "lat": 52.1548,
         "lng": 6.7422206
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3911,7 +4148,8 @@
       "_geo": {
         "lat": 52.2658726,
         "lng": 6.7924049
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3929,7 +4167,8 @@
       "_geo": {
         "lat": 52.3340102,
         "lng": 6.280102
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3947,7 +4186,8 @@
       "_geo": {
         "lat": 52.6366828,
         "lng": 6.2080352
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3965,7 +4205,8 @@
       "_geo": {
         "lat": 52.41208,
         "lng": 6.6265482
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -3983,7 +4224,8 @@
       "_geo": {
         "lat": 52.510805,
         "lng": 6.0732102
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4001,7 +4243,8 @@
       "_geo": {
         "lat": 52.3563585,
         "lng": 6.6636219
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4019,7 +4262,8 @@
       "_geo": {
         "lat": 52.5045742,
         "lng": 6.261239
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4037,7 +4281,8 @@
       "_geo": {
         "lat": 52.2478044,
         "lng": 6.2157154
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4055,7 +4300,8 @@
       "_geo": {
         "lat": 52.2881152,
         "lng": 6.1459232
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4073,7 +4319,8 @@
       "_geo": {
         "lat": 52.1921913,
         "lng": 6.8810956
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Gelderland",
@@ -4091,7 +4338,8 @@
       "_geo": {
         "lat": 52.1392401,
         "lng": 6.5255713
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4109,7 +4357,8 @@
       "_geo": {
         "lat": 52.5828818,
         "lng": 6.1210552
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4127,7 +4376,8 @@
       "_geo": {
         "lat": 52.3324618,
         "lng": 6.280536
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4145,7 +4395,8 @@
       "_geo": {
         "lat": 52.3904628,
         "lng": 6.4515115
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4163,7 +4414,8 @@
       "_geo": {
         "lat": 52.4698445,
         "lng": 6.712333
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4181,7 +4433,8 @@
       "_geo": {
         "lat": 52.2627728,
         "lng": 7.006801
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4199,7 +4452,8 @@
       "_geo": {
         "lat": 52.8260291,
         "lng": 5.9691577
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4217,7 +4471,8 @@
       "_geo": {
         "lat": 52.4077892,
         "lng": 6.8976972
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4235,7 +4490,8 @@
       "_geo": {
         "lat": 52.2683185,
         "lng": 6.1946117
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4253,7 +4509,8 @@
       "_geo": {
         "lat": 52.5321798,
         "lng": 6.0538927
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4271,7 +4528,8 @@
       "_geo": {
         "lat": 52.3708449,
         "lng": 6.7637994
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4289,7 +4547,8 @@
       "_geo": {
         "lat": 52.2619482,
         "lng": 6.7087605
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4307,7 +4566,8 @@
       "_geo": {
         "lat": 52.2525138,
         "lng": 6.1605252
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4325,7 +4585,8 @@
       "_geo": {
         "lat": 52.2322118,
         "lng": 6.581541
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4343,7 +4604,8 @@
       "_geo": {
         "lat": 52.2816453,
         "lng": 6.4216795
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4361,7 +4623,8 @@
       "_geo": {
         "lat": 52.5656888,
         "lng": 5.9291813
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4379,7 +4642,8 @@
       "_geo": {
         "lat": 52.6425446,
         "lng": 6.0720879
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4397,7 +4661,8 @@
       "_geo": {
         "lat": 52.5080451,
         "lng": 6.069679
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4415,7 +4680,8 @@
       "_geo": {
         "lat": 52.5221646,
         "lng": 6.0488331
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4433,7 +4699,8 @@
       "_geo": {
         "lat": 52.3563585,
         "lng": 6.6636219
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4451,7 +4718,8 @@
       "_geo": {
         "lat": 52.2525138,
         "lng": 6.1605252
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4469,7 +4737,8 @@
       "_geo": {
         "lat": 52.2181162,
         "lng": 6.8960584
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4487,7 +4756,8 @@
       "_geo": {
         "lat": 52.2955324,
         "lng": 6.5778421
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4505,7 +4775,8 @@
       "_geo": {
         "lat": 52.2658726,
         "lng": 6.7924049
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4523,7 +4794,8 @@
       "_geo": {
         "lat": 52.5588134,
         "lng": 5.9146301
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4541,7 +4813,8 @@
       "_geo": {
         "lat": 52.5736304,
         "lng": 6.2917053
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4559,7 +4832,8 @@
       "_geo": {
         "lat": 52.3648136,
         "lng": 6.4612448
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4577,7 +4851,8 @@
       "_geo": {
         "lat": 52.3858386,
         "lng": 6.2758553
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4595,7 +4870,8 @@
       "_geo": {
         "lat": 52.3080276,
         "lng": 6.5213004
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4613,7 +4889,8 @@
       "_geo": {
         "lat": 52.3116616,
         "lng": 6.9241615
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4631,7 +4908,8 @@
       "_geo": {
         "lat": 52.7869372,
         "lng": 6.1163235
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4649,7 +4927,8 @@
       "_geo": {
         "lat": 52.5080451,
         "lng": 6.069679
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",
@@ -4667,7 +4946,8 @@
       "_geo": {
         "lat": 52.2181162,
         "lng": 6.8960584
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4685,7 +4965,8 @@
       "_geo": {
         "lat": 52.5188776,
         "lng": 5.4853715
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4703,7 +4984,8 @@
       "_geo": {
         "lat": 52.5718769,
         "lng": 5.6439198
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4721,7 +5003,8 @@
       "_geo": {
         "lat": 52.4417513,
         "lng": 5.2092943
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4739,7 +5022,8 @@
       "_geo": {
         "lat": 52.5236608,
         "lng": 5.7160381
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4757,7 +5041,8 @@
       "_geo": {
         "lat": 52.4552216,
         "lng": 5.6921598
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4775,7 +5060,8 @@
       "_geo": {
         "lat": 52.3941912,
         "lng": 5.2779576
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4793,7 +5079,8 @@
       "_geo": {
         "lat": 52.7114905,
         "lng": 5.7579491
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4811,7 +5098,8 @@
       "_geo": {
         "lat": 52.3406187,
         "lng": 5.2199258
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4829,7 +5117,8 @@
       "_geo": {
         "lat": 52.3313243,
         "lng": 5.541949
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4847,7 +5136,8 @@
       "_geo": {
         "lat": 52.4417513,
         "lng": 5.2092943
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4865,7 +5155,8 @@
       "_geo": {
         "lat": 52.4417513,
         "lng": 5.2092943
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4883,7 +5174,8 @@
       "_geo": {
         "lat": 52.3582883,
         "lng": 5.1537172
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4901,7 +5193,8 @@
       "_geo": {
         "lat": 52.5101594,
         "lng": 5.4764682
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Flevoland",
@@ -4917,9 +5210,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.6927959,
-        "lng": 5.4576171
-      }
+        "lat": 52.6654515,
+        "lng": 5.5987894
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -4937,7 +5231,8 @@
       "_geo": {
         "lat": 52.2119792,
         "lng": 5.2922263
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -4955,7 +5250,8 @@
       "_geo": {
         "lat": 52.2097841,
         "lng": 5.0216458
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -4973,7 +5269,8 @@
       "_geo": {
         "lat": 52.0645595,
         "lng": 5.3720177
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -4991,7 +5288,8 @@
       "_geo": {
         "lat": 52.0449877,
         "lng": 4.9506741
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5009,7 +5307,8 @@
       "_geo": {
         "lat": 52.0414416,
         "lng": 5.0771265
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5025,9 +5324,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.072666,
-        "lng": 5.123236
-      }
+        "lat": 52.0721385,
+        "lng": 5.1247565
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5045,7 +5345,8 @@
       "_geo": {
         "lat": 52.0200045,
         "lng": 5.549098
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5063,7 +5364,8 @@
       "_geo": {
         "lat": 52.10432,
         "lng": 5.0199482
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5081,7 +5383,8 @@
       "_geo": {
         "lat": 52.0506073,
         "lng": 5.2328246
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5099,7 +5402,8 @@
       "_geo": {
         "lat": 52.0532872,
         "lng": 5.286238
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5117,7 +5421,8 @@
       "_geo": {
         "lat": 52.1868933,
         "lng": 5.3739758
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5135,7 +5440,8 @@
       "_geo": {
         "lat": 52.1372444,
         "lng": 5.4283657
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5153,7 +5459,8 @@
       "_geo": {
         "lat": 52.1025945,
         "lng": 5.0995454
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5169,9 +5476,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0928654,
-        "lng": 5.1148135
-      }
+        "lat": 52.0919171,
+        "lng": 5.115178
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5189,7 +5497,8 @@
       "_geo": {
         "lat": 51.9732114,
         "lng": 5.3456117
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5207,7 +5516,8 @@
       "_geo": {
         "lat": 52.0859261,
         "lng": 4.8832939
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5223,9 +5533,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.2706592,
-        "lng": 4.97651
-      }
+        "lat": 52.2707967,
+        "lng": 4.9759244
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5243,7 +5554,8 @@
       "_geo": {
         "lat": 52.000487,
         "lng": 5.4600535
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5261,7 +5573,8 @@
       "_geo": {
         "lat": 52.1637703,
         "lng": 5.4088845
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5277,9 +5590,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0382753,
-        "lng": 5.3401842
-      }
+        "lat": 52.0356134,
+        "lng": 5.3447582
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5297,7 +5611,8 @@
       "_geo": {
         "lat": 52.0271433,
         "lng": 5.1620637
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5315,7 +5630,8 @@
       "_geo": {
         "lat": 52.1372444,
         "lng": 5.4283657
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5333,7 +5649,8 @@
       "_geo": {
         "lat": 52.1357434,
         "lng": 5.0623387
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5351,7 +5668,8 @@
       "_geo": {
         "lat": 52.2075377,
         "lng": 4.8664611
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5367,9 +5685,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0057623,
-        "lng": 5.0956252
-      }
+        "lat": 52.0037078,
+        "lng": 5.094671
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5387,7 +5706,8 @@
       "_geo": {
         "lat": 52.1142806,
         "lng": 5.1133444
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5405,7 +5725,8 @@
       "_geo": {
         "lat": 52.0978707,
         "lng": 5.0642365
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5423,7 +5744,8 @@
       "_geo": {
         "lat": 52.0865533,
         "lng": 5.2416593
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5439,9 +5761,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.1583123,
-        "lng": 5.3813866
-      }
+        "lat": 52.1593463,
+        "lng": 5.3829593
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5459,7 +5782,8 @@
       "_geo": {
         "lat": 52.1564391,
         "lng": 5.3897982
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5475,9 +5799,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.1551038,
-        "lng": 5.3878986
-      }
+        "lat": 52.1552751,
+        "lng": 5.3877546
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5495,7 +5820,8 @@
       "_geo": {
         "lat": 52.1719595,
         "lng": 5.0026883
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5513,7 +5839,8 @@
       "_geo": {
         "lat": 52.0391518,
         "lng": 5.2203198
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5531,7 +5858,8 @@
       "_geo": {
         "lat": 52.0180135,
         "lng": 5.040927
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5549,7 +5877,8 @@
       "_geo": {
         "lat": 52.0108995,
         "lng": 5.4336134
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5567,7 +5896,8 @@
       "_geo": {
         "lat": 52.1372444,
         "lng": 5.4283657
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5585,7 +5915,8 @@
       "_geo": {
         "lat": 52.130355,
         "lng": 5.4286989
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5603,7 +5934,8 @@
       "_geo": {
         "lat": 52.1298288,
         "lng": 5.4280602
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5621,7 +5953,8 @@
       "_geo": {
         "lat": 52.0340704,
         "lng": 5.5128538
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5639,7 +5972,8 @@
       "_geo": {
         "lat": 52.074623,
         "lng": 5.0935486
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5657,7 +5991,8 @@
       "_geo": {
         "lat": 52.0881402,
         "lng": 5.0545432
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5673,9 +6008,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0928654,
-        "lng": 5.1148135
-      }
+        "lat": 52.0919171,
+        "lng": 5.115178
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5693,7 +6029,8 @@
       "_geo": {
         "lat": 52.0177863,
         "lng": 5.5421558
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5709,9 +6046,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.14611,
-        "lng": 5.46494
-      }
+        "lat": 52.1348466,
+        "lng": 5.5042912
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5727,9 +6065,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.1564394,
-        "lng": 5.3897952
-      }
+        "lat": 52.1564391,
+        "lng": 5.3897982
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5745,9 +6084,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.135773,
-        "lng": 5.0309894
-      }
+        "lat": 52.1351025,
+        "lng": 5.027735
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5765,7 +6105,8 @@
       "_geo": {
         "lat": 52.0298704,
         "lng": 5.0929334
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5781,9 +6122,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.2532487,
-        "lng": 5.3779107
-      }
+        "lat": 52.2525735,
+        "lng": 5.3776635
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5799,9 +6141,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0928654,
-        "lng": 5.1148135
-      }
+        "lat": 52.0919171,
+        "lng": 5.115178
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5819,7 +6162,8 @@
       "_geo": {
         "lat": 52.0952767,
         "lng": 5.1199856
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5837,7 +6181,8 @@
       "_geo": {
         "lat": 52.0898195,
         "lng": 5.1207652
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5855,7 +6200,8 @@
       "_geo": {
         "lat": 52.093768,
         "lng": 5.1224899
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5871,9 +6217,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0258564,
-        "lng": 5.5543853
-      }
+        "lat": 52.0260317,
+        "lng": 5.5541925
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5891,7 +6238,8 @@
       "_geo": {
         "lat": 52.0856324,
         "lng": 4.8829818
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5909,7 +6257,8 @@
       "_geo": {
         "lat": 52.0865533,
         "lng": 5.2416593
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Utrecht",
@@ -5925,9 +6274,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0928654,
-        "lng": 5.1148135
-      }
+        "lat": 52.0919171,
+        "lng": 5.115178
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -5943,9 +6293,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3648902,
-        "lng": 4.8682797
-      }
+        "lat": 52.3651704,
+        "lng": 4.8680823
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -5963,7 +6314,8 @@
       "_geo": {
         "lat": 52.3799538,
         "lng": 4.8868719
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -5979,9 +6331,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3782804,
-        "lng": 4.8823533
-      }
+        "lat": 52.378921,
+        "lng": 4.886274
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -5999,7 +6352,8 @@
       "_geo": {
         "lat": 52.3725948,
         "lng": 4.9003449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6017,25 +6371,27 @@
       "_geo": {
         "lat": 52.3684453,
         "lng": 4.9017859
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
       "city_town": "Amsterdam",
       "location": "Amstelveld",
       "day": "monday",
-      "time_from": "00:00",
-      "time_to": "16:00",
-      "season_note": "Geen indeling",
-      "type": "weekly_market",
+      "time_from": "09:00",
+      "time_to": "18:00",
+      "season_note": "",
+      "type": "bloemenmarkt",
       "source_url": "https://evenementenlijst.nl/de-weekmarkten-in-de-provincie-noord-holland/",
-      "municipality_url": "",
+      "municipality_url": "https://www.amsterdam.nl",
       "data_status": "aggregator",
-      "last_verified": "2026-02-09",
+      "last_verified": "2026-02-10",
       "_geo": {
         "lat": 52.3624282,
         "lng": 4.897155
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6051,9 +6407,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3157385,
-        "lng": 4.9566394
-      }
+        "lat": 52.3158404,
+        "lng": 4.9558218
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6071,7 +6428,8 @@
       "_geo": {
         "lat": 52.3779433,
         "lng": 4.8013777
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6089,7 +6447,8 @@
       "_geo": {
         "lat": 52.3630452,
         "lng": 4.9272453
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6105,9 +6464,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3547821,
-        "lng": 4.8893167
-      }
+        "lat": 52.3546134,
+        "lng": 4.8865459
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6123,9 +6483,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 53.0539017,
-        "lng": 4.797378
-      }
+        "lat": 53.0539495,
+        "lng": 4.7971384
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6143,7 +6504,8 @@
       "_geo": {
         "lat": 52.3813667,
         "lng": 4.6360934
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6161,7 +6523,8 @@
       "_geo": {
         "lat": 52.6702265,
         "lng": 4.8428121
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6179,7 +6542,8 @@
       "_geo": {
         "lat": 52.7294391,
         "lng": 5.167568
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6195,9 +6559,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.6183831,
-        "lng": 4.7408659
-      }
+        "lat": 52.618412,
+        "lng": 4.7408921
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6215,7 +6580,8 @@
       "_geo": {
         "lat": 52.3028209,
         "lng": 4.8596844
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6233,7 +6599,8 @@
       "_geo": {
         "lat": 52.4019931,
         "lng": 4.9323589
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6251,7 +6618,8 @@
       "_geo": {
         "lat": 52.3725948,
         "lng": 4.9003449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6269,7 +6637,8 @@
       "_geo": {
         "lat": 52.3684453,
         "lng": 4.9017859
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6287,7 +6656,8 @@
       "_geo": {
         "lat": 52.3800584,
         "lng": 4.8215334
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6303,9 +6673,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3556087,
-        "lng": 4.7869226
-      }
+        "lat": 52.3569213,
+        "lng": 4.7940606
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6321,9 +6692,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3648902,
-        "lng": 4.8682797
-      }
+        "lat": 52.3651704,
+        "lng": 4.8680823
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6341,7 +6713,8 @@
       "_geo": {
         "lat": 52.3169789,
         "lng": 4.9790073
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6359,7 +6732,8 @@
       "_geo": {
         "lat": 52.3630452,
         "lng": 4.9272453
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6375,9 +6749,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3547821,
-        "lng": 4.8893167
-      }
+        "lat": 52.3546134,
+        "lng": 4.8865459
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6395,7 +6770,8 @@
       "_geo": {
         "lat": 52.3596236,
         "lng": 4.6563137
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6413,7 +6789,8 @@
       "_geo": {
         "lat": 52.305554,
         "lng": 4.6926644
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6429,9 +6806,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.652985,
-        "lng": 5.085559
-      }
+        "lat": 52.6525629,
+        "lng": 5.0859873
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6447,9 +6825,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.5005912,
-        "lng": 4.7667022
-      }
+        "lat": 52.5022159,
+        "lng": 4.7603747
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6467,7 +6846,8 @@
       "_geo": {
         "lat": 52.5024789,
         "lng": 4.9614827
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6485,11 +6865,12 @@
       "_geo": {
         "lat": 52.7022523,
         "lng": 4.9476559
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
-      "city_town": "Velsenerbroek",
+      "city_town": "Velserbroek",
       "location": "Aurora Bastion",
       "day": "tuesday",
       "time_from": "09:00",
@@ -6497,9 +6878,14 @@
       "season_note": "",
       "type": "weekly_market",
       "source_url": "https://evenementenlijst.nl/de-weekmarkten-in-de-provincie-noord-holland/",
-      "municipality_url": "",
+      "municipality_url": "https://www.velsen.nl",
       "data_status": "aggregator",
-      "last_verified": "2026-02-09"
+      "last_verified": "2026-02-10",
+      "_geo": {
+        "lat": 52.4349494,
+        "lng": 4.6595594
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6517,7 +6903,8 @@
       "_geo": {
         "lat": 52.6565362,
         "lng": 4.7558027
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6535,7 +6922,8 @@
       "_geo": {
         "lat": 52.3028209,
         "lng": 4.8596844
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6553,7 +6941,8 @@
       "_geo": {
         "lat": 52.3730796,
         "lng": 4.8924534
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6571,7 +6960,8 @@
       "_geo": {
         "lat": 52.3846142,
         "lng": 4.8837172
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6589,7 +6979,8 @@
       "_geo": {
         "lat": 52.3725948,
         "lng": 4.9003449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6607,7 +6998,8 @@
       "_geo": {
         "lat": 52.3684453,
         "lng": 4.9017859
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6625,7 +7017,8 @@
       "_geo": {
         "lat": 52.3630452,
         "lng": 4.9272453
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6641,9 +7034,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3735119,
-        "lng": 4.9383485
-      }
+        "lat": 52.3735329,
+        "lng": 4.9383497
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6659,9 +7053,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3648902,
-        "lng": 4.8682797
-      }
+        "lat": 52.3651704,
+        "lng": 4.8680823
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6679,7 +7074,8 @@
       "_geo": {
         "lat": 52.2956478,
         "lng": 4.9744218
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6695,9 +7091,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3547821,
-        "lng": 4.8893167
-      }
+        "lat": 52.3546134,
+        "lng": 4.8865459
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6715,7 +7112,8 @@
       "_geo": {
         "lat": 52.7481091,
         "lng": 5.2206712
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6733,7 +7131,8 @@
       "_geo": {
         "lat": 52.860219,
         "lng": 4.8245885
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6751,7 +7150,8 @@
       "_geo": {
         "lat": 52.3393328,
         "lng": 4.7806114
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6769,7 +7169,8 @@
       "_geo": {
         "lat": 52.4836277,
         "lng": 4.6607506
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6787,7 +7188,8 @@
       "_geo": {
         "lat": 52.4331998,
         "lng": 4.9977184
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6805,7 +7207,8 @@
       "_geo": {
         "lat": 52.9529894,
         "lng": 4.8267592
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6823,7 +7226,8 @@
       "_geo": {
         "lat": 52.3413376,
         "lng": 4.9624681
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6839,9 +7243,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.4949316,
-        "lng": 5.0703965
-      }
+        "lat": 52.4950218,
+        "lng": 5.0702422
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6857,9 +7262,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.7017142,
-        "lng": 5.2776973
-      }
+        "lat": 52.7038846,
+        "lng": 5.2899737
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6877,7 +7283,8 @@
       "_geo": {
         "lat": 52.3992795,
         "lng": 4.6445815
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6895,7 +7302,8 @@
       "_geo": {
         "lat": 52.3534734,
         "lng": 4.6213089
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6913,7 +7321,8 @@
       "_geo": {
         "lat": 52.5996575,
         "lng": 4.7015708
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6931,7 +7340,8 @@
       "_geo": {
         "lat": 52.2273877,
         "lng": 5.1773341
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6949,7 +7359,8 @@
       "_geo": {
         "lat": 52.3018812,
         "lng": 4.6916731
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6967,7 +7378,8 @@
       "_geo": {
         "lat": 52.3011452,
         "lng": 4.6640207
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -6985,7 +7397,8 @@
       "_geo": {
         "lat": 52.661129,
         "lng": 5.0499555
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7003,7 +7416,8 @@
       "_geo": {
         "lat": 52.8111468,
         "lng": 4.9948462
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7021,7 +7435,8 @@
       "_geo": {
         "lat": 52.6373477,
         "lng": 4.7754664
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7039,7 +7454,8 @@
       "_geo": {
         "lat": 52.4947455,
         "lng": 4.9686693
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7055,9 +7471,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.2314845,
-        "lng": 4.8282068
-      }
+        "lat": 52.2322613,
+        "lng": 4.8275581
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7075,7 +7492,8 @@
       "_geo": {
         "lat": 52.4945435,
         "lng": 4.7864088
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7093,7 +7511,8 @@
       "_geo": {
         "lat": 52.3710019,
         "lng": 4.5330866
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7111,7 +7530,8 @@
       "_geo": {
         "lat": 52.3725948,
         "lng": 4.9003449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7129,7 +7549,8 @@
       "_geo": {
         "lat": 52.3684453,
         "lng": 4.9017859
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7147,7 +7568,8 @@
       "_geo": {
         "lat": 52.3630452,
         "lng": 4.9272453
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7163,9 +7585,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3648902,
-        "lng": 4.8682797
-      }
+        "lat": 52.3651704,
+        "lng": 4.8680823
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7181,9 +7604,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3157385,
-        "lng": 4.9566394
-      }
+        "lat": 52.3158404,
+        "lng": 4.9558218
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7199,9 +7623,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3547821,
-        "lng": 4.8893167
-      }
+        "lat": 52.3546134,
+        "lng": 4.8865459
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7217,9 +7642,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.6984698,
-        "lng": 5.2499881
-      }
+        "lat": 52.6984298,
+        "lng": 5.2499956
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7237,7 +7663,8 @@
       "_geo": {
         "lat": 52.679327,
         "lng": 4.8046543
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7253,9 +7680,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.27523,
-        "lng": 5.16376
-      }
+        "lat": 52.2752039,
+        "lng": 5.1637657
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7271,9 +7699,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.5591361,
-        "lng": 4.8493967
-      }
+        "lat": 52.5589882,
+        "lng": 4.8493694
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7291,7 +7720,8 @@
       "_geo": {
         "lat": 52.4602205,
         "lng": 4.620211
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7309,7 +7739,8 @@
       "_geo": {
         "lat": 52.2651807,
         "lng": 4.6293066
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7327,7 +7758,8 @@
       "_geo": {
         "lat": 52.5001617,
         "lng": 4.9383049
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7345,7 +7777,8 @@
       "_geo": {
         "lat": 52.2585772,
         "lng": 4.7153471
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7363,7 +7796,8 @@
       "_geo": {
         "lat": 52.7882212,
         "lng": 4.7413568
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7379,9 +7813,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.523294,
-        "lng": 4.737467
-      }
+        "lat": 52.5303233,
+        "lng": 4.7090367
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7397,9 +7832,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.4387317,
-        "lng": 4.8198471
-      }
+        "lat": 52.4385896,
+        "lng": 4.8203297
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7417,7 +7853,8 @@
       "_geo": {
         "lat": 52.3033029,
         "lng": 4.8601772
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7435,7 +7872,8 @@
       "_geo": {
         "lat": 52.3730796,
         "lng": 4.8924534
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7453,7 +7891,8 @@
       "_geo": {
         "lat": 52.3687817,
         "lng": 4.889683
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7471,7 +7910,8 @@
       "_geo": {
         "lat": 52.3725948,
         "lng": 4.9003449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7489,7 +7929,8 @@
       "_geo": {
         "lat": 52.3684453,
         "lng": 4.9017859
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7507,7 +7948,8 @@
       "_geo": {
         "lat": 52.3630452,
         "lng": 4.9272453
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7523,9 +7965,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3648902,
-        "lng": 4.8682797
-      }
+        "lat": 52.3651704,
+        "lng": 4.8680823
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7543,7 +7986,8 @@
       "_geo": {
         "lat": 52.3800584,
         "lng": 4.8215334
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7559,9 +8003,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3157385,
-        "lng": 4.9566394
-      }
+        "lat": 52.3158404,
+        "lng": 4.9558218
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7577,9 +8022,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3547821,
-        "lng": 4.8893167
-      }
+        "lat": 52.3546134,
+        "lng": 4.8865459
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7595,9 +8041,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.5469141,
-        "lng": 4.6627157
-      }
+        "lat": 52.5471751,
+        "lng": 4.6625885
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7613,9 +8060,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3770311,
-        "lng": 4.6501391
-      }
+        "lat": 52.3754255,
+        "lng": 4.6550554
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7633,7 +8081,8 @@
       "_geo": {
         "lat": 52.5108769,
         "lng": 4.6714765
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7651,7 +8100,8 @@
       "_geo": {
         "lat": 52.3018812,
         "lng": 4.6916731
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7669,7 +8119,8 @@
       "_geo": {
         "lat": 52.690467,
         "lng": 5.1825103
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7687,7 +8138,8 @@
       "_geo": {
         "lat": 52.4296098,
         "lng": 4.9136088
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7703,9 +8155,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.5455187,
-        "lng": 4.9111277
-      }
+        "lat": 52.5438535,
+        "lng": 4.9099895
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7723,7 +8176,8 @@
       "_geo": {
         "lat": 52.440665,
         "lng": 4.8760433
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7739,9 +8193,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.50608,
-        "lng": 4.9847499
-      }
+        "lat": 52.5055943,
+        "lng": 4.9848163
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7757,9 +8212,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.4402158,
-        "lng": 4.6416333
-      }
+        "lat": 52.4381343,
+        "lng": 4.642801
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7777,7 +8233,8 @@
       "_geo": {
         "lat": 52.6818331,
         "lng": 5.0230346
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7795,7 +8252,8 @@
       "_geo": {
         "lat": 52.6008538,
         "lng": 4.8170994
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7813,7 +8271,8 @@
       "_geo": {
         "lat": 52.6329732,
         "lng": 4.7439641
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7831,7 +8290,8 @@
       "_geo": {
         "lat": 52.3730796,
         "lng": 4.8924534
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7849,7 +8309,8 @@
       "_geo": {
         "lat": 52.3799538,
         "lng": 4.8868719
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7865,9 +8326,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3803621,
-        "lng": 4.8860599
-      }
+        "lat": 52.3798181,
+        "lng": 4.8824106
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7885,7 +8347,8 @@
       "_geo": {
         "lat": 52.3725948,
         "lng": 4.9003449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7903,7 +8366,8 @@
       "_geo": {
         "lat": 52.3730796,
         "lng": 4.8924534
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7921,7 +8385,8 @@
       "_geo": {
         "lat": 52.3684453,
         "lng": 4.9017859
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7939,7 +8404,8 @@
       "_geo": {
         "lat": 52.3630452,
         "lng": 4.9272453
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7955,9 +8421,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3648902,
-        "lng": 4.8682797
-      }
+        "lat": 52.3651704,
+        "lng": 4.8680823
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -7973,27 +8440,29 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.3547821,
-        "lng": 4.8893167
-      }
+        "lat": 52.3546134,
+        "lng": 4.8865459
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
       "city_town": "Amsterdam",
       "location": "Stadionplein",
       "day": "saturday",
-      "time_from": "00:00",
+      "time_from": "09:00",
       "time_to": "17:00",
-      "season_note": "Geen indeling",
+      "season_note": "",
       "type": "weekly_market",
       "source_url": "https://evenementenlijst.nl/de-weekmarkten-in-de-provincie-noord-holland/",
-      "municipality_url": "",
+      "municipality_url": "https://www.amsterdam.nl",
       "data_status": "aggregator",
-      "last_verified": "2026-02-09",
+      "last_verified": "2026-02-10",
       "_geo": {
-        "lat": 52.3435578,
-        "lng": 4.8585477
-      }
+        "lat": 52.3435214,
+        "lng": 4.8569241
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8011,7 +8480,8 @@
       "_geo": {
         "lat": 52.3230792,
         "lng": 4.9735502
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8029,7 +8499,8 @@
       "_geo": {
         "lat": 52.6693424,
         "lng": 4.7004425
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8045,9 +8516,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.9575412,
-        "lng": 4.7621071
-      }
+        "lat": 52.9575122,
+        "lng": 4.7642818
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8065,7 +8537,8 @@
       "_geo": {
         "lat": 52.3796864,
         "lng": 4.6319903
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8083,7 +8556,8 @@
       "_geo": {
         "lat": 52.3813667,
         "lng": 4.6360934
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8101,7 +8575,8 @@
       "_geo": {
         "lat": 52.2273877,
         "lng": 5.1773341
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8119,7 +8594,8 @@
       "_geo": {
         "lat": 52.3070518,
         "lng": 4.6382905
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8137,7 +8613,8 @@
       "_geo": {
         "lat": 52.6410897,
         "lng": 5.0598845
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8155,7 +8632,8 @@
       "_geo": {
         "lat": 52.4499957,
         "lng": 5.0356969
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8173,7 +8651,8 @@
       "_geo": {
         "lat": 52.2957628,
         "lng": 5.1633636
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8191,7 +8670,8 @@
       "_geo": {
         "lat": 52.5131202,
         "lng": 4.959425
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8207,9 +8687,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.494729,
-        "lng": 5.0740426
-      }
+        "lat": 52.4955955,
+        "lng": 5.0753549
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8223,7 +8704,12 @@
       "source_url": "https://evenementenlijst.nl/de-weekmarkten-in-de-provincie-noord-holland/",
       "municipality_url": "",
       "data_status": "aggregator",
-      "last_verified": "2026-02-09"
+      "last_verified": "2026-02-10",
+      "_geo": {
+        "lat": 52.2669507,
+        "lng": 5.0994507
+      },
+      "geo_filled_from": "pre-filled"
     },
     {
       "province": "Noord-Holland",
@@ -8239,9 +8725,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.4387317,
-        "lng": 4.8198471
-      }
+        "lat": 52.4385896,
+        "lng": 4.8203297
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Holland",
@@ -8259,7 +8746,8 @@
       "_geo": {
         "lat": 52.3725948,
         "lng": 4.9003449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8277,7 +8765,8 @@
       "_geo": {
         "lat": 51.8647827,
         "lng": 4.6581499
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8295,7 +8784,8 @@
       "_geo": {
         "lat": 51.9013081,
         "lng": 4.1655648
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8313,7 +8803,8 @@
       "_geo": {
         "lat": 52.0799838,
         "lng": 4.3113461
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8331,7 +8822,8 @@
       "_geo": {
         "lat": 51.8365952,
         "lng": 5.008006
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8349,7 +8841,8 @@
       "_geo": {
         "lat": 52.2575829,
         "lng": 4.5585084
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8367,7 +8860,8 @@
       "_geo": {
         "lat": 51.919771,
         "lng": 4.4862592
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8385,7 +8879,8 @@
       "_geo": {
         "lat": 51.9883519,
         "lng": 4.5011967
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8403,7 +8898,8 @@
       "_geo": {
         "lat": 51.9452551,
         "lng": 4.7084018
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8421,7 +8917,8 @@
       "_geo": {
         "lat": 51.9990337,
         "lng": 4.3549066
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8439,7 +8936,8 @@
       "_geo": {
         "lat": 52.0482961,
         "lng": 4.2766821
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8455,9 +8953,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.7944941,
-        "lng": 4.7046903
-      }
+        "lat": 51.7944584,
+        "lng": 4.704676
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8475,7 +8974,8 @@
       "_geo": {
         "lat": 52.0320903,
         "lng": 4.7042996
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8491,9 +8991,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.9015255,
-        "lng": 4.8941335
-      }
+        "lat": 51.9017426,
+        "lng": 4.8941475
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8511,7 +9012,8 @@
       "_geo": {
         "lat": 51.9771615,
         "lng": 4.1314526
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8529,7 +9031,8 @@
       "_geo": {
         "lat": 51.8803846,
         "lng": 4.9463797
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8547,7 +9050,8 @@
       "_geo": {
         "lat": 51.9127882,
         "lng": 4.5880245
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8565,7 +9069,8 @@
       "_geo": {
         "lat": 52.1594747,
         "lng": 4.4908843
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8583,7 +9088,8 @@
       "_geo": {
         "lat": 52.0889636,
         "lng": 4.3843958
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8601,7 +9107,8 @@
       "_geo": {
         "lat": 52.2239922,
         "lng": 4.6724358
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8617,9 +9124,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.9219917,
-        "lng": 4.2541194
-      }
+        "lat": 51.9266671,
+        "lng": 4.2440007
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8635,9 +9143,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0298474,
-        "lng": 4.1782889
-      }
+        "lat": 52.0263548,
+        "lng": 4.1742044
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8655,7 +9164,8 @@
       "_geo": {
         "lat": 51.9038757,
         "lng": 4.9427289
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8673,7 +9183,8 @@
       "_geo": {
         "lat": 51.7266233,
         "lng": 4.4374377
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8689,9 +9200,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.1834453,
-        "lng": 4.485121
-      }
+        "lat": 52.1821185,
+        "lng": 4.488689
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8709,7 +9221,8 @@
       "_geo": {
         "lat": 51.8093867,
         "lng": 3.9349073
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8725,9 +9238,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.8258116,
-        "lng": 4.6852211
-      }
+        "lat": 51.8263692,
+        "lng": 4.683835
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8745,7 +9259,8 @@
       "_geo": {
         "lat": 52.1917533,
         "lng": 4.4415001
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8761,9 +9276,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.9244424,
-        "lng": 4.47775
-      }
+        "lat": 51.9219396,
+        "lng": 4.4862575
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8781,7 +9297,8 @@
       "_geo": {
         "lat": 51.919771,
         "lng": 4.4862592
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8799,7 +9316,8 @@
       "_geo": {
         "lat": 51.9363009,
         "lng": 4.3721462
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8817,7 +9335,8 @@
       "_geo": {
         "lat": 51.8502775,
         "lng": 4.3245381
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8835,7 +9354,8 @@
       "_geo": {
         "lat": 51.9019143,
         "lng": 4.7436108
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8853,7 +9373,8 @@
       "_geo": {
         "lat": 52.1466138,
         "lng": 4.3899926
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8871,7 +9392,8 @@
       "_geo": {
         "lat": 51.7877888,
         "lng": 4.4737754
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8889,7 +9411,8 @@
       "_geo": {
         "lat": 51.8272179,
         "lng": 4.4093364
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8907,7 +9430,8 @@
       "_geo": {
         "lat": 52.0591275,
         "lng": 4.5405006
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8923,9 +9447,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.8198866,
-        "lng": 4.6080851
-      }
+        "lat": 51.8201541,
+        "lng": 4.6094327
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8941,9 +9466,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.1303901,
-        "lng": 4.6575874
-      }
+        "lat": 52.1302124,
+        "lng": 4.6574297
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8961,7 +9487,8 @@
       "_geo": {
         "lat": 51.994942,
         "lng": 4.4733183
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8979,7 +9506,8 @@
       "_geo": {
         "lat": 51.8721978,
         "lng": 4.7825711
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -8997,7 +9525,8 @@
       "_geo": {
         "lat": 52.0827169,
         "lng": 4.3144143
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9015,7 +9544,8 @@
       "_geo": {
         "lat": 52.064398,
         "lng": 4.2993206
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9031,9 +9561,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0530567,
-        "lng": 4.2347911
-      }
+        "lat": 52.0529448,
+        "lng": 4.2350513
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9051,7 +9582,8 @@
       "_geo": {
         "lat": 51.9243571,
         "lng": 4.8243822
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9069,7 +9601,8 @@
       "_geo": {
         "lat": 52.0109563,
         "lng": 4.7443583
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9085,9 +9618,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.82646,
-        "lng": 4.4709312
-      }
+        "lat": 51.8257519,
+        "lng": 4.4759689
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9103,9 +9637,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.8489823,
-        "lng": 4.644326
-      }
+        "lat": 51.8493595,
+        "lng": 4.6439596
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9123,7 +9658,8 @@
       "_geo": {
         "lat": 51.7691404,
         "lng": 4.4464742
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9141,7 +9677,8 @@
       "_geo": {
         "lat": 52.1666076,
         "lng": 4.4770577
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9159,7 +9696,8 @@
       "_geo": {
         "lat": 51.8949116,
         "lng": 4.683613
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9175,9 +9713,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.7600083,
-        "lng": 4.1626127
-      }
+        "lat": 51.7598142,
+        "lng": 4.1638929
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9195,7 +9734,8 @@
       "_geo": {
         "lat": 51.9930061,
         "lng": 4.2074675
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9211,9 +9751,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.9154811,
-        "lng": 4.1029059
-      }
+        "lat": 51.9153182,
+        "lng": 4.1031567
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9231,7 +9772,8 @@
       "_geo": {
         "lat": 51.8272179,
         "lng": 4.4093364
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9249,7 +9791,8 @@
       "_geo": {
         "lat": 52.0189309,
         "lng": 4.4316372
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9267,7 +9810,8 @@
       "_geo": {
         "lat": 51.8051942,
         "lng": 4.5681144
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9285,7 +9829,8 @@
       "_geo": {
         "lat": 51.9008508,
         "lng": 4.5012696
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9303,7 +9848,8 @@
       "_geo": {
         "lat": 51.919771,
         "lng": 4.4862592
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9321,7 +9867,8 @@
       "_geo": {
         "lat": 51.9625053,
         "lng": 4.5457688
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9339,7 +9886,8 @@
       "_geo": {
         "lat": 51.9053568,
         "lng": 4.2493972
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9357,7 +9905,8 @@
       "_geo": {
         "lat": 51.9463984,
         "lng": 4.8516431
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9373,9 +9922,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.822519,
-        "lng": 4.7766936
-      }
+        "lat": 51.8225404,
+        "lng": 4.7772725
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9391,9 +9941,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.9107149,
-        "lng": 4.3414914
-      }
+        "lat": 51.90981,
+        "lng": 4.3402996
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9409,9 +9960,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.0247251,
-        "lng": 4.2751254
-      }
+        "lat": 52.0247464,
+        "lng": 4.2752074
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9427,9 +9979,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.8221737,
-        "lng": 4.2589597
-      }
+        "lat": 51.8221618,
+        "lng": 4.2589182
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9447,7 +10000,8 @@
       "_geo": {
         "lat": 51.9352434,
         "lng": 4.787787
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9465,7 +10019,8 @@
       "_geo": {
         "lat": 52.0102809,
         "lng": 4.5302027
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9483,7 +10038,8 @@
       "_geo": {
         "lat": 51.9313801,
         "lng": 4.5895585
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9501,7 +10057,8 @@
       "_geo": {
         "lat": 52.0103977,
         "lng": 4.3605221
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9519,7 +10076,8 @@
       "_geo": {
         "lat": 52.0799838,
         "lng": 4.3113461
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9537,7 +10095,8 @@
       "_geo": {
         "lat": 52.0824573,
         "lng": 4.2946214
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9553,9 +10112,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.1108456,
-        "lng": 4.2919738
-      }
+        "lat": 52.1097881,
+        "lng": 4.2875568
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9573,7 +10133,8 @@
       "_geo": {
         "lat": 52.0114922,
         "lng": 4.7106094
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9591,7 +10152,8 @@
       "_geo": {
         "lat": 51.8181316,
         "lng": 3.9776752
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9609,7 +10171,8 @@
       "_geo": {
         "lat": 52.0017376,
         "lng": 4.7752926
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9627,7 +10190,8 @@
       "_geo": {
         "lat": 52.1276854,
         "lng": 4.588553
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9645,7 +10209,8 @@
       "_geo": {
         "lat": 51.8745997,
         "lng": 4.9735161
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9663,7 +10228,8 @@
       "_geo": {
         "lat": 52.1512142,
         "lng": 4.4531083
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9679,9 +10245,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.1587864,
-        "lng": 4.5279755
-      }
+        "lat": 52.1571529,
+        "lng": 4.5302202
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9699,7 +10266,8 @@
       "_geo": {
         "lat": 51.8863044,
         "lng": 4.677194
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9715,9 +10283,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.2343531,
-        "lng": 4.4454904
-      }
+        "lat": 52.2344186,
+        "lng": 4.4457081
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9735,7 +10304,8 @@
       "_geo": {
         "lat": 51.8581821,
         "lng": 4.7050939
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9753,7 +10323,8 @@
       "_geo": {
         "lat": 51.919771,
         "lng": 4.4862592
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9771,7 +10342,8 @@
       "_geo": {
         "lat": 51.9244424,
         "lng": 4.47775
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9789,7 +10361,8 @@
       "_geo": {
         "lat": 51.8652855,
         "lng": 4.3641111
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9807,7 +10380,8 @@
       "_geo": {
         "lat": 51.8867438,
         "lng": 4.5423012
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9825,7 +10399,8 @@
       "_geo": {
         "lat": 52.2047333,
         "lng": 4.4896135
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -9843,7 +10418,8 @@
       "_geo": {
         "lat": 51.6458408,
         "lng": 4.8608678
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9859,9 +10435,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.9097536,
-        "lng": 4.3402639
-      }
+        "lat": 51.9227863,
+        "lng": 4.3295634
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9879,7 +10456,8 @@
       "_geo": {
         "lat": 51.8228831,
         "lng": 4.652228
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9897,7 +10475,8 @@
       "_geo": {
         "lat": 51.9271438,
         "lng": 4.8096412
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9915,7 +10494,8 @@
       "_geo": {
         "lat": 51.8635046,
         "lng": 4.9934373
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9933,7 +10513,8 @@
       "_geo": {
         "lat": 51.8566651,
         "lng": 4.5368567
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9951,7 +10532,8 @@
       "_geo": {
         "lat": 51.8323509,
         "lng": 4.8785268
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9969,7 +10551,8 @@
       "_geo": {
         "lat": 52.064398,
         "lng": 4.2993206
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -9987,7 +10570,8 @@
       "_geo": {
         "lat": 52.040213,
         "lng": 4.3688808
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10005,7 +10589,8 @@
       "_geo": {
         "lat": 51.8143212,
         "lng": 4.6695204
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10023,7 +10608,8 @@
       "_geo": {
         "lat": 52.0028588,
         "lng": 4.1622414
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10041,7 +10627,8 @@
       "_geo": {
         "lat": 52.0967553,
         "lng": 4.5925723
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10059,7 +10646,8 @@
       "_geo": {
         "lat": 51.8637036,
         "lng": 4.2445237
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10077,7 +10665,8 @@
       "_geo": {
         "lat": 52.2041609,
         "lng": 4.3988653
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10095,7 +10684,8 @@
       "_geo": {
         "lat": 51.8954222,
         "lng": 4.6375491
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10113,7 +10703,8 @@
       "_geo": {
         "lat": 52.1764798,
         "lng": 4.5053893
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10131,11 +10722,12 @@
       "_geo": {
         "lat": 51.9237656,
         "lng": 4.2541716
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
-      "city_town": "Mijnsherenland",
+      "city_town": "Mijnsheerenland",
       "location": "Raadhuisstraat",
       "day": "friday",
       "time_from": "08:00",
@@ -10145,7 +10737,12 @@
       "source_url": "https://evenementenlijst.nl/de-weekmarkten-in-de-provincie-zuid-holland/",
       "municipality_url": "",
       "data_status": "aggregator",
-      "last_verified": "2026-02-09"
+      "last_verified": "2026-02-10",
+      "_geo": {
+        "lat": 51.7987352,
+        "lng": 4.4874953
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10163,7 +10760,8 @@
       "_geo": {
         "lat": 51.9296464,
         "lng": 4.8722439
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10181,7 +10779,8 @@
       "_geo": {
         "lat": 51.8840883,
         "lng": 4.8483515
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10199,7 +10798,8 @@
       "_geo": {
         "lat": 51.6914369,
         "lng": 4.2138731
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10217,7 +10817,8 @@
       "_geo": {
         "lat": 51.8701299,
         "lng": 4.6000022
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10235,7 +10836,8 @@
       "_geo": {
         "lat": 51.8737256,
         "lng": 4.0615424
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10253,7 +10855,8 @@
       "_geo": {
         "lat": 52.2043186,
         "lng": 4.6436904
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10271,7 +10874,8 @@
       "_geo": {
         "lat": 51.9433853,
         "lng": 4.5371324
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10289,7 +10893,8 @@
       "_geo": {
         "lat": 51.8740416,
         "lng": 4.4829463
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10305,9 +10910,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.9244424,
-        "lng": 4.47775
-      }
+        "lat": 51.9219396,
+        "lng": 4.4862575
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10325,7 +10931,8 @@
       "_geo": {
         "lat": 51.919771,
         "lng": 4.4862592
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10343,7 +10950,8 @@
       "_geo": {
         "lat": 51.9385073,
         "lng": 4.4300816
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10361,7 +10969,8 @@
       "_geo": {
         "lat": 51.9604832,
         "lng": 4.469536
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10379,7 +10988,8 @@
       "_geo": {
         "lat": 51.8441373,
         "lng": 4.9259174
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10397,7 +11007,8 @@
       "_geo": {
         "lat": 51.9169937,
         "lng": 4.401411
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10415,7 +11026,8 @@
       "_geo": {
         "lat": 51.9722578,
         "lng": 4.7715724
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10433,7 +11045,8 @@
       "_geo": {
         "lat": 52.1679149,
         "lng": 4.7099764
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10451,7 +11064,8 @@
       "_geo": {
         "lat": 52.2231413,
         "lng": 4.4874955
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10469,7 +11083,8 @@
       "_geo": {
         "lat": 52.123773,
         "lng": 4.4451362
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10487,7 +11102,8 @@
       "_geo": {
         "lat": 52.1679011,
         "lng": 4.6358432
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10505,7 +11121,8 @@
       "_geo": {
         "lat": 52.0400988,
         "lng": 4.4829587
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10523,7 +11140,8 @@
       "_geo": {
         "lat": 52.1310519,
         "lng": 4.6640794
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10541,7 +11159,8 @@
       "_geo": {
         "lat": 52.0742348,
         "lng": 4.6631166
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10559,7 +11178,8 @@
       "_geo": {
         "lat": 52.0114017,
         "lng": 4.35839
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10577,7 +11197,8 @@
       "_geo": {
         "lat": 52.064398,
         "lng": 4.2993206
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10595,7 +11216,8 @@
       "_geo": {
         "lat": 51.747096,
         "lng": 4.1054969
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10613,7 +11235,8 @@
       "_geo": {
         "lat": 51.8143212,
         "lng": 4.6695204
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10631,7 +11254,8 @@
       "_geo": {
         "lat": 51.8518163,
         "lng": 4.8875783
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10649,7 +11273,8 @@
       "_geo": {
         "lat": 51.8298659,
         "lng": 4.9736493
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10667,7 +11292,8 @@
       "_geo": {
         "lat": 52.0121146,
         "lng": 4.7107865
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10685,7 +11311,8 @@
       "_geo": {
         "lat": 51.9838141,
         "lng": 4.6756627
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10703,7 +11330,8 @@
       "_geo": {
         "lat": 51.829421,
         "lng": 4.1411542
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10721,7 +11349,8 @@
       "_geo": {
         "lat": 51.8349495,
         "lng": 4.6465015
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10739,7 +11368,8 @@
       "_geo": {
         "lat": 52.1666076,
         "lng": 4.4770577
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10757,7 +11387,8 @@
       "_geo": {
         "lat": 51.8280452,
         "lng": 4.8370411
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10775,7 +11406,8 @@
       "_geo": {
         "lat": 51.8103814,
         "lng": 4.3417551
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10793,7 +11425,8 @@
       "_geo": {
         "lat": 51.8865327,
         "lng": 4.6865217
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10811,7 +11444,8 @@
       "_geo": {
         "lat": 52.1508219,
         "lng": 4.778788
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10829,7 +11463,8 @@
       "_geo": {
         "lat": 51.681165,
         "lng": 4.3496286
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10847,7 +11482,8 @@
       "_geo": {
         "lat": 51.9344514,
         "lng": 4.6358147
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10865,7 +11501,8 @@
       "_geo": {
         "lat": 52.0446265,
         "lng": 4.3188215
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10883,7 +11520,8 @@
       "_geo": {
         "lat": 52.2043186,
         "lng": 4.6436904
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10901,7 +11539,8 @@
       "_geo": {
         "lat": 51.9008508,
         "lng": 4.5012696
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10917,9 +11556,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.9244424,
-        "lng": 4.47775
-      }
+        "lat": 51.9219396,
+        "lng": 4.4862575
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10937,7 +11577,8 @@
       "_geo": {
         "lat": 51.919771,
         "lng": 4.4862592
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10955,7 +11596,8 @@
       "_geo": {
         "lat": 51.9244424,
         "lng": 4.47775
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10973,7 +11615,8 @@
       "_geo": {
         "lat": 51.8502775,
         "lng": 4.3245381
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -10989,9 +11632,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.9102968,
-        "lng": 4.3403731
-      }
+        "lat": 51.90981,
+        "lng": 4.3402996
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -11009,7 +11653,8 @@
       "_geo": {
         "lat": 52.0725369,
         "lng": 4.3735497
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -11027,7 +11672,8 @@
       "_geo": {
         "lat": 52.0622531,
         "lng": 4.4901218
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -11045,7 +11691,8 @@
       "_geo": {
         "lat": 51.7806608,
         "lng": 4.6198749
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -11063,7 +11710,8 @@
       "_geo": {
         "lat": 52.0799838,
         "lng": 4.3113461
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zuid-Holland",
@@ -11081,7 +11729,8 @@
       "_geo": {
         "lat": 51.919771,
         "lng": 4.4862592
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11099,7 +11748,8 @@
       "_geo": {
         "lat": 51.3315936,
         "lng": 4.0877328
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11117,7 +11767,8 @@
       "_geo": {
         "lat": 51.5044197,
         "lng": 3.8906253
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11135,7 +11786,8 @@
       "_geo": {
         "lat": 51.4831846,
         "lng": 3.9612365
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11153,7 +11805,8 @@
       "_geo": {
         "lat": 51.4486978,
         "lng": 4.0342679
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11171,7 +11824,8 @@
       "_geo": {
         "lat": 51.5450522,
         "lng": 4.1438299
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11189,7 +11843,8 @@
       "_geo": {
         "lat": 51.227911,
         "lng": 3.799911
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11207,7 +11862,8 @@
       "_geo": {
         "lat": 51.5495888,
         "lng": 4.1032996
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11225,7 +11881,8 @@
       "_geo": {
         "lat": 51.5441914,
         "lng": 4.1438347
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11243,7 +11900,8 @@
       "_geo": {
         "lat": 51.4819696,
         "lng": 3.6568838
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11261,7 +11919,8 @@
       "_geo": {
         "lat": 51.3265772,
         "lng": 3.4898547
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11279,7 +11938,8 @@
       "_geo": {
         "lat": 51.7321684,
         "lng": 3.7738187
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11297,7 +11957,8 @@
       "_geo": {
         "lat": 51.5861864,
         "lng": 4.0113677
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11315,7 +11976,8 @@
       "_geo": {
         "lat": 51.2651395,
         "lng": 3.908973
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11333,7 +11995,8 @@
       "_geo": {
         "lat": 51.3948493,
         "lng": 3.5600198
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11351,7 +12014,8 @@
       "_geo": {
         "lat": 51.4723969,
         "lng": 3.8168553
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11369,7 +12033,8 @@
       "_geo": {
         "lat": 51.2797097,
         "lng": 4.0535237
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11387,7 +12052,8 @@
       "_geo": {
         "lat": 51.4980925,
         "lng": 3.6115833
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11405,7 +12071,8 @@
       "_geo": {
         "lat": 51.5702314,
         "lng": 4.1990411
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11423,7 +12090,8 @@
       "_geo": {
         "lat": 51.6003889,
         "lng": 4.1023311
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11441,7 +12109,8 @@
       "_geo": {
         "lat": 51.6498198,
         "lng": 3.9199111
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11459,7 +12128,8 @@
       "_geo": {
         "lat": 51.5002632,
         "lng": 3.6734992
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11477,7 +12147,8 @@
       "_geo": {
         "lat": 51.548799,
         "lng": 4.0782993
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11495,7 +12166,8 @@
       "_geo": {
         "lat": 51.61601,
         "lng": 4.166843
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11513,7 +12185,8 @@
       "_geo": {
         "lat": 51.3790587,
         "lng": 3.506877
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11531,7 +12204,8 @@
       "_geo": {
         "lat": 51.3203981,
         "lng": 3.8497188
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11549,7 +12223,8 @@
       "_geo": {
         "lat": 51.4943387,
         "lng": 3.4150058
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11567,7 +12242,8 @@
       "_geo": {
         "lat": 51.4928802,
         "lng": 4.0494273
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11585,7 +12261,8 @@
       "_geo": {
         "lat": 51.5171788,
         "lng": 3.9947444
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11603,7 +12280,8 @@
       "_geo": {
         "lat": 51.2660464,
         "lng": 3.9085633
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11621,7 +12299,8 @@
       "_geo": {
         "lat": 51.5044197,
         "lng": 3.8906253
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11639,7 +12318,8 @@
       "_geo": {
         "lat": 51.3217887,
         "lng": 3.6163256
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11657,7 +12337,8 @@
       "_geo": {
         "lat": 51.4980925,
         "lng": 3.6115833
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Zeeland",
@@ -11675,7 +12356,8 @@
       "_geo": {
         "lat": 51.4943387,
         "lng": 3.4150058
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11693,7 +12375,8 @@
       "_geo": {
         "lat": 51.2744043,
         "lng": 5.574537
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11711,7 +12394,8 @@
       "_geo": {
         "lat": 51.6254772,
         "lng": 4.9437845
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11729,7 +12413,8 @@
       "_geo": {
         "lat": 51.4778497,
         "lng": 5.4930013
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11747,7 +12432,8 @@
       "_geo": {
         "lat": 51.5568738,
         "lng": 5.6820022
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11765,7 +12451,8 @@
       "_geo": {
         "lat": 51.4734515,
         "lng": 5.5492547
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11783,7 +12470,8 @@
       "_geo": {
         "lat": 51.531874,
         "lng": 4.458422
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11801,7 +12489,8 @@
       "_geo": {
         "lat": 51.6567798,
         "lng": 5.6175276
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11819,7 +12508,8 @@
       "_geo": {
         "lat": 51.4212231,
         "lng": 5.405517
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11837,7 +12527,8 @@
       "_geo": {
         "lat": 51.6933595,
         "lng": 4.43932
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11855,7 +12546,8 @@
       "_geo": {
         "lat": 51.4374696,
         "lng": 4.8730747
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11873,7 +12565,8 @@
       "_geo": {
         "lat": 51.5041547,
         "lng": 5.7419148
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11891,7 +12584,8 @@
       "_geo": {
         "lat": 51.3213829,
         "lng": 5.3574462
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11909,7 +12603,8 @@
       "_geo": {
         "lat": 51.6030677,
         "lng": 5.6727449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11927,7 +12622,8 @@
       "_geo": {
         "lat": 51.5884199,
         "lng": 4.7762416
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11945,7 +12641,8 @@
       "_geo": {
         "lat": 51.5887845,
         "lng": 4.7760237
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11963,7 +12660,8 @@
       "_geo": {
         "lat": 51.6656003,
         "lng": 5.3712805
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11981,7 +12679,8 @@
       "_geo": {
         "lat": 51.441291,
         "lng": 5.4769722
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -11999,7 +12698,8 @@
       "_geo": {
         "lat": 51.6352395,
         "lng": 4.4673073
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12017,7 +12717,8 @@
       "_geo": {
         "lat": 51.6204012,
         "lng": 5.3556223
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12035,7 +12736,8 @@
       "_geo": {
         "lat": 51.792441,
         "lng": 5.0362733
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12053,7 +12755,8 @@
       "_geo": {
         "lat": 51.3691893,
         "lng": 5.2523405
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12071,7 +12774,8 @@
       "_geo": {
         "lat": 51.519966,
         "lng": 5.5943064
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12089,7 +12793,8 @@
       "_geo": {
         "lat": 51.4670673,
         "lng": 5.6346559
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12107,7 +12812,8 @@
       "_geo": {
         "lat": 51.5030136,
         "lng": 5.3077317
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12125,7 +12831,8 @@
       "_geo": {
         "lat": 51.7783542,
         "lng": 5.5320836
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12143,7 +12850,8 @@
       "_geo": {
         "lat": 51.5906755,
         "lng": 4.5285919
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12161,7 +12869,8 @@
       "_geo": {
         "lat": 51.5158877,
         "lng": 4.7005455
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12179,7 +12888,8 @@
       "_geo": {
         "lat": 51.8129614,
         "lng": 4.944959
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12197,7 +12907,8 @@
       "_geo": {
         "lat": 51.6423916,
         "lng": 4.7530509
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12215,7 +12926,8 @@
       "_geo": {
         "lat": 51.6092582,
         "lng": 5.1422046
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12233,7 +12945,8 @@
       "_geo": {
         "lat": 51.7558694,
         "lng": 5.130465
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12251,7 +12964,8 @@
       "_geo": {
         "lat": 51.4841903,
         "lng": 4.9537304
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12269,7 +12983,8 @@
       "_geo": {
         "lat": 51.3869026,
         "lng": 5.7914467
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12287,7 +13002,8 @@
       "_geo": {
         "lat": 51.5384765,
         "lng": 5.6277906
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12305,7 +13021,8 @@
       "_geo": {
         "lat": 51.6790203,
         "lng": 5.3991904
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12323,7 +13040,8 @@
       "_geo": {
         "lat": 51.3712108,
         "lng": 5.2346306
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12341,7 +13059,8 @@
       "_geo": {
         "lat": 51.6222524,
         "lng": 4.7437531
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12359,7 +13078,8 @@
       "_geo": {
         "lat": 51.3964221,
         "lng": 5.2381619
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12377,7 +13097,8 @@
       "_geo": {
         "lat": 51.50403,
         "lng": 4.8661373
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12395,7 +13116,8 @@
       "_geo": {
         "lat": 51.7288997,
         "lng": 5.8791431
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12413,7 +13135,8 @@
       "_geo": {
         "lat": 51.6890497,
         "lng": 5.3033637
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12431,7 +13154,8 @@
       "_geo": {
         "lat": 51.4195106,
         "lng": 5.4405365
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12449,7 +13173,8 @@
       "_geo": {
         "lat": 51.4680789,
         "lng": 5.4765243
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12467,7 +13192,8 @@
       "_geo": {
         "lat": 51.5126083,
         "lng": 4.774972
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12485,7 +13211,8 @@
       "_geo": {
         "lat": 51.4217027,
         "lng": 5.5593169
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12503,7 +13230,8 @@
       "_geo": {
         "lat": 51.7422509,
         "lng": 5.4621199
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12521,7 +13249,8 @@
       "_geo": {
         "lat": 51.73519,
         "lng": 5.5266331
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12539,7 +13268,8 @@
       "_geo": {
         "lat": 51.3970303,
         "lng": 5.2683632
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12557,7 +13287,8 @@
       "_geo": {
         "lat": 51.6798734,
         "lng": 4.7927219
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12575,7 +13306,8 @@
       "_geo": {
         "lat": 51.6857955,
         "lng": 5.7835017
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12593,7 +13325,8 @@
       "_geo": {
         "lat": 51.627425,
         "lng": 4.8575616
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12611,7 +13344,8 @@
       "_geo": {
         "lat": 51.7466241,
         "lng": 5.6827761
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12629,7 +13363,8 @@
       "_geo": {
         "lat": 51.626921,
         "lng": 5.8816763
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12647,7 +13382,8 @@
       "_geo": {
         "lat": 51.3859784,
         "lng": 5.7135429
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12665,7 +13401,8 @@
       "_geo": {
         "lat": 51.5875594,
         "lng": 4.3164384
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12683,7 +13420,8 @@
       "_geo": {
         "lat": 51.5645667,
         "lng": 5.0910548
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12701,7 +13439,8 @@
       "_geo": {
         "lat": 51.6895987,
         "lng": 5.0667459
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12719,7 +13458,8 @@
       "_geo": {
         "lat": 51.6878278,
         "lng": 4.9462695
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12737,7 +13477,8 @@
       "_geo": {
         "lat": 51.4106688,
         "lng": 4.327761
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12755,7 +13496,8 @@
       "_geo": {
         "lat": 51.5217242,
         "lng": 4.3866449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12773,7 +13515,8 @@
       "_geo": {
         "lat": 51.5093107,
         "lng": 5.6375541
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12791,7 +13534,8 @@
       "_geo": {
         "lat": 51.7712923,
         "lng": 4.9606582
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12809,7 +13553,8 @@
       "_geo": {
         "lat": 51.5660927,
         "lng": 4.830925
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12827,7 +13572,8 @@
       "_geo": {
         "lat": 51.4950911,
         "lng": 4.2944755
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12845,7 +13591,8 @@
       "_geo": {
         "lat": 51.7713269,
         "lng": 5.5673367
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12863,7 +13610,8 @@
       "_geo": {
         "lat": 51.5833617,
         "lng": 5.1404947
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12881,7 +13629,8 @@
       "_geo": {
         "lat": 51.6487594,
         "lng": 5.946267
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12899,7 +13648,8 @@
       "_geo": {
         "lat": 51.6081858,
         "lng": 4.7897927
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12917,7 +13667,8 @@
       "_geo": {
         "lat": 51.6356822,
         "lng": 4.3705829
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12935,7 +13686,8 @@
       "_geo": {
         "lat": 51.7308649,
         "lng": 4.9630508
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12953,7 +13705,8 @@
       "_geo": {
         "lat": 51.4419338,
         "lng": 5.5145715
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12971,7 +13724,8 @@
       "_geo": {
         "lat": 51.441568,
         "lng": 5.4554156
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -12989,7 +13743,8 @@
       "_geo": {
         "lat": 51.5198921,
         "lng": 5.0655749
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13007,7 +13762,8 @@
       "_geo": {
         "lat": 51.7360352,
         "lng": 4.8986026
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13025,7 +13781,8 @@
       "_geo": {
         "lat": 51.5187982,
         "lng": 4.3620451
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13043,7 +13800,8 @@
       "_geo": {
         "lat": 51.3784405,
         "lng": 5.5782027
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13061,7 +13819,8 @@
       "_geo": {
         "lat": 51.5797755,
         "lng": 4.5885299
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13079,7 +13838,8 @@
       "_geo": {
         "lat": 51.6625666,
         "lng": 4.5330508
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13097,7 +13857,8 @@
       "_geo": {
         "lat": 51.6901564,
         "lng": 4.6637116
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13115,7 +13876,8 @@
       "_geo": {
         "lat": 51.3136611,
         "lng": 5.6132997
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13133,7 +13895,8 @@
       "_geo": {
         "lat": 51.4435577,
         "lng": 5.6197035
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13151,7 +13914,8 @@
       "_geo": {
         "lat": 51.7764266,
         "lng": 4.9190121
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13169,7 +13933,8 @@
       "_geo": {
         "lat": 51.5812404,
         "lng": 5.1979361
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13187,7 +13952,8 @@
       "_geo": {
         "lat": 51.5865158,
         "lng": 4.4602492
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13205,7 +13971,8 @@
       "_geo": {
         "lat": 51.5879873,
         "lng": 4.9194511
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13223,7 +13990,8 @@
       "_geo": {
         "lat": 51.794096,
         "lng": 5.0269454
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13241,7 +14009,8 @@
       "_geo": {
         "lat": 51.7157727,
         "lng": 5.36467
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13259,7 +14028,8 @@
       "_geo": {
         "lat": 51.5110429,
         "lng": 5.493844
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13277,7 +14047,8 @@
       "_geo": {
         "lat": 51.6706407,
         "lng": 5.0236536
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13295,7 +14066,8 @@
       "_geo": {
         "lat": 51.5703739,
         "lng": 5.0536832
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13313,7 +14085,8 @@
       "_geo": {
         "lat": 51.5784813,
         "lng": 5.0055286
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13331,7 +14104,8 @@
       "_geo": {
         "lat": 51.5488342,
         "lng": 4.7977229
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13349,7 +14123,8 @@
       "_geo": {
         "lat": 51.350819,
         "lng": 5.4601275
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13367,7 +14142,8 @@
       "_geo": {
         "lat": 51.6134636,
         "lng": 5.5446455
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13385,7 +14161,8 @@
       "_geo": {
         "lat": 51.694263,
         "lng": 5.2091225
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13403,7 +14180,8 @@
       "_geo": {
         "lat": 51.6454849,
         "lng": 5.2824951
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13421,7 +14199,8 @@
       "_geo": {
         "lat": 51.8168214,
         "lng": 5.0033435
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13439,7 +14218,8 @@
       "_geo": {
         "lat": 51.6946426,
         "lng": 5.6729081
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13457,7 +14237,8 @@
       "_geo": {
         "lat": 51.6446205,
         "lng": 4.6065968
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13475,7 +14256,8 @@
       "_geo": {
         "lat": 51.4728336,
         "lng": 4.6642171
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13493,7 +14275,8 @@
       "_geo": {
         "lat": 51.7836518,
         "lng": 5.0539136
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13511,7 +14294,8 @@
       "_geo": {
         "lat": 51.5883624,
         "lng": 5.3269462
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13529,7 +14313,8 @@
       "_geo": {
         "lat": 51.5884199,
         "lng": 4.7762416
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13547,7 +14332,8 @@
       "_geo": {
         "lat": 51.6886843,
         "lng": 5.3036562
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13565,7 +14351,8 @@
       "_geo": {
         "lat": 51.5198921,
         "lng": 5.0655749
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13583,7 +14370,8 @@
       "_geo": {
         "lat": 51.6863142,
         "lng": 5.130916
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13601,7 +14389,8 @@
       "_geo": {
         "lat": 51.4211083,
         "lng": 5.4887476
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13619,7 +14408,8 @@
       "_geo": {
         "lat": 51.6009582,
         "lng": 5.6054351
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13637,7 +14427,8 @@
       "_geo": {
         "lat": 51.4618953,
         "lng": 5.1371625
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13655,12 +14446,13 @@
       "_geo": {
         "lat": 51.5467581,
         "lng": 4.9425638
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
       "city_town": "Grave",
-      "location": "Hoofdwagt",
+      "location": "Hoofdwacht",
       "day": "friday",
       "time_from": "07:30",
       "time_to": "12:30",
@@ -13671,9 +14463,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.7598371,
-        "lng": 5.7396804
-      }
+        "lat": 51.7596504,
+        "lng": 5.7411125
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13691,7 +14484,8 @@
       "_geo": {
         "lat": 51.6493848,
         "lng": 5.4739859
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13709,7 +14503,8 @@
       "_geo": {
         "lat": 51.4790956,
         "lng": 5.6557686
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13727,7 +14522,8 @@
       "_geo": {
         "lat": 51.4790956,
         "lng": 5.6557686
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13745,7 +14541,8 @@
       "_geo": {
         "lat": 51.7728234,
         "lng": 5.6422866
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13763,7 +14560,8 @@
       "_geo": {
         "lat": 51.4406646,
         "lng": 4.3429587
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13781,7 +14579,8 @@
       "_geo": {
         "lat": 51.6598038,
         "lng": 5.0319484
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13799,7 +14598,8 @@
       "_geo": {
         "lat": 51.8068343,
         "lng": 5.4403237
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13817,7 +14617,8 @@
       "_geo": {
         "lat": 51.6513839,
         "lng": 5.0325992
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13835,7 +14636,8 @@
       "_geo": {
         "lat": 51.6633969,
         "lng": 5.4190099
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13853,7 +14655,8 @@
       "_geo": {
         "lat": 51.7046122,
         "lng": 5.5614154
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13871,7 +14674,8 @@
       "_geo": {
         "lat": 51.6001416,
         "lng": 4.71793
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13889,7 +14693,8 @@
       "_geo": {
         "lat": 51.7972065,
         "lng": 5.6521316
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13907,7 +14712,8 @@
       "_geo": {
         "lat": 51.6377622,
         "lng": 5.3533417
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13925,7 +14731,8 @@
       "_geo": {
         "lat": 51.5643191,
         "lng": 5.4605188
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13943,7 +14750,8 @@
       "_geo": {
         "lat": 51.6107559,
         "lng": 4.8169612
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13961,7 +14769,8 @@
       "_geo": {
         "lat": 51.5537443,
         "lng": 5.0862866
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13979,7 +14788,8 @@
       "_geo": {
         "lat": 51.5834143,
         "lng": 5.0846025
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -13997,7 +14807,8 @@
       "_geo": {
         "lat": 51.6590888,
         "lng": 5.6148605
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14015,7 +14826,8 @@
       "_geo": {
         "lat": 51.4960822,
         "lng": 4.2869861
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14033,7 +14845,8 @@
       "_geo": {
         "lat": 51.5033671,
         "lng": 5.3938665
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14051,7 +14864,8 @@
       "_geo": {
         "lat": 51.5887845,
         "lng": 4.7760237
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14069,7 +14883,8 @@
       "_geo": {
         "lat": 51.5807257,
         "lng": 4.7795043
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14087,7 +14902,8 @@
       "_geo": {
         "lat": 51.6886843,
         "lng": 5.3036562
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14105,7 +14921,8 @@
       "_geo": {
         "lat": 51.4512034,
         "lng": 5.4712661
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14123,7 +14940,8 @@
       "_geo": {
         "lat": 51.4392648,
         "lng": 5.478633
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14141,7 +14959,8 @@
       "_geo": {
         "lat": 51.4380087,
         "lng": 5.4711601
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14159,7 +14978,8 @@
       "_geo": {
         "lat": 51.5230234,
         "lng": 4.2729507
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14177,7 +14997,8 @@
       "_geo": {
         "lat": 51.4926554,
         "lng": 5.6815294
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14195,7 +15016,8 @@
       "_geo": {
         "lat": 51.6427645,
         "lng": 4.8560923
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14213,7 +15035,8 @@
       "_geo": {
         "lat": 51.7701212,
         "lng": 5.5262895
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14231,7 +15054,8 @@
       "_geo": {
         "lat": 51.7783542,
         "lng": 5.5320836
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14249,7 +15073,8 @@
       "_geo": {
         "lat": 51.531874,
         "lng": 4.458422
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14267,7 +15092,8 @@
       "_geo": {
         "lat": 51.744925,
         "lng": 5.6345179
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14285,11 +15111,12 @@
       "_geo": {
         "lat": 51.6184323,
         "lng": 5.4369969
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
-      "province": "Zuid-Holland",
-      "city_town": "Sint Willibrord",
+      "province": "Noord-Brabant",
+      "city_town": "Sint Willebrord",
       "location": "Marktplein",
       "day": "saturday",
       "time_from": "09:00",
@@ -14301,9 +15128,10 @@
       "data_status": "aggregator",
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 51.8603224,
-        "lng": 4.4182428
-      }
+        "lat": 51.5510331,
+        "lng": 4.5907863
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14321,7 +15149,8 @@
       "_geo": {
         "lat": 51.5537443,
         "lng": 5.0862866
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Noord-Brabant",
@@ -14339,7 +15168,8 @@
       "_geo": {
         "lat": 51.8147871,
         "lng": 4.8943105
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14357,7 +15187,8 @@
       "_geo": {
         "lat": 51.5249036,
         "lng": 5.974006
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14375,7 +15206,8 @@
       "_geo": {
         "lat": 50.8651693,
         "lng": 5.8328653
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14393,7 +15225,8 @@
       "_geo": {
         "lat": 51.6994553,
         "lng": 5.9744164
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14411,7 +15244,8 @@
       "_geo": {
         "lat": 50.8876735,
         "lng": 5.9773285
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14429,7 +15263,8 @@
       "_geo": {
         "lat": 51.4499233,
         "lng": 6.0468102
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14447,7 +15282,8 @@
       "_geo": {
         "lat": 50.7710026,
         "lng": 6.0192269
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14465,7 +15301,8 @@
       "_geo": {
         "lat": 50.9404812,
         "lng": 5.7954714
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14483,7 +15320,8 @@
       "_geo": {
         "lat": 50.8279655,
         "lng": 5.7680045
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14501,7 +15339,8 @@
       "_geo": {
         "lat": 51.102755,
         "lng": 5.871638
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14519,7 +15358,8 @@
       "_geo": {
         "lat": 50.8573601,
         "lng": 6.0276657
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14537,7 +15377,8 @@
       "_geo": {
         "lat": 50.8514847,
         "lng": 5.69068
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14555,7 +15396,8 @@
       "_geo": {
         "lat": 50.7963578,
         "lng": 5.9255403
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14573,7 +15415,8 @@
       "_geo": {
         "lat": 51.3281297,
         "lng": 5.9812924
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14591,7 +15434,8 @@
       "_geo": {
         "lat": 51.1934892,
         "lng": 5.9880386
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14609,7 +15453,8 @@
       "_geo": {
         "lat": 51.1916777,
         "lng": 5.993257
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14627,7 +15472,8 @@
       "_geo": {
         "lat": 51.1930046,
         "lng": 5.7235114
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14645,7 +15491,8 @@
       "_geo": {
         "lat": 51.3719357,
         "lng": 6.1713176
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14663,7 +15510,8 @@
       "_geo": {
         "lat": 50.8602927,
         "lng": 5.7863647
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14681,7 +15529,8 @@
       "_geo": {
         "lat": 50.7776534,
         "lng": 5.7016814
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14699,7 +15548,8 @@
       "_geo": {
         "lat": 50.9709824,
         "lng": 5.829242
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14717,7 +15567,8 @@
       "_geo": {
         "lat": 50.8139879,
         "lng": 5.8899585
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14735,7 +15586,8 @@
       "_geo": {
         "lat": 51.236691,
         "lng": 5.9539366
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14753,7 +15605,8 @@
       "_geo": {
         "lat": 50.8876353,
         "lng": 5.9792449
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14771,7 +15624,8 @@
       "_geo": {
         "lat": 51.1428567,
         "lng": 5.8830683
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14789,7 +15643,8 @@
       "_geo": {
         "lat": 50.8469271,
         "lng": 5.6991788
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14807,7 +15662,8 @@
       "_geo": {
         "lat": 50.8203465,
         "lng": 5.8224398
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14825,7 +15681,8 @@
       "_geo": {
         "lat": 50.8836981,
         "lng": 5.754532
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14843,7 +15700,8 @@
       "_geo": {
         "lat": 50.905361,
         "lng": 6.0243367
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14861,7 +15719,8 @@
       "_geo": {
         "lat": 50.9696955,
         "lng": 5.9773288
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14879,7 +15738,8 @@
       "_geo": {
         "lat": 50.9978703,
         "lng": 5.8705916
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14897,7 +15757,8 @@
       "_geo": {
         "lat": 51.0630677,
         "lng": 5.8534982
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14915,7 +15776,8 @@
       "_geo": {
         "lat": 51.3665687,
         "lng": 6.1524735
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14933,7 +15795,8 @@
       "_geo": {
         "lat": 50.8967508,
         "lng": 5.7320907
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14951,7 +15814,8 @@
       "_geo": {
         "lat": 50.7766712,
         "lng": 5.912373
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14969,7 +15833,8 @@
       "_geo": {
         "lat": 50.9179409,
         "lng": 5.9656306
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -14987,7 +15852,8 @@
       "_geo": {
         "lat": 51.250508,
         "lng": 5.9007718
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15005,7 +15871,8 @@
       "_geo": {
         "lat": 50.9236212,
         "lng": 5.9250535
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15023,7 +15890,8 @@
       "_geo": {
         "lat": 50.8648095,
         "lng": 6.0619235
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15041,7 +15909,8 @@
       "_geo": {
         "lat": 50.8514847,
         "lng": 5.69068
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15059,7 +15928,8 @@
       "_geo": {
         "lat": 51.1294393,
         "lng": 5.94533
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15077,7 +15947,8 @@
       "_geo": {
         "lat": 51.6049733,
         "lng": 6.0531478
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15095,7 +15966,8 @@
       "_geo": {
         "lat": 50.9172674,
         "lng": 5.8842279
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15113,7 +15985,8 @@
       "_geo": {
         "lat": 51.1184343,
         "lng": 6.0394009
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15131,7 +16004,8 @@
       "_geo": {
         "lat": 51.2768772,
         "lng": 6.079988
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15149,7 +16023,8 @@
       "_geo": {
         "lat": 51.1867132,
         "lng": 6.0113942
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15167,7 +16042,8 @@
       "_geo": {
         "lat": 50.8914649,
         "lng": 6.01603
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15185,7 +16061,8 @@
       "_geo": {
         "lat": 50.8308114,
         "lng": 5.9846853
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15203,7 +16080,8 @@
       "_geo": {
         "lat": 51.2301583,
         "lng": 6.0370151
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15221,7 +16099,8 @@
       "_geo": {
         "lat": 50.9165838,
         "lng": 6.0455867
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15239,7 +16118,8 @@
       "_geo": {
         "lat": 50.8942855,
         "lng": 6.0595986
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15257,7 +16137,8 @@
       "_geo": {
         "lat": 50.9709824,
         "lng": 5.829242
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15275,7 +16156,8 @@
       "_geo": {
         "lat": 51.6985175,
         "lng": 5.9719314
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15293,7 +16175,8 @@
       "_geo": {
         "lat": 50.8876735,
         "lng": 5.9773285
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15311,7 +16194,8 @@
       "_geo": {
         "lat": 50.8514847,
         "lng": 5.69068
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15329,7 +16213,8 @@
       "_geo": {
         "lat": 51.1933903,
         "lng": 5.9882649
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15347,7 +16232,8 @@
       "_geo": {
         "lat": 50.9978703,
         "lng": 5.8705916
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15365,7 +16251,8 @@
       "_geo": {
         "lat": 51.3719357,
         "lng": 6.1713176
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15383,7 +16270,8 @@
       "_geo": {
         "lat": 51.1316472,
         "lng": 6.0769397
-      }
+      },
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Limburg",
@@ -15401,7 +16289,8 @@
       "_geo": {
         "lat": 51.2540791,
         "lng": 5.7061589
-      }
+      },
+      "geo_filled_from": "nominatim"
     }
   ],
   "sources": [

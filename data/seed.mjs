@@ -82,7 +82,7 @@ function groupMarkets(markets) {
   return groups;
 }
 
-function transformGroup(entries, geo) {
+function transformGroup(entries, geo, geoFilledFrom) {
   const first = entries[0];
   const id = slugify(`${first.city_town}-${first.location}`);
   const name = first.location === first.city_town
@@ -99,6 +99,7 @@ function transformGroup(entries, geo) {
     name,
     type: first.type,
     _geo: geo,
+    geoFilledFrom,
     scheduleDays: schedule.map((s) => s.day),
     schedule,
     seasonNote: first.season_note || null,
@@ -106,6 +107,7 @@ function transformGroup(entries, geo) {
     country: 'NL',
     cityTown: first.city_town,
     location: first.location,
+    url: first.url || null,
     sourceUrl: first.source_url || null,
     municipalityUrl: first.municipality_url || null,
     lastVerified: first.last_verified,
@@ -124,18 +126,35 @@ async function seed() {
   const documents = [];
   let skipped = 0;
 
+  let corrected = 0;
+
   for (const [key, entries] of groups) {
     const first = entries[0];
-    const geo = first._geo || await geocode(first.city_town, first.location);
+
+    // Always prefer Nominatim; fall back to pre-filled _geo
+    const nominatimGeo = await geocode(first.city_town, first.location);
+    const geo = nominatimGeo || first._geo;
+    const geoFilledFrom = nominatimGeo ? 'nominatim' : (first._geo ? 'pre-filled' : null);
+
     if (!geo) {
       skipped++;
       continue;
     }
 
-    documents.push(transformGroup(entries, geo));
+    // Write corrected _geo and geo_filled_from back to source entries
+    for (const entry of entries) {
+      const changed = !entry._geo || entry._geo.lat !== geo.lat || entry._geo.lng !== geo.lng;
+      entry._geo = geo;
+      entry.geo_filled_from = geoFilledFrom;
+      if (changed) corrected++;
+    }
+
+    documents.push(transformGroup(entries, geo, geoFilledFrom));
   }
 
-  console.log(`Merged into ${documents.length} unique markets (${skipped} skipped, was ${markets.length} entries).`);
+  // Save corrected source JSON
+  writeFileSync(SOURCE_PATH, JSON.stringify(source, null, 2) + '\n');
+  console.log(`Merged into ${documents.length} unique markets (${skipped} skipped, ${corrected} geo-corrected, was ${markets.length} entries).`);
 
   // Create/update index
   try {

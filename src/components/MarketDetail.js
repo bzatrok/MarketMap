@@ -32,6 +32,16 @@ export default function MarketDetail({ market }) {
       )}
 
       <div className="flex gap-3 text-sm">
+        {market.url && (
+          <a
+            href={market.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:underline"
+          >
+            Website
+          </a>
+        )}
         {market.sourceUrl && (
           <a
             href={market.sourceUrl}
