@@ -9,7 +9,10 @@ Amberglass.MarketMap/
 ├── static/                         # Raw market data (JSON, manually curated)
 ├── data/
 │   ├── seed.mjs                    # Transforms, geocodes, indexes into Meilisearch
-│   └── geocache.json               # Nominatim geocoding cache (gitignored)
+│   ├── validate.mjs                # Validates JSON data integrity
+│   ├── download-sources.mjs        # Downloads source HTML for verification
+│   ├── geocache.json               # Nominatim geocoding cache (gitignored)
+│   └── sources/                    # Downloaded source HTML + manifest (gitignored)
 ├── public/
 │   ├── icons/                      # PWA icons
 │   └── sw.js                       # Service worker
@@ -127,6 +130,23 @@ git status             # Review staged changes
 git commit -m "message"
 git push
 ```
+
+## Source Verification
+
+Each market entry has three verification fields: `verified_geo`, `verified_times`, `verified_info`. Values: `null` (unchecked), `"conclusive"` (confirmed), `"inconclusive"` (discrepancy/unverifiable).
+
+```bash
+# Download source HTML pages for offline review (82 URLs, ~90 sec)
+npm run download-sources          # skips already-downloaded
+npm run download-sources -- --force  # re-download all
+
+# Validate JSON structure + verification fields
+npm run validate
+```
+
+- Source HTML saved to `data/sources/` (gitignored)
+- Manifest at `data/sources/manifest.json` maps URL → file → market count → status
+- Review workflow: compare `data/sources/*.html` against JSON entries, then set `verified_*` fields
 
 ## Environment Variables
 
