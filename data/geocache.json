@@ -1,0 +1,3090 @@
+{
+  "Apeldoorn|Marktplein": {
+    "lat": 52.2153453,
+    "lng": 5.9629718
+  },
+  "Ede|Marktplein": {
+    "lat": 51.9985809,
+    "lng": 5.6764147
+  },
+  "Nijmegen|Kelfkensbos": {
+    "lat": 51.8462546,
+    "lng": 5.8706817
+  },
+  "Nijmegen|Grote Markt": {
+    "lat": 51.8473709,
+    "lng": 5.8641943
+  },
+  "Nijmegen|Burchtstraat/Augustijnenstraat/Grote Markt": {
+    "lat": 51.8474946,
+    "lng": 5.8637771
+  },
+  "Almen|Mini-markt": {
+    "lat": 52.1572821,
+    "lng": 6.3015597
+  },
+  "Apeldoorn|Violierenplein (De Maten)": {
+    "lat": 52.1938295,
+    "lng": 6.0045932
+  },
+  "Arnhem|Presikhaaf": {
+    "lat": 51.9876005,
+    "lng": 5.9429188
+  },
+  "Arnhem|Jansplaats": {
+    "lat": 51.9822468,
+    "lng": 5.9065596
+  },
+  "Beuningen|Kerkplein": {
+    "lat": 51.8630079,
+    "lng": 5.771517
+  },
+  "Brummen|Marktplein": {
+    "lat": 52.0873088,
+    "lng": 6.1571773
+  },
+  "Culemborg|Markt": {
+    "lat": 51.9576163,
+    "lng": 5.225145
+  },
+  "Doetinchem|Raadhuisstraat": {
+    "lat": 51.965678,
+    "lng": 6.293686
+  },
+  "Duiven|Remigiusplein": {
+    "lat": 51.9492875,
+    "lng": 6.0230097
+  },
+  "Eerbeek|Oranje Nassauplein": {
+    "lat": 52.1043677,
+    "lng": 6.0591144
+  },
+  "Eibergen|Brink": {
+    "lat": 52.1019365,
+    "lng": 6.6486642
+  },
+  "Elburg|'t Schootsveld": {
+    "lat": 52.4469801,
+    "lng": 5.8369499
+  },
+  "Ermelo|Raadhuisplein": {
+    "lat": 52.3001728,
+    "lng": 5.617904
+  },
+  "Groesbeek|Spoorlaan": {
+    "lat": 51.77702,
+    "lng": 5.9343066
+  },
+  "Harfsen|Mini-markt": {
+    "lat": 52.2075015,
+    "lng": 6.297922
+  },
+  "Neede|Vlearmoesplein": {
+    "lat": 52.1323114,
+    "lng": 6.6116561
+  },
+  "Nijmegen|Leuvensbroek": {
+    "lat": 51.8323993,
+    "lng": 5.780319
+  },
+  "Renkum|Dorpsstraat": {
+    "lat": 51.9700857,
+    "lng": 5.7219227
+  },
+  "Veenendaal|Markt": {
+    "lat": 52.0260317,
+    "lng": 5.5541925
+  },
+  "Wekerom|Edeseweg": {
+    "lat": 52.1108397,
+    "lng": 5.7131335
+  },
+  "Zaltbommel|Markt en Gamerschestraat": {
+    "lat": 51.782164,
+    "lng": 5.1898267
+  },
+  "Zetten|Julianaplein": {
+    "lat": 51.9295181,
+    "lng": 5.7121582
+  },
+  "Apeldoorn|Winkelcentrum 't Fort": {
+    "lat": 52.1795738,
+    "lng": 5.9300775
+  },
+  "Arnhem|Malburgen": {
+    "lat": 51.9687594,
+    "lng": 5.8970593
+  },
+  "Borculo|Veemarkt": {
+    "lat": 52.1162293,
+    "lng": 6.5246298
+  },
+  "Boven-Leeuwen|Dorpsplein": {
+    "lat": 51.8845134,
+    "lng": 5.5515886
+  },
+  "Dieren|Ericaplein": {
+    "lat": 52.0510076,
+    "lng": 6.1022891
+  },
+  "Doesburg|Kerkplein": {
+    "lat": 52.0139605,
+    "lng": 6.1393699
+  },
+  "Eefde|Mini-markt": {
+    "lat": 52.1709839,
+    "lng": 6.2269387
+  },
+  "Epe|Marktplein": {
+    "lat": 52.3482134,
+    "lng": 5.9851734
+  },
+  "Gorssel|Markt": {
+    "lat": 52.1996486,
+    "lng": 6.2002185
+  },
+  "Harderwijk|Tonselsedreef": {
+    "lat": 52.3235617,
+    "lng": 5.6010859
+  },
+  "Hattem|Centrum": {
+    "lat": 52.4771551,
+    "lng": 6.0683824
+  },
+  "Lochem|Marktplein": {
+    "lat": 52.1715131,
+    "lng": 6.3436582
+  },
+  "Millingen aan de Rijn|Kastanjeplein": {
+    "lat": 51.8642776,
+    "lng": 6.0457927
+  },
+  "Nijmegen|Hatert (Couwenbergstraat)": {
+    "lat": 51.805568,
+    "lng": 5.8272738
+  },
+  "Nijmegen|Lent (Bij de Jumbo)": {
+    "lat": 51.8474946,
+    "lng": 5.8637771
+  },
+  "Putten|Fontanusplein": {
+    "lat": 52.2616162,
+    "lng": 5.6073377
+  },
+  "Scherpenzeel|Centrum": {
+    "lat": 52.8325177,
+    "lng": 5.8749702
+  },
+  "Wageningen|Markt en Raadhuisplein": {
+    "lat": 51.9663016,
+    "lng": 5.6662814
+  },
+  "Warnsveld|Winkelcentrum De Dreiumme": {
+    "lat": 52.1443409,
+    "lng": 6.2268734
+  },
+  "Winterswijk|Rondom de Jacobskerk": {
+    "lat": 51.9680214,
+    "lng": 6.7378723
+  },
+  "Aalten|Centrum": {
+    "lat": 51.8623653,
+    "lng": 6.4884358
+  },
+  "Apeldoorn|Asselsestraat": {
+    "lat": 52.2067008,
+    "lng": 5.9234123
+  },
+  "Apeldoorn|Winkelcentrum Anklaar": {
+    "lat": 52.2292995,
+    "lng": 5.9862559
+  },
+  "Barneveld|Gowthorpeplein": {
+    "lat": 52.1374165,
+    "lng": 5.5866243
+  },
+  "Beltrum|Mariaplein": {
+    "lat": 52.0671503,
+    "lng": 6.5619666
+  },
+  "Bemmel|Markt": {
+    "lat": 51.8918925,
+    "lng": 5.8986072
+  },
+  "Ede|Stadspoort": {
+    "lat": 52.0178693,
+    "lng": 5.6490881
+  },
+  "Elst|Plein en Dorpsstraat": {
+    "lat": 51.9187914,
+    "lng": 5.8452555
+  },
+  "'s-Heerenberg|Stadplein": {
+    "lat": 51.8779448,
+    "lng": 6.2548363
+  },
+  "Laren|Dorpskern": {
+    "lat": 52.2565894,
+    "lng": 5.2251925
+  },
+  "Nijmegen|Heseveld (Paul Krugerstraat)": {
+    "lat": 51.8474946,
+    "lng": 5.8637771
+  },
+  "Nunspeet|Marktplein": {
+    "lat": 52.3372909,
+    "lng": 5.7956364
+  },
+  "Oosterbeek|Weverstraat": {
+    "lat": 51.9785448,
+    "lng": 5.8382369
+  },
+  "Opheusden|Parkeerterrein Swaenenstate": {
+    "lat": 51.9260391,
+    "lng": 5.6374111
+  },
+  "Rekken|Lindevoort": {
+    "lat": 52.0947949,
+    "lng": 6.7233869
+  },
+  "Silvolde|Centrum": {
+    "lat": 51.9112354,
+    "lng": 6.3814387
+  },
+  "Velp|Den Heuvel": {
+    "lat": 51.9949176,
+    "lng": 5.9747266
+  },
+  "Wehl|Koningin Wilhelminaplein": {
+    "lat": 51.9608387,
+    "lng": 6.2112763
+  },
+  "Wezep|Meidoornplein": {
+    "lat": 52.4606224,
+    "lng": 6.0003894
+  },
+  "Wijchen|Markt": {
+    "lat": 51.8070214,
+    "lng": 5.7263437
+  },
+  "Zutphen|Zaadmarkt": {
+    "lat": 52.1400607,
+    "lng": 6.1972386
+  },
+  "Apeldoorn|Schubertplein": {
+    "lat": 52.1901373,
+    "lng": 5.9658839
+  },
+  "Arnhem|Centrum (Markt/Kerkplein)": {
+    "lat": 51.984257,
+    "lng": 5.9108573
+  },
+  "Beneden-Leeuwen|Marktplein": {
+    "lat": 51.8809765,
+    "lng": 5.5096395
+  },
+  "Bennekom|Marktplein": {
+    "lat": 51.9985809,
+    "lng": 5.6764147
+  },
+  "Dinxperlo|Centrum": {
+    "lat": 51.8623653,
+    "lng": 6.4884358
+  },
+  "Didam|Lieve Vrouweplein": {
+    "lat": 51.9375196,
+    "lng": 6.1268685
+  },
+  "Druten|Markt": {
+    "lat": 51.890802,
+    "lng": 5.6097054
+  },
+  "Ederveen|Schras": {
+    "lat": 52.0623492,
+    "lng": 5.5680005
+  },
+  "Geldermalsen|Marktplein": {
+    "lat": 51.8833318,
+    "lng": 5.2893063
+  },
+  "Gendringen|Raadhuisstraat": {
+    "lat": 51.8721987,
+    "lng": 6.3777787
+  },
+  "Gendt|Julianaplein": {
+    "lat": 51.8780981,
+    "lng": 5.971794
+  },
+  "Hengelo (Gld)|Raadhuisstraat": {
+    "lat": 52.0541286,
+    "lng": 6.3072777
+  },
+  "Heteren|Dorpsplein": {
+    "lat": 51.9554341,
+    "lng": 5.7573215
+  },
+  "Hoevelaken|Brink": {
+    "lat": 52.175912,
+    "lng": 5.4554205
+  },
+  "Huissen|Markt": {
+    "lat": 51.9371749,
+    "lng": 5.9432438
+  },
+  "Nijkerk|Plein": {
+    "lat": 52.2241026,
+    "lng": 5.48446
+  },
+  "Oldebroek|Lambertusplein": {
+    "lat": 52.4471159,
+    "lng": 5.8979661
+  },
+  "Wolfheze|Dorpsplein": {
+    "lat": 52.0056717,
+    "lng": 5.7923944
+  },
+  "Arnhem|Kerkplein, Centrum": {
+    "lat": 51.9791779,
+    "lng": 5.9101475
+  },
+  "Arnhem|Marktplein, Geitenkamp": {
+    "lat": 52.0017554,
+    "lng": 5.9411505
+  },
+  "Wageningen|Markt/Raadhuisplein": {
+    "lat": 51.9663016,
+    "lng": 5.6662814
+  },
+  "Nijmegen|Marienburgplein": {
+    "lat": 51.8474946,
+    "lng": 5.8637771
+  },
+  "Leeuwarden|Waagplein": {
+    "lat": 53.2007895,
+    "lng": 5.7957029
+  },
+  "Sneek|Centrum Grootzand": {
+    "lat": 53.033548,
+    "lng": 5.6611029
+  },
+  "Stiens|Centrum": {
+    "lat": 53.2613359,
+    "lng": 5.7597849
+  },
+  "Dokkum|Markt": {
+    "lat": 53.3273086,
+    "lng": 5.9977961
+  },
+  "Franeker|Voorstraat": {
+    "lat": 53.1866684,
+    "lng": 5.540197
+  },
+  "Gorredijk|Centrum": {
+    "lat": 53.0059606,
+    "lng": 6.0641634
+  },
+  "Harlingen|Voorstraat": {
+    "lat": 53.1745763,
+    "lng": 5.4215168
+  },
+  "Joure|Centrum": {
+    "lat": 52.9644286,
+    "lng": 5.8026709
+  },
+  "Leeuwarden|Prins Willem Alexanderplein": {
+    "lat": 53.2005936,
+    "lng": 5.7918548
+  },
+  "Leeuwarden|Winkelcentrum Bilgaard": {
+    "lat": 53.2156913,
+    "lng": 5.795573
+  },
+  "Makkum|Lieuwkemastraat": {
+    "lat": 53.0582462,
+    "lng": 5.4047063
+  },
+  "Wolvega|Centrum": {
+    "lat": 52.8762872,
+    "lng": 6.001764
+  },
+  "Bolsward|Marktplein Appelmarkt": {
+    "lat": 53.0620178,
+    "lng": 5.5228964
+  },
+  "Drachten|Raadhuisplein": {
+    "lat": 53.104997,
+    "lng": 6.0994054
+  },
+  "Lemmer|Korte Streek": {
+    "lat": 52.8444859,
+    "lng": 5.7099136
+  },
+  "Workum|Centrum": {
+    "lat": 52.9778491,
+    "lng": 5.4464091
+  },
+  "Balk|Centrum": {
+    "lat": 52.8974922,
+    "lng": 5.5797206
+  },
+  "Burgum|Centrum": {
+    "lat": 53.1954807,
+    "lng": 5.9871063
+  },
+  "Hurdegaryp|Centrum": {
+    "lat": 53.2147926,
+    "lng": 5.9413122
+  },
+  "Leeuwarden|Wilhelminaplein (Zaailand)": {
+    "lat": 53.1996272,
+    "lng": 5.7933148
+  },
+  "Noordwolde|Centrum": {
+    "lat": 52.8892311,
+    "lng": 6.1412076
+  },
+  "Gytsjerk|Centrum": {
+    "lat": 53.2422241,
+    "lng": 5.8904824
+  },
+  "Harlingen|Centrum": {
+    "lat": 53.1621576,
+    "lng": 5.4294134
+  },
+  "Heerenveen|Centrum": {
+    "lat": 52.9338565,
+    "lng": 5.9555337
+  },
+  "IJlst|Frisiaplein": {
+    "lat": 53.010841,
+    "lng": 5.6237574
+  },
+  "Leeuwarden|Nieuwestad/Waagplein": {
+    "lat": 53.2005936,
+    "lng": 5.7918548
+  },
+  "Sneek|Grootzand": {
+    "lat": 53.0310858,
+    "lng": 5.661091
+  },
+  "Veendam|Museumplein": {
+    "lat": 53.1069348,
+    "lng": 6.8762549
+  },
+  "Groningen|Grote Markt/Vismarkt/A-Kerkhof": {
+    "lat": 53.2190652,
+    "lng": 6.5680077
+  },
+  "Ten Boer|Marktplein": {
+    "lat": 53.2773154,
+    "lng": 6.6951182
+  },
+  "Winsum|Winkelcentrum Obergon": {
+    "lat": 53.328409,
+    "lng": 6.5163966
+  },
+  "Delfzijl|Centrum": {
+    "lat": 53.3312806,
+    "lng": 6.9261096
+  },
+  "Eenrum|Dorpsplein": {
+    "lat": 53.3636399,
+    "lng": 6.4610108
+  },
+  "Groningen|Vismarkt/A-Kerkhof": {
+    "lat": 53.2190652,
+    "lng": 6.5680077
+  },
+  "Groningen|Overwinningsplein": {
+    "lat": 53.1982834,
+    "lng": 6.558734
+  },
+  "Groningen|Lewenborg": {
+    "lat": 53.236073,
+    "lng": 6.61891
+  },
+  "Groningen|Reitdiephaven": {
+    "lat": 53.2374689,
+    "lng": 6.5222906
+  },
+  "Groningen|Korrewegwijk (Floresplein)": {
+    "lat": 53.2320599,
+    "lng": 6.5690518
+  },
+  "Leens|Parkeerterrein bij gemeentehuis": {
+    "lat": 53.3599254,
+    "lng": 6.3775996
+  },
+  "Middelstum|Concordiaplein": {
+    "lat": 53.3474429,
+    "lng": 6.6418516
+  },
+  "Nieuwe Pekela|Kerkstraat": {
+    "lat": 53.0801656,
+    "lng": 6.9658159
+  },
+  "Sellingen|Dorpsstraat": {
+    "lat": 52.9467572,
+    "lng": 7.147338
+  },
+  "Bedum|Kerkplein": {
+    "lat": 53.3003141,
+    "lng": 6.5961866
+  },
+  "Groningen|Grote Markt": {
+    "lat": 53.218802,
+    "lng": 6.5672907
+  },
+  "Groningen|Beijum (Stoepemaheerd)": {
+    "lat": 53.2190652,
+    "lng": 6.5680077
+  },
+  "Groningen|Vinkhuizen": {
+    "lat": 53.226659,
+    "lng": 6.5274003
+  },
+  "Groningen|Hoogkerk": {
+    "lat": 53.2150401,
+    "lng": 6.5014133
+  },
+  "Leek|Centrum": {
+    "lat": 53.1637372,
+    "lng": 6.3893628
+  },
+  "Oude Pekela|Winkelcentrum de Helling": {
+    "lat": 53.1074318,
+    "lng": 7.013857
+  },
+  "Scheemda|Centrum": {
+    "lat": 53.1761091,
+    "lng": 6.9718957
+  },
+  "Ter Apel|Marktplein": {
+    "lat": 52.8742433,
+    "lng": 7.0617746
+  },
+  "Grootegast|Hoofdstraat": {
+    "lat": 53.2164949,
+    "lng": 6.2874472
+  },
+  "Haren|Raadhuisplein": {
+    "lat": 53.1736032,
+    "lng": 6.6038223
+  },
+  "Loppersum|Marktplein": {
+    "lat": 53.3320009,
+    "lng": 6.7470199
+  },
+  "Marum|Raadhuisstraat": {
+    "lat": 53.1454062,
+    "lng": 6.2675108
+  },
+  "Musselkanaal|Willem Diemerplein": {
+    "lat": 52.930019,
+    "lng": 7.0153912
+  },
+  "Vlagtwedde|Ekkelkamp": {
+    "lat": 53.0260951,
+    "lng": 7.1122345
+  },
+  "Zuidhorn|Overtuinen": {
+    "lat": 53.2437263,
+    "lng": 6.408624
+  },
+  "Appingedam|Wijkstraat": {
+    "lat": 53.3203375,
+    "lng": 6.8591995
+  },
+  "Stadskanaal|Europalaan en Navolaan": {
+    "lat": 52.9962401,
+    "lng": 7.0014349
+  },
+  "Uithuizen|Marktplein": {
+    "lat": 53.4074413,
+    "lng": 6.6732202
+  },
+  "Uithuizermeeden|Dorpsplein": {
+    "lat": 53.4159396,
+    "lng": 6.7255446
+  },
+  "Winschoten|Centrum": {
+    "lat": 53.1451014,
+    "lng": 7.03412
+  },
+  "Groningen|Vismarkt": {
+    "lat": 53.2172209,
+    "lng": 6.5648775
+  },
+  "Groningen|Grote Markt (Snackstraat)": {
+    "lat": 53.2190652,
+    "lng": 6.5680077
+  },
+  "Coevorden|Markt": {
+    "lat": 52.6611943,
+    "lng": 6.7410322
+  },
+  "Annen|Winkelcentrum d'Anloop": {
+    "lat": 53.056286,
+    "lng": 6.7275703
+  },
+  "Borger|Torenlaan": {
+    "lat": 52.924488,
+    "lng": 6.7934386
+  },
+  "Dwingeloo|Brink": {
+    "lat": 52.8334709,
+    "lng": 6.3667019
+  },
+  "Tynaarlo|Dorpsplein": {
+    "lat": 53.1119991,
+    "lng": 6.5598398
+  },
+  "Zuidwolde|Marktplein": {
+    "lat": 52.6735934,
+    "lng": 6.4290084
+  },
+  "Assen|Brink/Brinkstraat/Noordersingel/Nieuwe Huizen": {
+    "lat": 52.997225,
+    "lng": 6.5506458
+  },
+  "Eelde-Paterswolde|Dorpskern": {
+    "lat": 53.133729,
+    "lng": 6.5846076
+  },
+  "Havelte|Piet Soerplein": {
+    "lat": 52.7714336,
+    "lng": 6.236168
+  },
+  "Nijveen|Dorpsstraat": {
+    "lat": 53.0419448,
+    "lng": 6.4945098
+  },
+  "Norg|Centrum": {
+    "lat": 53.0668359,
+    "lng": 6.4555453
+  },
+  "Ruinerwold|Dijkhuizen": {
+    "lat": 52.73071,
+    "lng": 6.27307
+  },
+  "Beilen|Centrum": {
+    "lat": 52.8612972,
+    "lng": 6.4965601
+  },
+  "Gieten|Stationsstraat": {
+    "lat": 53.0019989,
+    "lng": 6.7645173
+  },
+  "Hoogeveen|Centrum": {
+    "lat": 52.7246921,
+    "lng": 6.4787936
+  },
+  "Meppel|Kerkplein": {
+    "lat": 52.6972235,
+    "lng": 6.1897948
+  },
+  "Peize|Brink": {
+    "lat": 53.1473837,
+    "lng": 6.493987
+  },
+  "Vledder|Lesturgeonplein": {
+    "lat": 52.857893,
+    "lng": 6.207247
+  },
+  "Emmen|Marktplein en Hoofdstraat": {
+    "lat": 52.7528662,
+    "lng": 6.9525135
+  },
+  "Koekange|Dorpsstraat": {
+    "lat": 52.6987518,
+    "lng": 6.32072
+  },
+  "Roden|Centrum": {
+    "lat": 53.1398921,
+    "lng": 6.4299733
+  },
+  "Rolde|Kleine Brink": {
+    "lat": 52.9843788,
+    "lng": 6.6487151
+  },
+  "Smilde|Prinses Beatrixstraat": {
+    "lat": 52.946487,
+    "lng": 6.4509559
+  },
+  "Zuidlaren|Brink": {
+    "lat": 53.0930931,
+    "lng": 6.6882082
+  },
+  "Westerbork|Burg. G. van Weezelplein": {
+    "lat": 52.8492168,
+    "lng": 6.6103067
+  },
+  "De Wijk|Gemeenteplein": {
+    "lat": 52.6721062,
+    "lng": 6.2886884
+  },
+  "Emmer-Compascuum|Runde": {
+    "lat": 52.8041623,
+    "lng": 7.0285469
+  },
+  "Klazienaveen|Langestraat": {
+    "lat": 52.7237526,
+    "lng": 7.0117837
+  },
+  "Ruinen|Brink": {
+    "lat": 52.7638422,
+    "lng": 6.3602777
+  },
+  "Hattem|Stadslaan": {
+    "lat": 52.4710418,
+    "lng": 6.0672441
+  },
+  "Scherpenzeel|Marktstraat": {
+    "lat": 52.0859713,
+    "lng": 5.4914871
+  },
+  "Dinxperlo|Kerkstraat": {
+    "lat": 51.861967,
+    "lng": 6.4873945
+  },
+  "Didam|Didamse Markthal": {
+    "lat": 51.937228,
+    "lng": 6.1275981
+  },
+  "Hoevelaken|De Wiekslag": {
+    "lat": 52.1750348,
+    "lng": 5.4559715
+  },
+  "Nijeveen|Dorpsstraat": {
+    "lat": 52.7357219,
+    "lng": 6.1776573
+  },
+  "Heino|Marktplein": {
+    "lat": 52.4357953,
+    "lng": 6.2341002
+  },
+  "Hardenberg|Markt": {
+    "lat": 52.6007212,
+    "lng": 6.4563898
+  },
+  "Kampen|Nieuwe Markt": {
+    "lat": 52.5588134,
+    "lng": 5.9146301
+  },
+  "Oldenzaal|Grootte markt": {
+    "lat": 52.3116616,
+    "lng": 6.9241615
+  },
+  "Rijssen|Kerkstraat, 't Schild, Rozengaarde en Europaplein": {
+    "lat": 52.3080276,
+    "lng": 6.5213004
+  },
+  "Bathmen|Brink": {
+    "lat": 52.249695,
+    "lng": 6.2850786
+  },
+  "Deventer|Beestenmarkt": {
+    "lat": 52.2572326,
+    "lng": 6.164027
+  },
+  "Enschede|H.J. van Heekplein": {
+    "lat": 52.2181162,
+    "lng": 6.8960584
+  },
+  "Genemuiden|Havenplein": {
+    "lat": 52.6233682,
+    "lng": 6.0410358
+  },
+  "Markelo|Kerkplein": {
+    "lat": 52.2350344,
+    "lng": 6.493561
+  },
+  "Ommen|Centrum": {
+    "lat": 52.5188764,
+    "lng": 6.4242178
+  },
+  "Tubbergen|Markt": {
+    "lat": 52.4068595,
+    "lng": 6.7830657
+  },
+  "Vroomshoop|Vredesplein": {
+    "lat": 52.4618786,
+    "lng": 6.5665608
+  },
+  "Vollenhove|Kerkplein": {
+    "lat": 52.6818606,
+    "lng": 5.948121
+  },
+  "Wierden|Marktplein": {
+    "lat": 52.3519522,
+    "lng": 6.5674484
+  },
+  "Zwolle (Aa-landen)|Winkelcentrum De Dobbe": {
+    "lat": 52.5310833,
+    "lng": 6.1004904
+  },
+  "Borne|Centrum / De Bolkshoek": {
+    "lat": 52.3004342,
+    "lng": 6.7549225
+  },
+  "Dedemsvaart|Markt": {
+    "lat": 52.6007212,
+    "lng": 6.4563898
+  },
+  "Denekamp|Nicolaasplein": {
+    "lat": 52.3743503,
+    "lng": 7.0048223
+  },
+  "Deventer|Keizerslanden": {
+    "lat": 52.2689529,
+    "lng": 6.1655827
+  },
+  "Glanerbrug|Schoolstraat": {
+    "lat": 52.2142707,
+    "lng": 6.9707301
+  },
+  "Haaksbergen|Markt": {
+    "lat": 52.1548,
+    "lng": 6.7422206
+  },
+  "Hengelo|Marktplein": {
+    "lat": 52.2658726,
+    "lng": 6.7924049
+  },
+  "Raalte|Centrum": {
+    "lat": 52.3340102,
+    "lng": 6.280102
+  },
+  "Staphorst|Marktplein": {
+    "lat": 52.6366828,
+    "lng": 6.2080352
+  },
+  "Vriezenveen|Westeinde": {
+    "lat": 52.41208,
+    "lng": 6.6265482
+  },
+  "Zwolle-Zuid|Van der Capellenstraat": {
+    "lat": 52.510805,
+    "lng": 6.0732102
+  },
+  "Almelo|Marktplein, Rosa Luxemburgstraat en Klara Zetkinstraat": {
+    "lat": 52.3563585,
+    "lng": 6.6636219
+  },
+  "Dalfsen|Kerkplein": {
+    "lat": 52.5045742,
+    "lng": 6.261239
+  },
+  "Deventer|Flora": {
+    "lat": 52.2478044,
+    "lng": 6.2157154
+  },
+  "Diepenveen|Dorpsplein": {
+    "lat": 52.2881152,
+    "lng": 6.1459232
+  },
+  "Enschede (Wesselerbrink)|Wesseler-Nering": {
+    "lat": 52.1921913,
+    "lng": 6.8810956
+  },
+  "Geesteren|Markt": {
+    "lat": 52.1392401,
+    "lng": 6.5255713
+  },
+  "Hasselt|Van de Vechtlaan": {
+    "lat": 52.5828818,
+    "lng": 6.1210552
+  },
+  "Heeten|Dorpsplein": {
+    "lat": 52.3324618,
+    "lng": 6.280536
+  },
+  "Hellendoorn|Dorpsplein": {
+    "lat": 52.3904628,
+    "lng": 6.4515115
+  },
+  "Langeveen|Markt": {
+    "lat": 52.4698445,
+    "lng": 6.712333
+  },
+  "Losser|Raadhuisplein": {
+    "lat": 52.2627728,
+    "lng": 7.006801
+  },
+  "Oldemarkt|Markt": {
+    "lat": 52.8260291,
+    "lng": 5.9691577
+  },
+  "Ootmarsum|Kerkplein": {
+    "lat": 52.4077892,
+    "lng": 6.8976972
+  },
+  "Schalkhaar|Centrum": {
+    "lat": 52.2683185,
+    "lng": 6.1946117
+  },
+  "Zwolle (Stadshagen)|Belvédèrelaan": {
+    "lat": 52.5321798,
+    "lng": 6.0538927
+  },
+  "Albergen|Centrum": {
+    "lat": 52.3708449,
+    "lng": 6.7637994
+  },
+  "Delden|Centrum": {
+    "lat": 52.2619482,
+    "lng": 6.7087605
+  },
+  "Deventer|Brink": {
+    "lat": 52.2525138,
+    "lng": 6.1605252
+  },
+  "Goor|Centrum": {
+    "lat": 52.2322118,
+    "lng": 6.581541
+  },
+  "Holten|Smidsbelt": {
+    "lat": 52.2816453,
+    "lng": 6.4216795
+  },
+  "IJsselmuiden|Markeresplein": {
+    "lat": 52.5656888,
+    "lng": 5.9291813
+  },
+  "Zwartsluis|Stationsweg/Promenade": {
+    "lat": 52.6425446,
+    "lng": 6.0720879
+  },
+  "Zwolle (Centrum)|Grote Markt en Melkmarkt": {
+    "lat": 52.5080451,
+    "lng": 6.069679
+  },
+  "Zwolle (Westenholte)|Petuniaplein": {
+    "lat": 52.5221646,
+    "lng": 6.0488331
+  },
+  "Enter|Dorpsplein": {
+    "lat": 52.2955324,
+    "lng": 6.5778421
+  },
+  "Nieuwleusen|Grote Markt": {
+    "lat": 52.5736304,
+    "lng": 6.2917053
+  },
+  "Nijverdal|Henri Dunantplein": {
+    "lat": 52.3648136,
+    "lng": 6.4612448
+  },
+  "Raalte|Grote Markt": {
+    "lat": 52.3858386,
+    "lng": 6.2758553
+  },
+  "Steenwijk|Markt": {
+    "lat": 52.7869372,
+    "lng": 6.1163235
+  },
+  "Lelystad|Lelycentre": {
+    "lat": 52.5188776,
+    "lng": 5.4853715
+  },
+  "Swifterbant|De Poort": {
+    "lat": 52.5718769,
+    "lng": 5.6439198
+  },
+  "Almere|Stadhuisplein en Promenade": {
+    "lat": 52.4417513,
+    "lng": 5.2092943
+  },
+  "Dronten|Redeplein": {
+    "lat": 52.5236608,
+    "lng": 5.7160381
+  },
+  "Biddinghuizen|Het Plein": {
+    "lat": 52.4552216,
+    "lng": 5.6921598
+  },
+  "Almere Buiten|Globeplein en Rio de Janeiroplein": {
+    "lat": 52.3941912,
+    "lng": 5.2779576
+  },
+  "Emmeloord|Kettingplein": {
+    "lat": 52.7114905,
+    "lng": 5.7579491
+  },
+  "Almere Haven|Brink en Markt": {
+    "lat": 52.3406187,
+    "lng": 5.2199258
+  },
+  "Zeewolde|Kerkplein": {
+    "lat": 52.3313243,
+    "lng": 5.541949
+  },
+  "Almere|Stadsboerderij, Kemphaanpad 14": {
+    "lat": 52.4417513,
+    "lng": 5.2092943
+  },
+  "Almere Poort|Homeruskwartier": {
+    "lat": 52.3582883,
+    "lng": 5.1537172
+  },
+  "Lelystad|Agorahof": {
+    "lat": 52.5101594,
+    "lng": 5.4764682
+  },
+  "Urk|Marktplein": {
+    "lat": 52.6654515,
+    "lng": 5.5987894
+  },
+  "Baarn|Brink": {
+    "lat": 52.2119792,
+    "lng": 5.2922263
+  },
+  "Loenen aan de Vecht|Spinnerij": {
+    "lat": 52.2097841,
+    "lng": 5.0216458
+  },
+  "Maarn|5-mei plein": {
+    "lat": 52.0645595,
+    "lng": 5.3720177
+  },
+  "Montfoort|Plaats": {
+    "lat": 52.0449877,
+    "lng": 4.9506741
+  },
+  "Nieuwegein|Muntplein": {
+    "lat": 52.0414416,
+    "lng": 5.0771265
+  },
+  "Utrecht|Smaragdplein": {
+    "lat": 52.0721385,
+    "lng": 5.1247565
+  },
+  "Veenendaal|Centrum": {
+    "lat": 52.0200045,
+    "lng": 5.549098
+  },
+  "Vleuten|Hindersteinlaan": {
+    "lat": 52.10432,
+    "lng": 5.0199482
+  },
+  "Bunnik|De Meent": {
+    "lat": 52.0506073,
+    "lng": 5.2328246
+  },
+  "Driebergen-Rijsenburg|Traaij": {
+    "lat": 52.0532872,
+    "lng": 5.286238
+  },
+  "Hoogland|Kraailandhof": {
+    "lat": 52.1868933,
+    "lng": 5.3739758
+  },
+  "Leusden|Biezenkamp": {
+    "lat": 52.1372444,
+    "lng": 5.4283657
+  },
+  "Utrecht|Plantage": {
+    "lat": 52.1025945,
+    "lng": 5.0995454
+  },
+  "Utrecht|Vredenburg": {
+    "lat": 52.0919171,
+    "lng": 5.115178
+  },
+  "Wijk bij Duurstede|Markt": {
+    "lat": 51.9732114,
+    "lng": 5.3456117
+  },
+  "Woerden|Centrum / Kerkplein": {
+    "lat": 52.0859261,
+    "lng": 4.8832939
+  },
+  "Abcoude|'t Markvelt": {
+    "lat": 52.2707967,
+    "lng": 4.9759244
+  },
+  "Amerongen|Plein bij Allemanswaard": {
+    "lat": 52.000487,
+    "lng": 5.4600535
+  },
+  "Amersfoort|Kattenbroek, De Beurs": {
+    "lat": 52.1637703,
+    "lng": 5.4088845
+  },
+  "Doorn|Kampweg": {
+    "lat": 52.0356134,
+    "lng": 5.3447582
+  },
+  "Houten|Winkelcentrum 't Rond": {
+    "lat": 52.0271433,
+    "lng": 5.1620637
+  },
+  "Leusden|Winkelcentrum De Biezenkamp": {
+    "lat": 52.1372444,
+    "lng": 5.4283657
+  },
+  "Maarssen-Dorp|Pieter van de Hooghplein": {
+    "lat": 52.1357434,
+    "lng": 5.0623387
+  },
+  "Mijdrecht|Raadhuisplein": {
+    "lat": 52.2075377,
+    "lng": 4.8664611
+  },
+  "Nieuwegein|Dorpsstraat (Vreeswijk)": {
+    "lat": 52.0037078,
+    "lng": 5.094671
+  },
+  "Utrecht|Zamenhofdreef": {
+    "lat": 52.1142806,
+    "lng": 5.1133444
+  },
+  "Utrecht|Brusselplein": {
+    "lat": 52.0978707,
+    "lng": 5.0642365
+  },
+  "Zeist|Belcour": {
+    "lat": 52.0865533,
+    "lng": 5.2416593
+  },
+  "Amersfoort|Eemplein": {
+    "lat": 52.1593463,
+    "lng": 5.3829593
+  },
+  "Amersfoort|Hof": {
+    "lat": 52.1564391,
+    "lng": 5.3897982
+  },
+  "Amersfoort|Lieve Vrouwekerkhof": {
+    "lat": 52.1552751,
+    "lng": 5.3877546
+  },
+  "Breukelen|Kerkbrink": {
+    "lat": 52.1719595,
+    "lng": 5.0026883
+  },
+  "Bunnik|Markt": {
+    "lat": 52.0391518,
+    "lng": 5.2203198
+  },
+  "IJsselstein|Benschopperstraat": {
+    "lat": 52.0180135,
+    "lng": 5.040927
+  },
+  "Leersum|Kerkplein": {
+    "lat": 52.0108995,
+    "lng": 5.4336134
+  },
+  "Leusden|Winkelcentrum Máximaplein": {
+    "lat": 52.130355,
+    "lng": 5.4286989
+  },
+  "Leusden|Winkelcentrum De Hamershof": {
+    "lat": 52.1298288,
+    "lng": 5.4280602
+  },
+  "Overberg|Haarweg": {
+    "lat": 52.0340704,
+    "lng": 5.5128538
+  },
+  "Utrecht|Van Starkenborghhof": {
+    "lat": 52.074623,
+    "lng": 5.0935486
+  },
+  "Utrecht|Verlengde Houtrakgracht": {
+    "lat": 52.0881402,
+    "lng": 5.0545432
+  },
+  "Veenendaal|Bruïneplein": {
+    "lat": 52.0177863,
+    "lng": 5.5421558
+  },
+  "Achterveld|Hessenweg": {
+    "lat": 52.1348466,
+    "lng": 5.5042912
+  },
+  "Maarssenbroek|Bisonspoor": {
+    "lat": 52.1351025,
+    "lng": 5.027735
+  },
+  "Nieuwegein|Winkelcentrum Cityplaza": {
+    "lat": 52.0298704,
+    "lng": 5.0929334
+  },
+  "Spakenburg|Spuiplein": {
+    "lat": 52.2525735,
+    "lng": 5.3776635
+  },
+  "Utrecht|Breedstraat": {
+    "lat": 52.0952767,
+    "lng": 5.1199856
+  },
+  "Utrecht|Oudegracht": {
+    "lat": 52.0898195,
+    "lng": 5.1207652
+  },
+  "Utrecht|Janskerkhof": {
+    "lat": 52.093768,
+    "lng": 5.1224899
+  },
+  "Woerden|Kerkplein": {
+    "lat": 52.0856324,
+    "lng": 4.8829818
+  },
+  "Amsterdam|Ten Katestraat": {
+    "lat": 52.3651704,
+    "lng": 4.8680823
+  },
+  "Amsterdam|Noordermarkt": {
+    "lat": 52.3799538,
+    "lng": 4.8868719
+  },
+  "Amsterdam|Westerstraat": {
+    "lat": 52.378921,
+    "lng": 4.886274
+  },
+  "Amsterdam|Nieuwmarkt": {
+    "lat": 52.3725948,
+    "lng": 4.9003449
+  },
+  "Amsterdam|Waterlooplein": {
+    "lat": 52.3684453,
+    "lng": 4.9017859
+  },
+  "Amsterdam|Amstelveld": {
+    "lat": 52.3624282,
+    "lng": 4.897155
+  },
+  "Amsterdam|Anton de Komplein": {
+    "lat": 52.3158404,
+    "lng": 4.9558218
+  },
+  "Amsterdam|Lambertus Zijlplein": {
+    "lat": 52.3779433,
+    "lng": 4.8013777
+  },
+  "Amsterdam|Dappermarkt": {
+    "lat": 52.3630452,
+    "lng": 4.9272453
+  },
+  "Amsterdam|Albert Cuypstraat": {
+    "lat": 52.3546134,
+    "lng": 4.8865459
+  },
+  "Den Burg (Texel)|Groeneplaats": {
+    "lat": 53.0539495,
+    "lng": 4.7971384
+  },
+  "Haarlem|Grote Markt": {
+    "lat": 52.3813667,
+    "lng": 4.6360934
+  },
+  "Heerhugowaard|Raadhuisplein": {
+    "lat": 52.6702265,
+    "lng": 4.8428121
+  },
+  "Medemblik|Nieuwstraat": {
+    "lat": 52.7294391,
+    "lng": 5.167568
+  },
+  "Alkmaar|Frederik Hendriklaan": {
+    "lat": 52.618412,
+    "lng": 4.7408921
+  },
+  "Amstelveen|Stadsplein/Rembrandtweg": {
+    "lat": 52.3028209,
+    "lng": 4.8596844
+  },
+  "Amsterdam|Buikslotermeerplein": {
+    "lat": 52.4019931,
+    "lng": 4.9323589
+  },
+  "Amsterdam|Plein 40-45": {
+    "lat": 52.3800584,
+    "lng": 4.8215334
+  },
+  "Amsterdam|Tussen Meer": {
+    "lat": 52.3569213,
+    "lng": 4.7940606
+  },
+  "Amsterdam|Kraaiennest": {
+    "lat": 52.3169789,
+    "lng": 4.9790073
+  },
+  "Haarlem|Schalkwijk Winkelcentrum": {
+    "lat": 52.3596236,
+    "lng": 4.6563137
+  },
+  "Hoofddorp|Overbos Winkelcentrum": {
+    "lat": 52.305554,
+    "lng": 4.6926644
+  },
+  "Hoorn|Betje Wolffplein, Kersenboogerd": {
+    "lat": 52.6525629,
+    "lng": 5.0859873
+  },
+  "Krommenie|Heiligeweg": {
+    "lat": 52.5022159,
+    "lng": 4.7603747
+  },
+  "Purmerend|Binnenstad": {
+    "lat": 52.5024789,
+    "lng": 4.9614827
+  },
+  "Spanbroek|'t Wuiver": {
+    "lat": 52.7022523,
+    "lng": 4.9476559
+  },
+  "Velserbroek|Aurora Bastion": {
+    "lat": 52.4349494,
+    "lng": 4.6595594
+  },
+  "Alkmaar|De Mare": {
+    "lat": 52.6565362,
+    "lng": 4.7558027
+  },
+  "Amstelveen|Markt Oude Dorp": {
+    "lat": 52.3028209,
+    "lng": 4.8596844
+  },
+  "Amsterdam|Van der Pekmarkt": {
+    "lat": 52.3730796,
+    "lng": 4.8924534
+  },
+  "Amsterdam|Haarlemmerplein": {
+    "lat": 52.3846142,
+    "lng": 4.8837172
+  },
+  "Amsterdam|Van Eesterenlaan": {
+    "lat": 52.3735329,
+    "lng": 4.9383497
+  },
+  "Amsterdam|Reigersbos": {
+    "lat": 52.2956478,
+    "lng": 4.9744218
+  },
+  "Andijk|Centrum": {
+    "lat": 52.7481091,
+    "lng": 5.2206712
+  },
+  "Anna Paulowna|Marktplein": {
+    "lat": 52.860219,
+    "lng": 4.8245885
+  },
+  "Badhoevedorp|Sloterweg": {
+    "lat": 52.3393328,
+    "lng": 4.7806114
+  },
+  "Beverwijk|Breestraat": {
+    "lat": 52.4836277,
+    "lng": 4.6607506
+  },
+  "Broek in Waterland|Centrum": {
+    "lat": 52.4331998,
+    "lng": 4.9977184
+  },
+  "Den Helder|Stationstraat": {
+    "lat": 52.9529894,
+    "lng": 4.8267592
+  },
+  "Diemen|Diemerplein": {
+    "lat": 52.3413376,
+    "lng": 4.9624681
+  },
+  "Edam|Centrum": {
+    "lat": 52.4950218,
+    "lng": 5.0702422
+  },
+  "Enkhuizen|Westerstraat": {
+    "lat": 52.7038846,
+    "lng": 5.2899737
+  },
+  "Haarlem|Floresstraat": {
+    "lat": 52.3992795,
+    "lng": 4.6445815
+  },
+  "Heemstede|Binnenweg": {
+    "lat": 52.3534734,
+    "lng": 4.6213089
+  },
+  "Heiloo|Centrum": {
+    "lat": 52.5996575,
+    "lng": 4.7015708
+  },
+  "Hilversum|Marktplein": {
+    "lat": 52.2273877,
+    "lng": 5.1773341
+  },
+  "Hoofddorp|Burgemeester Van Stamplein": {
+    "lat": 52.3018812,
+    "lng": 4.6916731
+  },
+  "Hoofddorp (Toolenburg)|Winkelcentrum Toolenburg": {
+    "lat": 52.3011452,
+    "lng": 4.6640207
+  },
+  "Hoorn|Risdam": {
+    "lat": 52.661129,
+    "lng": 5.0499555
+  },
+  "Middenmeer|Centrum": {
+    "lat": 52.8111468,
+    "lng": 4.9948462
+  },
+  "Oudorp|Nijenburghplein": {
+    "lat": 52.6373477,
+    "lng": 4.7754664
+  },
+  "Purmerend|Meerland": {
+    "lat": 52.4947455,
+    "lng": 4.9686693
+  },
+  "Uithoorn|Amstelplein": {
+    "lat": 52.2322613,
+    "lng": 4.8275581
+  },
+  "Wormerveer|Marktplein": {
+    "lat": 52.4945435,
+    "lng": 4.7864088
+  },
+  "Zandvoort|Grote Krocht": {
+    "lat": 52.3710019,
+    "lng": 4.5330866
+  },
+  "Bovenkarspel|Raadhuisplein": {
+    "lat": 52.6984298,
+    "lng": 5.2499956
+  },
+  "Broek op Langedijk|Broekerplein": {
+    "lat": 52.679327,
+    "lng": 4.8046543
+  },
+  "Bussum|Wilhelminaplantsoen": {
+    "lat": 52.2752039,
+    "lng": 5.1637657
+  },
+  "De Rijp|Jan Boonplein": {
+    "lat": 52.5589882,
+    "lng": 4.8493694
+  },
+  "IJmuiden|Velserduinplein": {
+    "lat": 52.4602205,
+    "lng": 4.620211
+  },
+  "Nieuw-Vennep|Harmonieplein": {
+    "lat": 52.2651807,
+    "lng": 4.6293066
+  },
+  "Purmerend|Weidevenne": {
+    "lat": 52.5001617,
+    "lng": 4.9383049
+  },
+  "Rijsenhout|Werf": {
+    "lat": 52.2585772,
+    "lng": 4.7153471
+  },
+  "Schagen|Laan en Gedempte Gracht": {
+    "lat": 52.7882212,
+    "lng": 4.7413568
+  },
+  "Uitgeest|Centrum": {
+    "lat": 52.5303233,
+    "lng": 4.7090367
+  },
+  "Zaandam|Rozengracht": {
+    "lat": 52.4385896,
+    "lng": 4.8203297
+  },
+  "Amstelveen|Stadshart": {
+    "lat": 52.3033029,
+    "lng": 4.8601772
+  },
+  "Amsterdam|Spui": {
+    "lat": 52.3687817,
+    "lng": 4.889683
+  },
+  "Castricum|Bakkerspleintje": {
+    "lat": 52.5471751,
+    "lng": 4.6625885
+  },
+  "Haarlem|Zomerkade": {
+    "lat": 52.3754255,
+    "lng": 4.6550554
+  },
+  "Heemskerk|Burgemeester Nielenplein": {
+    "lat": 52.5108769,
+    "lng": 4.6714765
+  },
+  "Hoogkarspel|Centrum": {
+    "lat": 52.690467,
+    "lng": 5.1825103
+  },
+  "Landsmeer|Dorpsplein": {
+    "lat": 52.4296098,
+    "lng": 4.9136088
+  },
+  "Middenbeemster|Middenweg": {
+    "lat": 52.5438535,
+    "lng": 4.9099895
+  },
+  "Oostzaan|Kerkplein": {
+    "lat": 52.440665,
+    "lng": 4.8760433
+  },
+  "Purmerend|Gildeplein": {
+    "lat": 52.5055943,
+    "lng": 4.9848163
+  },
+  "Santpoort-Noord|Hagelingerweg": {
+    "lat": 52.4381343,
+    "lng": 4.642801
+  },
+  "Wognum|De Boogerd": {
+    "lat": 52.6818331,
+    "lng": 5.0230346
+  },
+  "Alkmaar|Centrum / Gedempte Nieuwesloot": {
+    "lat": 52.6008538,
+    "lng": 4.8170994
+  },
+  "Alkmaar|Kerkplein": {
+    "lat": 52.6329732,
+    "lng": 4.7439641
+  },
+  "Amsterdam|Lindengracht": {
+    "lat": 52.3798181,
+    "lng": 4.8824106
+  },
+  "Amsterdam|Nieuwmarkt Boerenmarkt": {
+    "lat": 52.3730796,
+    "lng": 4.8924534
+  },
+  "Amsterdam|Stadionplein": {
+    "lat": 52.3435214,
+    "lng": 4.8569241
+  },
+  "Amsterdam|Ganzenhoef": {
+    "lat": 52.3230792,
+    "lng": 4.9735502
+  },
+  "Bergen|Ruinekerk": {
+    "lat": 52.6693424,
+    "lng": 4.7004425
+  },
+  "Den Helder|Beatrixstraat": {
+    "lat": 52.9575122,
+    "lng": 4.7642818
+  },
+  "Haarlem|Botermarkt": {
+    "lat": 52.3796864,
+    "lng": 4.6319903
+  },
+  "Hoofddorp (Floriande)|Winkelcentrum Floriande": {
+    "lat": 52.3070518,
+    "lng": 4.6382905
+  },
+  "Hoorn|Nieuwstraat": {
+    "lat": 52.6410897,
+    "lng": 5.0598845
+  },
+  "Monnickendam|Centrum": {
+    "lat": 52.4499957,
+    "lng": 5.0356969
+  },
+  "Naarden|Marktplein": {
+    "lat": 52.2957628,
+    "lng": 5.1633636
+  },
+  "Purmerend|Wormerplein": {
+    "lat": 52.5131202,
+    "lng": 4.959425
+  },
+  "Volendam|Conijnstraat": {
+    "lat": 52.4955955,
+    "lng": 5.0753549
+  },
+  "Alblasserdam|Wilgenplein": {
+    "lat": 51.8647827,
+    "lng": 4.6581499
+  },
+  "Brielle|Turfkade": {
+    "lat": 51.9013081,
+    "lng": 4.1655648
+  },
+  "Den Haag|Haagse Markt, Herman Costerstraat": {
+    "lat": 52.0799838,
+    "lng": 4.3113461
+  },
+  "Gorinchem|Centrum": {
+    "lat": 51.8365952,
+    "lng": 5.008006
+  },
+  "Lisse|Centrum": {
+    "lat": 52.2575829,
+    "lng": 4.5585084
+  },
+  "Rotterdam|Dominee Jan Scharpstraat 298": {
+    "lat": 51.919771,
+    "lng": 4.4862592
+  },
+  "Bergschenhoek|Winkelcentrum De Vlashoeck": {
+    "lat": 51.9883519,
+    "lng": 4.5011967
+  },
+  "Berkenwoude|Centrum": {
+    "lat": 51.9452551,
+    "lng": 4.7084018
+  },
+  "Delft|Papsouwselaan": {
+    "lat": 51.9990337,
+    "lng": 4.3549066
+  },
+  "Den Haag|Leyweg (Escamp)": {
+    "lat": 52.0482961,
+    "lng": 4.2766821
+  },
+  "Dordrecht|Damplein": {
+    "lat": 51.7944584,
+    "lng": 4.704676
+  },
+  "Gouda|Winkelcentrum Bloemendaal": {
+    "lat": 52.0320903,
+    "lng": 4.7042996
+  },
+  "Goudriaan|Burg. Van Slijpestraat": {
+    "lat": 51.9017426,
+    "lng": 4.8941475
+  },
+  "Hoek van Holland|Brinkplein & Prins Hendrikstraat": {
+    "lat": 51.9771615,
+    "lng": 4.1314526
+  },
+  "Hoornaar|Parkeerplaats Dirk IV-Plein": {
+    "lat": 51.8803846,
+    "lng": 4.9463797
+  },
+  "Krimpen aan den IJssel|Centrum": {
+    "lat": 51.9127882,
+    "lng": 4.5880245
+  },
+  "Leiden|Winkelcentrum De Luifelbaan": {
+    "lat": 52.1594747,
+    "lng": 4.4908843
+  },
+  "Leidschendam|Westfield Mall of the Netherlands": {
+    "lat": 52.0889636,
+    "lng": 4.3843958
+  },
+  "Leimuiden|Centrum": {
+    "lat": 52.2239922,
+    "lng": 4.6724358
+  },
+  "Maassluis|Winkelcentrum Koningshoek": {
+    "lat": 51.9266671,
+    "lng": 4.2440007
+  },
+  "Monster|Molenstraat": {
+    "lat": 52.0263548,
+    "lng": 4.1742044
+  },
+  "Noordeloos|Centrum": {
+    "lat": 51.9038757,
+    "lng": 4.9427289
+  },
+  "Numansdorp|Centrum": {
+    "lat": 51.7266233,
+    "lng": 4.4374377
+  },
+  "Oegstgeest|Lange Voort": {
+    "lat": 52.1821185,
+    "lng": 4.488689
+  },
+  "Ouddorp|Ring": {
+    "lat": 51.8093867,
+    "lng": 3.9349073
+  },
+  "Papendrecht|Meentpassage": {
+    "lat": 51.8263692,
+    "lng": 4.683835
+  },
+  "Rijnsburg|Hoftuinplein": {
+    "lat": 52.1917533,
+    "lng": 4.4415001
+  },
+  "Rotterdam|Binnenrotte-Hoogstraat": {
+    "lat": 51.9219396,
+    "lng": 4.4862575
+  },
+  "Schiedam|Bachplein": {
+    "lat": 51.9363009,
+    "lng": 4.3721462
+  },
+  "Spijkenisse|Markt": {
+    "lat": 51.8502775,
+    "lng": 4.3245381
+  },
+  "Streefkerk|Centrum": {
+    "lat": 51.9019143,
+    "lng": 4.7436108
+  },
+  "Wassenaar|Berkheiveld": {
+    "lat": 52.1466138,
+    "lng": 4.3899926
+  },
+  "Westmaas|Centrum": {
+    "lat": 51.7877888,
+    "lng": 4.4737754
+  },
+  "Zuid-Beijerland|Centrum": {
+    "lat": 51.8272179,
+    "lng": 4.4093364
+  },
+  "Zoetermeer|Oosterheem, Florence Nightingalelaan": {
+    "lat": 52.0591275,
+    "lng": 4.5405006
+  },
+  "Zwijndrecht|Winkelcentrum Oudeland": {
+    "lat": 51.8201541,
+    "lng": 4.6094327
+  },
+  "Alphen aan den Rijn|Centrum": {
+    "lat": 52.1302124,
+    "lng": 4.6574297
+  },
+  "Berkel en Rodenrijs|Centrum": {
+    "lat": 51.994942,
+    "lng": 4.4733183
+  },
+  "Bleskensgraaf|Kerkplein": {
+    "lat": 51.8721978,
+    "lng": 4.7825711
+  },
+  "Den Haag|Boerenmarkt": {
+    "lat": 52.0827169,
+    "lng": 4.3144143
+  },
+  "Den Haag|Haagse Markt": {
+    "lat": 52.064398,
+    "lng": 4.2993206
+  },
+  "Den Haag|Loosduinse Hoofdplein": {
+    "lat": 52.0529448,
+    "lng": 4.2350513
+  },
+  "Groot-Ammers|Dorpsplein": {
+    "lat": 51.9243571,
+    "lng": 4.8243822
+  },
+  "Gouda|Winkelcentrum Goverwelle": {
+    "lat": 52.0109563,
+    "lng": 4.7443583
+  },
+  "Heinenoord|Dorpsstraat": {
+    "lat": 51.8257519,
+    "lng": 4.4759689
+  },
+  "Hendrik-Ido-Ambacht|De Schoof": {
+    "lat": 51.8493595,
+    "lng": 4.6439596
+  },
+  "Klaaswaal|Centrum": {
+    "lat": 51.7691404,
+    "lng": 4.4464742
+  },
+  "Leiden|Centrum": {
+    "lat": 52.1666076,
+    "lng": 4.4770577
+  },
+  "Lekkerkerk|Kerkplein": {
+    "lat": 51.8949116,
+    "lng": 4.683613
+  },
+  "Middelharnis|Nieuwstraat": {
+    "lat": 51.7598142,
+    "lng": 4.1638929
+  },
+  "Naaldwijk|Wilhelminaplein": {
+    "lat": 51.9930061,
+    "lng": 4.2074675
+  },
+  "Oostvoorne|Dorpsplein": {
+    "lat": 51.9153182,
+    "lng": 4.1031567
+  },
+  "Oud-Beijerland|Centrum": {
+    "lat": 51.8272179,
+    "lng": 4.4093364
+  },
+  "Pijnacker-Nootdorp|Raadhuisplein": {
+    "lat": 52.0189309,
+    "lng": 4.4316372
+  },
+  "Puttershoek|Marktplein": {
+    "lat": 51.8051942,
+    "lng": 4.5681144
+  },
+  "Rotterdam|Afrikaanderplein Zuid": {
+    "lat": 51.9008508,
+    "lng": 4.5012696
+  },
+  "Rotterdam|Ommoord": {
+    "lat": 51.9625053,
+    "lng": 4.5457688
+  },
+  "Rozenburg|Raadhuisplein": {
+    "lat": 51.9053568,
+    "lng": 4.2493972
+  },
+  "Schoonhoven|Havenplein": {
+    "lat": 51.9463984,
+    "lng": 4.8516431
+  },
+  "Sliedrecht|Burgemeester Winklerplein": {
+    "lat": 51.8225404,
+    "lng": 4.7772725
+  },
+  "Vlaardingen|Veerplein": {
+    "lat": 51.90981,
+    "lng": 4.3402996
+  },
+  "Wateringen|Vliethof": {
+    "lat": 52.0247464,
+    "lng": 4.2752074
+  },
+  "Zuidland|Breedstraat": {
+    "lat": 51.8221618,
+    "lng": 4.2589182
+  },
+  "Bergambacht|Pleinstraat": {
+    "lat": 51.9352434,
+    "lng": 4.787787
+  },
+  "Bleiswijk|Kranenburgplein": {
+    "lat": 52.0102809,
+    "lng": 4.5302027
+  },
+  "Capelle aan den IJssel|Centrum": {
+    "lat": 51.9313801,
+    "lng": 4.5895585
+  },
+  "Delft|Markt & Brabantse Turfmarkt": {
+    "lat": 52.0103977,
+    "lng": 4.3605221
+  },
+  "Den Haag|Antiek- en boekenmarkt": {
+    "lat": 52.0799838,
+    "lng": 4.3113461
+  },
+  "Den Haag|Prins Hendrikplein": {
+    "lat": 52.0824573,
+    "lng": 4.2946214
+  },
+  "Den Haag|Stevinstraat (Scheveningen)": {
+    "lat": 52.1097881,
+    "lng": 4.2875568
+  },
+  "Gouda|Marktplein": {
+    "lat": 52.0114922,
+    "lng": 4.7106094
+  },
+  "Goedereede|Havenplein": {
+    "lat": 51.8181316,
+    "lng": 3.9776752
+  },
+  "Haastrecht|Kleine Haven": {
+    "lat": 52.0017376,
+    "lng": 4.7752926
+  },
+  "Hazerswoude-Rijndijk|Da Costasingel": {
+    "lat": 52.1276854,
+    "lng": 4.588553
+  },
+  "Hoogblokland|Dorpsplein": {
+    "lat": 51.8745997,
+    "lng": 4.9735161
+  },
+  "Leiden|Stevensbloem": {
+    "lat": 52.1512142,
+    "lng": 4.4531083
+  },
+  "Leiderdorp|Van Diepeningenlaan": {
+    "lat": 52.1571529,
+    "lng": 4.5302202
+  },
+  "Nieuw-Lekkerland|Kleyburgplein": {
+    "lat": 51.8863044,
+    "lng": 4.677194
+  },
+  "Noordwijk|Kloosterplein": {
+    "lat": 52.2344186,
+    "lng": 4.4457081
+  },
+  "Oud-Alblas|Schoolstraat": {
+    "lat": 51.8581821,
+    "lng": 4.7050939
+  },
+  "Rotterdam|Grote Visserijplein West": {
+    "lat": 51.9244424,
+    "lng": 4.47775
+  },
+  "Rotterdam|Hoogvliet": {
+    "lat": 51.8652855,
+    "lng": 4.3641111
+  },
+  "Rotterdam|IJsselmonde": {
+    "lat": 51.8867438,
+    "lng": 4.5423012
+  },
+  "Sassenheim|Centrum": {
+    "lat": 52.2047333,
+    "lng": 4.4896135
+  },
+  "Strijen|Centrum": {
+    "lat": 51.6458408,
+    "lng": 4.8608678
+  },
+  "Vlaardingen|Winkelcentrum De Loper": {
+    "lat": 51.9227863,
+    "lng": 4.3295634
+  },
+  "Zwijndrecht|Winkelcentrum Walburg": {
+    "lat": 51.8228831,
+    "lng": 4.652228
+  },
+  "Ammerstol|Kerkplein": {
+    "lat": 51.9271438,
+    "lng": 4.8096412
+  },
+  "Arkel|Plein 983": {
+    "lat": 51.8635046,
+    "lng": 4.9934373
+  },
+  "Barendrecht|Het Binnenhof": {
+    "lat": 51.8566651,
+    "lng": 4.5368567
+  },
+  "Boven-Hardinxveld|Marktplein": {
+    "lat": 51.8323509,
+    "lng": 4.8785268
+  },
+  "Den Haag|Vuursteen (Ypenburg)": {
+    "lat": 52.040213,
+    "lng": 4.3688808
+  },
+  "Dordrecht|Statenplein": {
+    "lat": 51.8143212,
+    "lng": 4.6695204
+  },
+  "'s-Gravenzande|Marktplein": {
+    "lat": 52.0028588,
+    "lng": 4.1622414
+  },
+  "Hazerswoude-Dorp|Ambachtsplein": {
+    "lat": 52.0967553,
+    "lng": 4.5925723
+  },
+  "Heenvliet|Marktstraat": {
+    "lat": 51.8637036,
+    "lng": 4.2445237
+  },
+  "Katwijk|Centrum": {
+    "lat": 52.2041609,
+    "lng": 4.3988653
+  },
+  "Krimpen aan de Lek|Dorpsplein": {
+    "lat": 51.8954222,
+    "lng": 4.6375491
+  },
+  "Leiden|Winkelcentrum De Kopermolen": {
+    "lat": 52.1764798,
+    "lng": 4.5053893
+  },
+  "Maassluis|Marelstraat": {
+    "lat": 51.9237656,
+    "lng": 4.2541716
+  },
+  "Mijnsheerenland|Raadhuisstraat": {
+    "lat": 51.7987352,
+    "lng": 4.4874953
+  },
+  "Nieuwpoort|Tiendweg": {
+    "lat": 51.9296464,
+    "lng": 4.8722439
+  },
+  "Ottoland|Vuilendam": {
+    "lat": 51.8840883,
+    "lng": 4.8483515
+  },
+  "Oude-Tonge|Kaaiplein": {
+    "lat": 51.6914369,
+    "lng": 4.2138731
+  },
+  "Ridderkerk|Sint Jorisplein": {
+    "lat": 51.8701299,
+    "lng": 4.6000022
+  },
+  "Rockanje|Centrum": {
+    "lat": 51.8737256,
+    "lng": 4.0615424
+  },
+  "Roelofarendsveen|Schoolbaan": {
+    "lat": 52.2043186,
+    "lng": 4.6436904
+  },
+  "Rotterdam|Alexanderpolder": {
+    "lat": 51.9433853,
+    "lng": 4.5371324
+  },
+  "Rotterdam|Asterlo Zuidwijk": {
+    "lat": 51.8740416,
+    "lng": 4.4829463
+  },
+  "Rotterdam|Overschie": {
+    "lat": 51.9385073,
+    "lng": 4.4300816
+  },
+  "Rotterdam|Schiebroek": {
+    "lat": 51.9604832,
+    "lng": 4.469536
+  },
+  "Schelluinen|Commanderijstraat": {
+    "lat": 51.8441373,
+    "lng": 4.9259174
+  },
+  "Schiedam|Broersveld": {
+    "lat": 51.9169937,
+    "lng": 4.401411
+  },
+  "Stolwijk|Dorpsplein": {
+    "lat": 51.9722578,
+    "lng": 4.7715724
+  },
+  "Ter Aar|Lindenplein": {
+    "lat": 52.1679149,
+    "lng": 4.7099764
+  },
+  "Voorhout|Raadhuisplein": {
+    "lat": 52.2231413,
+    "lng": 4.4874955
+  },
+  "Voorschoten|Voorstraat": {
+    "lat": 52.123773,
+    "lng": 4.4451362
+  },
+  "Woubrugge|Batehof": {
+    "lat": 52.1679011,
+    "lng": 4.6358432
+  },
+  "Zoetermeer|Rokkeveen": {
+    "lat": 52.0400988,
+    "lng": 4.4829587
+  },
+  "Alphen aan den Rijn|Thorbeckeplein": {
+    "lat": 52.1310519,
+    "lng": 4.6640794
+  },
+  "Boskoop|Gouweplein": {
+    "lat": 52.0742348,
+    "lng": 4.6631166
+  },
+  "Delft|Brabantse Turfmarkt en Burgwal": {
+    "lat": 52.0114017,
+    "lng": 4.35839
+  },
+  "Dirksland|Geldersedijk": {
+    "lat": 51.747096,
+    "lng": 4.1054969
+  },
+  "Giessenburg|Winkelcentrum Dorpsstraat": {
+    "lat": 51.8518163,
+    "lng": 4.8875783
+  },
+  "Gorinchem|Groenmarkt": {
+    "lat": 51.8298659,
+    "lng": 4.9736493
+  },
+  "Gouda|Markt": {
+    "lat": 52.0121146,
+    "lng": 4.7107865
+  },
+  "Gouderak|Johan Brouckplein": {
+    "lat": 51.9838141,
+    "lng": 4.6756627
+  },
+  "Hellevoetsluis|Woordbouwerplein": {
+    "lat": 51.829421,
+    "lng": 4.1411542
+  },
+  "Hendrik-Ido-Ambacht|Sophiapromenade": {
+    "lat": 51.8349495,
+    "lng": 4.6465015
+  },
+  "Neder-Hardinxveld|Houweningeplaats": {
+    "lat": 51.8280452,
+    "lng": 4.8370411
+  },
+  "Nieuw Beijerland|Centrum": {
+    "lat": 51.8103814,
+    "lng": 4.3417551
+  },
+  "Nieuw Lekkerland|Centrum": {
+    "lat": 51.8865327,
+    "lng": 4.6865217
+  },
+  "Nieuwkoop|Reghthuysplein": {
+    "lat": 52.1508219,
+    "lng": 4.778788
+  },
+  "Ooltgensplaat|Beneden Molendijk": {
+    "lat": 51.681165,
+    "lng": 4.3496286
+  },
+  "Ouderkerk aan den IJssel|Centrum": {
+    "lat": 51.9344514,
+    "lng": 4.6358147
+  },
+  "Rijswijk|Winkelcentrum Oud Rijswijk": {
+    "lat": 52.0446265,
+    "lng": 4.3188215
+  },
+  "Rotterdam|Visserijplein West": {
+    "lat": 51.9244424,
+    "lng": 4.47775
+  },
+  "Voorburg|Oosteinde": {
+    "lat": 52.0725369,
+    "lng": 4.3735497
+  },
+  "Zoetermeer|Centrum, langs de Dobbe": {
+    "lat": 52.0622531,
+    "lng": 4.4901218
+  },
+  "'s Gravendeel|Centrum": {
+    "lat": 51.7806608,
+    "lng": 4.6198749
+  },
+  "Hulst|Centrum / Grote Markt": {
+    "lat": 51.3315936,
+    "lng": 4.0877328
+  },
+  "Goes|Grote Markt": {
+    "lat": 51.5044197,
+    "lng": 3.8906253
+  },
+  "Kapelle|CD Vereekestraat": {
+    "lat": 51.4831846,
+    "lng": 3.9612365
+  },
+  "Kruiningen|Markt": {
+    "lat": 51.4486978,
+    "lng": 4.0342679
+  },
+  "Poortvliet|Kerkplein": {
+    "lat": 51.5450522,
+    "lng": 4.1438299
+  },
+  "Sas van Gent|Markt": {
+    "lat": 51.227911,
+    "lng": 3.799911
+  },
+  "Scherpenisse|Spuidamstraat": {
+    "lat": 51.5495888,
+    "lng": 4.1032996
+  },
+  "Tholen|Markt": {
+    "lat": 51.5441914,
+    "lng": 4.1438347
+  },
+  "Nieuw- en Sint Joosland|Markt": {
+    "lat": 51.4819696,
+    "lng": 3.6568838
+  },
+  "Oostburg|Markt": {
+    "lat": 51.3265772,
+    "lng": 3.4898547
+  },
+  "Renesse|Markt": {
+    "lat": 51.7321684,
+    "lng": 3.7738187
+  },
+  "Stavenisse|Van de Lek de Clercqplein": {
+    "lat": 51.5861864,
+    "lng": 4.0113677
+  },
+  "Terneuzen|Markt": {
+    "lat": 51.2651395,
+    "lng": 3.908973
+  },
+  "Breskens|Oranjeplein": {
+    "lat": 51.3948493,
+    "lng": 3.5600198
+  },
+  "Heinkenszand|Markt": {
+    "lat": 51.4723969,
+    "lng": 3.8168553
+  },
+  "Hulst|Grote Markt": {
+    "lat": 51.2797097,
+    "lng": 4.0535237
+  },
+  "Middelburg|Markt": {
+    "lat": 51.4980925,
+    "lng": 3.6115833
+  },
+  "Oud-Vossemeer|Markt": {
+    "lat": 51.5702314,
+    "lng": 4.1990411
+  },
+  "Sint-Annaland|Parkeerterrein Havenplein": {
+    "lat": 51.6003889,
+    "lng": 4.1023311
+  },
+  "Zierikzee|Markt": {
+    "lat": 51.6498198,
+    "lng": 3.9199111
+  },
+  "Arnemuiden|Markt": {
+    "lat": 51.5002632,
+    "lng": 3.6734992
+  },
+  "Sint-Maartensdijk|Parkeerterrein van de Markt": {
+    "lat": 51.548799,
+    "lng": 4.0782993
+  },
+  "Sint Philipsland|Voorstraat": {
+    "lat": 51.61601,
+    "lng": 4.166843
+  },
+  "Sluis|Markt": {
+    "lat": 51.3790587,
+    "lng": 3.506877
+  },
+  "Terneuzen (Zuidpolder)|Winkelcentrum Zuidpolder": {
+    "lat": 51.3203981,
+    "lng": 3.8497188
+  },
+  "Vlissingen|Spuiplein": {
+    "lat": 51.4943387,
+    "lng": 3.4150058
+  },
+  "Yerseke|Markt": {
+    "lat": 51.4928802,
+    "lng": 4.0494273
+  },
+  "Wemeldinge|Dorpsplein": {
+    "lat": 51.5171788,
+    "lng": 3.9947444
+  },
+  "Axel|Markt": {
+    "lat": 51.2660464,
+    "lng": 3.9085633
+  },
+  "IJzendijke|Markt": {
+    "lat": 51.3217887,
+    "lng": 3.6163256
+  },
+  "Vlissingen|Kop van het Scheldeplein": {
+    "lat": 51.4943387,
+    "lng": 3.4150058
+  },
+  "Budel|Markt": {
+    "lat": 51.2744043,
+    "lng": 5.574537
+  },
+  "Dongen|Looiersplein": {
+    "lat": 51.6254772,
+    "lng": 4.9437845
+  },
+  "Eindhoven|Wijnpeerstraat": {
+    "lat": 51.4778497,
+    "lng": 5.4930013
+  },
+  "Gemert|Nieuwstraat": {
+    "lat": 51.5568738,
+    "lng": 5.6820022
+  },
+  "Nuenen|Park": {
+    "lat": 51.4734515,
+    "lng": 5.5492547
+  },
+  "Roosendaal|Nieuwe Markt": {
+    "lat": 51.531874,
+    "lng": 4.458422
+  },
+  "Uden|Markt": {
+    "lat": 51.6567798,
+    "lng": 5.6175276
+  },
+  "Veldhoven|Meiveld": {
+    "lat": 51.4212231,
+    "lng": 5.405517
+  },
+  "Willemstad|Voorstraat": {
+    "lat": 51.6933595,
+    "lng": 4.43932
+  },
+  "Baarle-Nassau|Centrum": {
+    "lat": 51.4374696,
+    "lng": 4.8730747
+  },
+  "Bakel|Centrum": {
+    "lat": 51.5041547,
+    "lng": 5.7419148
+  },
+  "Bergeijk|Hof": {
+    "lat": 51.3213829,
+    "lng": 5.3574462
+  },
+  "Boekel|St. Agathaplein": {
+    "lat": 51.6030677,
+    "lng": 5.6727449
+  },
+  "Breda|Grote Markt": {
+    "lat": 51.5884199,
+    "lng": 4.7762416
+  },
+  "Breda|Veemarktplein": {
+    "lat": 51.5887845,
+    "lng": 4.7760237
+  },
+  "Den Dungen|Marktveld": {
+    "lat": 51.6656003,
+    "lng": 5.3712805
+  },
+  "Eindhoven|Centrum": {
+    "lat": 51.441291,
+    "lng": 5.4769722
+  },
+  "Fijnaart|Voorstraat": {
+    "lat": 51.6352395,
+    "lng": 4.4673073
+  },
+  "Gemonde|Centrum": {
+    "lat": 51.6204012,
+    "lng": 5.3556223
+  },
+  "Giessen|Kerkstraat": {
+    "lat": 51.792441,
+    "lng": 5.0362733
+  },
+  "Hapert|De Markt": {
+    "lat": 51.3691893,
+    "lng": 5.2523405
+  },
+  "Lieshout|Dorpsstraat": {
+    "lat": 51.519966,
+    "lng": 5.5943064
+  },
+  "Mierlo-Hout / Helmond|Winkelcentrum Houtvoort": {
+    "lat": 51.4670673,
+    "lng": 5.6346559
+  },
+  "Oirschot|Markt": {
+    "lat": 51.5030136,
+    "lng": 5.3077317
+  },
+  "Oss|Terwaenen, Eikenboomgaardstraat, Heuvel": {
+    "lat": 51.7783542,
+    "lng": 5.5320836
+  },
+  "Oudenbosch|Julianalaan": {
+    "lat": 51.5906755,
+    "lng": 4.5285919
+  },
+  "Rijsbergen|Centrum": {
+    "lat": 51.5158877,
+    "lng": 4.7005455
+  },
+  "Sleeuwijk|De Nieuwe Es": {
+    "lat": 51.8129614,
+    "lng": 4.944959
+  },
+  "Terheijden|Dorpsplein": {
+    "lat": 51.6423916,
+    "lng": 4.7530509
+  },
+  "Udenhout|Tongerloplein": {
+    "lat": 51.6092582,
+    "lng": 5.1422046
+  },
+  "Wijk en Aalburg|Markt": {
+    "lat": 51.7558694,
+    "lng": 5.130465
+  },
+  "Alphen|Centrum": {
+    "lat": 51.4841903,
+    "lng": 4.9537304
+  },
+  "Asten|Marktplein": {
+    "lat": 51.3869026,
+    "lng": 5.7914467
+  },
+  "Beek en Donk|Piet van Thielplein": {
+    "lat": 51.5384765,
+    "lng": 5.6277906
+  },
+  "Berlicum|Mercuriusplein": {
+    "lat": 51.6790203,
+    "lng": 5.3991904
+  },
+  "Bladel|Marktplein": {
+    "lat": 51.3712108,
+    "lng": 5.2346306
+  },
+  "Breda|Heksenwiel": {
+    "lat": 51.6222524,
+    "lng": 4.7437531
+  },
+  "Casteren|Zandstraat/Kerkstraat": {
+    "lat": 51.3964221,
+    "lng": 5.2381619
+  },
+  "Chaam|Wouwerdries": {
+    "lat": 51.50403,
+    "lng": 4.8661373
+  },
+  "Cuijk|Louis Jansenplein": {
+    "lat": 51.7288997,
+    "lng": 5.8791431
+  },
+  "Den Bosch|De Markt": {
+    "lat": 51.6890497,
+    "lng": 5.3033637
+  },
+  "Eindhoven|Kastelenplein": {
+    "lat": 51.4195106,
+    "lng": 5.4405365
+  },
+  "Eindhoven|Winkelcentrum Woensel": {
+    "lat": 51.4680789,
+    "lng": 5.4765243
+  },
+  "Galder|Centrum": {
+    "lat": 51.5126083,
+    "lng": 4.774972
+  },
+  "Geldrop|Centrum": {
+    "lat": 51.4217027,
+    "lng": 5.5593169
+  },
+  "Geffen|Centrum": {
+    "lat": 51.7422509,
+    "lng": 5.4621199
+  },
+  "Heesch|Raadhuisplein": {
+    "lat": 51.73519,
+    "lng": 5.5266331
+  },
+  "Hoogeloon|Dorpsplein": {
+    "lat": 51.3970303,
+    "lng": 5.2683632
+  },
+  "Made|Markt": {
+    "lat": 51.6798734,
+    "lng": 4.7927219
+  },
+  "Mill|Centrum": {
+    "lat": 51.6857955,
+    "lng": 5.7835017
+  },
+  "Oosterhout|Winkelcentrum Zuiderhout": {
+    "lat": 51.627425,
+    "lng": 4.8575616
+  },
+  "Reek|Centrum": {
+    "lat": 51.7466241,
+    "lng": 5.6827761
+  },
+  "Sint Anthonis|Markt": {
+    "lat": 51.626921,
+    "lng": 5.8816763
+  },
+  "Someren|Wilhelminaplein": {
+    "lat": 51.3859784,
+    "lng": 5.7135429
+  },
+  "Steenbergen|Westdam": {
+    "lat": 51.5875594,
+    "lng": 4.3164384
+  },
+  "Tilburg|Besterdplein": {
+    "lat": 51.5645667,
+    "lng": 5.0910548
+  },
+  "Waalwijk|Centrum": {
+    "lat": 51.6895987,
+    "lng": 5.0667459
+  },
+  "Waspik|Dorpsplein": {
+    "lat": 51.6878278,
+    "lng": 4.9462695
+  },
+  "Woensdrecht|Dorpsplein": {
+    "lat": 51.4106688,
+    "lng": 4.327761
+  },
+  "Wouw|Torenplein": {
+    "lat": 51.5217242,
+    "lng": 4.3866449
+  },
+  "Aarle-Rixtel|Centrum": {
+    "lat": 51.5093107,
+    "lng": 5.6375541
+  },
+  "Almkerk|Mr. L.A. Donkerstraat": {
+    "lat": 51.7712923,
+    "lng": 4.9606582
+  },
+  "Bavel|J. van Gilsplein": {
+    "lat": 51.5660927,
+    "lng": 4.830925
+  },
+  "Bergen op Zoom|Stationsstraat": {
+    "lat": 51.4950911,
+    "lng": 4.2944755
+  },
+  "Berghem|Meester Gielenplein": {
+    "lat": 51.7713269,
+    "lng": 5.5673367
+  },
+  "Berkel-Enschot|Eikenbosch": {
+    "lat": 51.5833617,
+    "lng": 5.1404947
+  },
+  "Boxmeer|Steenstraat": {
+    "lat": 51.6487594,
+    "lng": 5.946267
+  },
+  "Breda|Winkelcentrum Hoge Vucht": {
+    "lat": 51.6081858,
+    "lng": 4.7897927
+  },
+  "Dinteloord|Raadhuisplein": {
+    "lat": 51.6356822,
+    "lng": 4.3705829
+  },
+  "Dussen|Centrum": {
+    "lat": 51.7308649,
+    "lng": 4.9630508
+  },
+  "Eindhoven|Generaal Bothastraat": {
+    "lat": 51.4419338,
+    "lng": 5.5145715
+  },
+  "Eindhoven|St. Trudoplein": {
+    "lat": 51.441568,
+    "lng": 5.4554156
+  },
+  "Goirle|Centrum": {
+    "lat": 51.5198921,
+    "lng": 5.0655749
+  },
+  "Hank|Kerkplein": {
+    "lat": 51.7360352,
+    "lng": 4.8986026
+  },
+  "Heerle|Kerkplein": {
+    "lat": 51.5187982,
+    "lng": 4.3620451
+  },
+  "Heeze|Jan Deckersstraat": {
+    "lat": 51.3784405,
+    "lng": 5.5782027
+  },
+  "Hoeven|Sint Janstraat": {
+    "lat": 51.5797755,
+    "lng": 4.5885299
+  },
+  "Klundert|Westerstraat": {
+    "lat": 51.6625666,
+    "lng": 4.5330508
+  },
+  "Lage Zwaluwe|Dorpsplein": {
+    "lat": 51.6901564,
+    "lng": 4.6637116
+  },
+  "Maarheeze|Centrum": {
+    "lat": 51.3136611,
+    "lng": 5.6132997
+  },
+  "Mierlo|Dorpsstraat": {
+    "lat": 51.4435577,
+    "lng": 5.6197035
+  },
+  "Nieuwendijk|Kerkweg/Rijksweg": {
+    "lat": 51.7764266,
+    "lng": 4.9190121
+  },
+  "Oisterwijk|Lindeplein": {
+    "lat": 51.5812404,
+    "lng": 5.1979361
+  },
+  "Oud Gastel|Kerkstraat": {
+    "lat": 51.5865158,
+    "lng": 4.4602492
+  },
+  "Rijen|Wilhelminaplein & Stationsstraat": {
+    "lat": 51.5879873,
+    "lng": 4.9194511
+  },
+  "Rijswijk (NB)|Parelplein": {
+    "lat": 51.794096,
+    "lng": 5.0269454
+  },
+  "Rosmalen|Centrum": {
+    "lat": 51.7157727,
+    "lng": 5.36467
+  },
+  "Son|Markt": {
+    "lat": 51.5110429,
+    "lng": 5.493844
+  },
+  "Sprang-Capelle|Raadhuisplein": {
+    "lat": 51.6706407,
+    "lng": 5.0236536
+  },
+  "Tilburg|Westermarkt": {
+    "lat": 51.5703739,
+    "lng": 5.0536832
+  },
+  "Tilburg|Heyhoef": {
+    "lat": 51.5784813,
+    "lng": 5.0055286
+  },
+  "Ulvenhout|Centrum": {
+    "lat": 51.5488342,
+    "lng": 4.7977229
+  },
+  "Valkenswaard|Markt": {
+    "lat": 51.350819,
+    "lng": 5.4601275
+  },
+  "Veghel|Meijerijplein": {
+    "lat": 51.6134636,
+    "lng": 5.5446455
+  },
+  "Vlijmen|Marktplein": {
+    "lat": 51.694263,
+    "lng": 5.2091225
+  },
+  "Vught|Moleneindplein": {
+    "lat": 51.6454849,
+    "lng": 5.2824951
+  },
+  "Woudrichem|Centrum": {
+    "lat": 51.8168214,
+    "lng": 5.0033435
+  },
+  "Zeeland (NB)|Plein bij de Jumbo": {
+    "lat": 51.6946426,
+    "lng": 5.6729081
+  },
+  "Zevenbergen|Centrum": {
+    "lat": 51.6446205,
+    "lng": 4.6065968
+  },
+  "Zundert|Markt": {
+    "lat": 51.4728336,
+    "lng": 4.6642171
+  },
+  "Andel|Dorpsplein": {
+    "lat": 51.7836518,
+    "lng": 5.0539136
+  },
+  "Boxtel|Markt": {
+    "lat": 51.5883624,
+    "lng": 5.3269462
+  },
+  "Den Bosch|Markt": {
+    "lat": 51.6886843,
+    "lng": 5.3036562
+  },
+  "Diessen|Centrum": {
+    "lat": 51.5198921,
+    "lng": 5.0655749
+  },
+  "Drunen|Raadhuisplein": {
+    "lat": 51.6863142,
+    "lng": 5.130916
+  },
+  "Eindhoven|Sint Gerardusplein": {
+    "lat": 51.4211083,
+    "lng": 5.4887476
+  },
+  "Erp|Hertog Janplein": {
+    "lat": 51.6009582,
+    "lng": 5.6054351
+  },
+  "Esbeek|Centrum": {
+    "lat": 51.4618953,
+    "lng": 5.1371625
+  },
+  "Gilze|Nieuwstraat": {
+    "lat": 51.5467581,
+    "lng": 4.9425638
+  },
+  "Grave|Hoofdwacht": {
+    "lat": 51.7596504,
+    "lng": 5.7411125
+  },
+  "Heeswijk-Dinther|Dorpsplein": {
+    "lat": 51.6493848,
+    "lng": 5.4739859
+  },
+  "Helmond|Winkelcentrum Brouwhorst": {
+    "lat": 51.4790956,
+    "lng": 5.6557686
+  },
+  "Helmond|Winkelcentrum Brandevoort": {
+    "lat": 51.4790956,
+    "lng": 5.6557686
+  },
+  "Herpen|Centrum": {
+    "lat": 51.7728234,
+    "lng": 5.6422866
+  },
+  "Hoogerheide|Centrum": {
+    "lat": 51.4406646,
+    "lng": 4.3429587
+  },
+  "Kaatsheuvel|Marktplein": {
+    "lat": 51.6598038,
+    "lng": 5.0319484
+  },
+  "Lith|Dorpsstraat": {
+    "lat": 51.8068343,
+    "lng": 5.4403237
+  },
+  "Loon op Zand|Markt": {
+    "lat": 51.6513839,
+    "lng": 5.0325992
+  },
+  "Middelrode|Driezeeg": {
+    "lat": 51.6633969,
+    "lng": 5.4190099
+  },
+  "Nistelrode|Centrum": {
+    "lat": 51.7046122,
+    "lng": 5.5614154
+  },
+  "Prinsenbeek|Markt": {
+    "lat": 51.6001416,
+    "lng": 4.71793
+  },
+  "Ravenstein|Markt": {
+    "lat": 51.7972065,
+    "lng": 5.6521316
+  },
+  "Sint-Michielsgestel|Centrum": {
+    "lat": 51.6377622,
+    "lng": 5.3533417
+  },
+  "Sint-Oedenrode|Markt": {
+    "lat": 51.5643191,
+    "lng": 5.4605188
+  },
+  "Teteringen|W. Alexanderplein": {
+    "lat": 51.6107559,
+    "lng": 4.8169612
+  },
+  "Tilburg|Koningsplein": {
+    "lat": 51.5537443,
+    "lng": 5.0862866
+  },
+  "Tilburg|Wagnerplein": {
+    "lat": 51.5834143,
+    "lng": 5.0846025
+  },
+  "Uden|Marktplein": {
+    "lat": 51.6590888,
+    "lng": 5.6148605
+  },
+  "Bergen op Zoom|St. Catharinaplein": {
+    "lat": 51.4960822,
+    "lng": 4.2869861
+  },
+  "Best|Dorpsplein en Raadhuisplein": {
+    "lat": 51.5033671,
+    "lng": 5.3938665
+  },
+  "Breda|Dr. Jan Ingenhouszplein": {
+    "lat": 51.5887845,
+    "lng": 4.7760237
+  },
+  "Breda|Vijverstraat": {
+    "lat": 51.5807257,
+    "lng": 4.7795043
+  },
+  "Eindhoven|Woenselse Markt": {
+    "lat": 51.4512034,
+    "lng": 5.4712661
+  },
+  "Eindhoven|Catharina Market": {
+    "lat": 51.4392648,
+    "lng": 5.478633
+  },
+  "Eindhoven|Wilhelminaplein": {
+    "lat": 51.4380087,
+    "lng": 5.4711601
+  },
+  "Halsteren|Dorpsplein": {
+    "lat": 51.5230234,
+    "lng": 4.2729507
+  },
+  "Helmond|Centrum": {
+    "lat": 51.4926554,
+    "lng": 5.6815294
+  },
+  "Oosterhout|Centrum": {
+    "lat": 51.6427645,
+    "lng": 4.8560923
+  },
+  "Oss|Eikenboomgaard": {
+    "lat": 51.7701212,
+    "lng": 5.5262895
+  },
+  "Oss|Terwaenen, Heuvelstraat": {
+    "lat": 51.7783542,
+    "lng": 5.5320836
+  },
+  "Schaijk|Europaplein": {
+    "lat": 51.744925,
+    "lng": 5.6345179
+  },
+  "Schijndel|Centrum": {
+    "lat": 51.6184323,
+    "lng": 5.4369969
+  },
+  "Sint Willebrord|Marktplein": {
+    "lat": 51.5510331,
+    "lng": 4.5907863
+  },
+  "Werkendam|Gedempte Haven": {
+    "lat": 51.8147871,
+    "lng": 4.8943105
+  },
+  "Venray|Centrum": {
+    "lat": 51.5249036,
+    "lng": 5.974006
+  },
+  "Valkenburg|Theodoor Dorrenplein": {
+    "lat": 50.8651693,
+    "lng": 5.8328653
+  },
+  "Gennep|Centrum": {
+    "lat": 51.6994553,
+    "lng": 5.9744164
+  },
+  "Heerlen|Bongerd en Promenade": {
+    "lat": 50.8876735,
+    "lng": 5.9773285
+  },
+  "Horst|Centrum": {
+    "lat": 51.4499233,
+    "lng": 6.0468102
+  },
+  "Vaals|Koningin Julianaplein": {
+    "lat": 50.7710026,
+    "lng": 6.0192269
+  },
+  "Beek|Markt": {
+    "lat": 50.9404812,
+    "lng": 5.7954714
+  },
+  "Cadier en Keer|Kerkplein": {
+    "lat": 50.8279655,
+    "lng": 5.7680045
+  },
+  "Echt|Nieuwe Markt": {
+    "lat": 51.102755,
+    "lng": 5.871638
+  },
+  "Kerkrade|Carboonplein (Spekholzerheide)": {
+    "lat": 50.8573601,
+    "lng": 6.0276657
+  },
+  "Maastricht|Markt": {
+    "lat": 50.8514847,
+    "lng": 5.69068
+  },
+  "Mechelen|Dorpsplein": {
+    "lat": 50.7963578,
+    "lng": 5.9255403
+  },
+  "Panningen|Raadhuisplein": {
+    "lat": 51.3281297,
+    "lng": 5.9812924
+  },
+  "Roermond|Munsterplein": {
+    "lat": 51.1934892,
+    "lng": 5.9880386
+  },
+  "Roermond|Stationsplein": {
+    "lat": 51.1916777,
+    "lng": 5.993257
+  },
+  "Stramproy|Kerkplein": {
+    "lat": 51.1930046,
+    "lng": 5.7235114
+  },
+  "Venlo|Monseigneur Nolensplein": {
+    "lat": 51.3719357,
+    "lng": 6.1713176
+  },
+  "Berg en Terblijt|Centrum": {
+    "lat": 50.8602927,
+    "lng": 5.7863647
+  },
+  "Eijsden|Vroenhof": {
+    "lat": 50.7776534,
+    "lng": 5.7016814
+  },
+  "Geleen|Markt": {
+    "lat": 50.9709824,
+    "lng": 5.829242
+  },
+  "Gulpen|Marktplein": {
+    "lat": 50.8139879,
+    "lng": 5.8899585
+  },
+  "Haelen|Centrum": {
+    "lat": 51.236691,
+    "lng": 5.9539366
+  },
+  "Heerlen|Bongerd": {
+    "lat": 50.8876353,
+    "lng": 5.9792449
+  },
+  "Maasbracht|Markt bij het gemeentehuis": {
+    "lat": 51.1428567,
+    "lng": 5.8830683
+  },
+  "Maastricht|Ruiterij": {
+    "lat": 50.8469271,
+    "lng": 5.6991788
+  },
+  "Margraten|Amerikaplein": {
+    "lat": 50.8203465,
+    "lng": 5.8224398
+  },
+  "Meerssen|Markt": {
+    "lat": 50.8836981,
+    "lng": 5.754532
+  },
+  "Nieuwenhagen (Landgraaf)|Raadhuisplein": {
+    "lat": 50.905361,
+    "lng": 6.0243367
+  },
+  "Schinveld|Centrum": {
+    "lat": 50.9696955,
+    "lng": 5.9773288
+  },
+  "Sittard|Markt": {
+    "lat": 50.9978703,
+    "lng": 5.8705916
+  },
+  "Susteren|Willibrordusstraat": {
+    "lat": 51.0630677,
+    "lng": 5.8534982
+  },
+  "Blerick|Kloosterstraat": {
+    "lat": 51.3665687,
+    "lng": 6.1524735
+  },
+  "Bunde|Sint Agnesplein": {
+    "lat": 50.8967508,
+    "lng": 5.7320907
+  },
+  "Epen|Centrum": {
+    "lat": 50.7766712,
+    "lng": 5.912373
+  },
+  "Heerlerheide|Wannerplein en Wannerstraat": {
+    "lat": 50.9179409,
+    "lng": 5.9656306
+  },
+  "Heythuysen|Centrum": {
+    "lat": 51.250508,
+    "lng": 5.9007718
+  },
+  "Hoensbroek|Markt": {
+    "lat": 50.9236212,
+    "lng": 5.9250535
+  },
+  "Kerkrade|Markt": {
+    "lat": 50.8648095,
+    "lng": 6.0619235
+  },
+  "Montfort|Marktplein": {
+    "lat": 51.1294393,
+    "lng": 5.94533
+  },
+  "Nieuw-Bergen|Winkelcentrum Mosaïque": {
+    "lat": 51.6049733,
+    "lng": 6.0531478
+  },
+  "Nuth|Markt": {
+    "lat": 50.9172674,
+    "lng": 5.8842279
+  },
+  "Posterholt|Dorpsplein": {
+    "lat": 51.1184343,
+    "lng": 6.0394009
+  },
+  "Reuver|Centrum": {
+    "lat": 51.2768772,
+    "lng": 6.079988
+  },
+  "Roermond|Winkelcentrum Donderberg": {
+    "lat": 51.1867132,
+    "lng": 6.0113942
+  },
+  "Schaesberg (Landgraaf)|Markt": {
+    "lat": 50.8914649,
+    "lng": 6.01603
+  },
+  "Simpelveld|Centrum": {
+    "lat": 50.8308114,
+    "lng": 5.9846853
+  },
+  "Swalmen|Centrum": {
+    "lat": 51.2301583,
+    "lng": 6.0370151
+  },
+  "Ubach over Worms (Landgraaf)|Dorpsplein": {
+    "lat": 50.9165838,
+    "lng": 6.0455867
+  },
+  "Eygelshoven|Centrum": {
+    "lat": 50.8942855,
+    "lng": 6.0595986
+  },
+  "Gennep|Zandstraat": {
+    "lat": 51.6985175,
+    "lng": 5.9719314
+  },
+  "Heerlen|Bongerd/Promenade": {
+    "lat": 50.8876735,
+    "lng": 5.9773285
+  },
+  "Roermond|Markt (bij het Stadhuis)": {
+    "lat": 51.1933903,
+    "lng": 5.9882649
+  },
+  "Vlodrop|Centrum": {
+    "lat": 51.1316472,
+    "lng": 6.0769397
+  },
+  "Weert|Binnenstad": {
+    "lat": 51.2540791,
+    "lng": 5.7061589
+  },
+  "Renkum|Europaplein": {
+    "lat": 51.9736741,
+    "lng": 5.7292298
+  },
+  "Oosterbeek|Raadhuisplein": {
+    "lat": 51.9876881,
+    "lng": 5.8412626
+  }
+}

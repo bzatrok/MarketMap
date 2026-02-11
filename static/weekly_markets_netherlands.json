@@ -505,8 +505,8 @@
       "verified_info": null,
       "last_verified": "2025-02-10",
       "_geo": {
-        "lat": 51.9700857,
-        "lng": 5.7219227
+        "lat": 51.9736741,
+        "lng": 5.7292298
       },
       "geo_filled_from": "nominatim"
     },
@@ -1282,8 +1282,8 @@
       "verified_info": null,
       "last_verified": "2025-02-10",
       "_geo": {
-        "lat": 51.9785448,
-        "lng": 5.8382369
+        "lat": 51.9876881,
+        "lng": 5.8412626
       },
       "geo_filled_from": "nominatim"
     },
@@ -4790,10 +4790,10 @@
       "verified_info": null,
       "last_verified": "2026-02-09",
       "_geo": {
-        "lat": 52.421032,
-        "lng": 6.7362406
+        "lat": 52.1392401,
+        "lng": 6.5255713
       },
-      "geo_filled_from": "pre-filled"
+      "geo_filled_from": "nominatim"
     },
     {
       "province": "Overijssel",

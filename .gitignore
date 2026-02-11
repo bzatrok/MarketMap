@@ -35,8 +35,7 @@ Thumbs.db
 # docker
 docker-compose.override.yml
 
-# geocache / API caches
-data/geocache.json
+# API caches (ephemeral)
 data/province-cache.json
 
 # downloaded source HTML (ephemeral)
