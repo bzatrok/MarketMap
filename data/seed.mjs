@@ -44,6 +44,13 @@ async function geocode(city, location) {
     const res = await fetch(url, {
       headers: { 'User-Agent': 'MarketMap/1.0 (market-finder-seed-script)' },
     });
+
+    if (!res.ok) {
+      console.warn(`  [!] Nominatim ${res.status} for: ${q}`);
+      await sleep(res.status === 429 ? 5000 : 1100);
+      continue;
+    }
+
     const data = await res.json();
 
     if (data.length > 0) {
