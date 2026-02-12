@@ -58,7 +58,8 @@ async function phaseGeocode() {
       `${city}, Netherlands`,
     ];
 
-    for (const q of queries) {
+    for (let idx = 0; idx < queries.length; idx++) {
+      const q = queries[idx];
       const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=1&countrycodes=nl`;
       const res = await fetch(url, {
         headers: { 'User-Agent': 'MarketMap/1.0 (market-finder-geocode-script)' },
@@ -73,7 +74,14 @@ async function phaseGeocode() {
       const data = await res.json();
 
       if (data.length > 0) {
-        const result = { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
+        const result = {
+          lat: parseFloat(data[0].lat),
+          lng: parseFloat(data[0].lon),
+          query_level: idx === 0 ? 'address' : 'city',   // which query matched
+          place_rank: data[0].place_rank,                  // numeric precision (26+ = street/POI, <16 = city)
+          addresstype: data[0].addresstype,                // "road", "municipality", etc.
+          display_name: data[0].display_name,              // human-readable for review
+        };
         geocache[cacheKey] = result;
         saveGeocache();
         return result;
@@ -89,6 +97,9 @@ async function phaseGeocode() {
   let corrected = 0;
   let skipped = 0;
   let cached = 0;
+  let addressLevel = 0;
+  let cityLevel = 0;
+  let unknownLevel = 0;
 
   for (const [, entries] of groups) {
     const first = entries[0];
@@ -97,7 +108,19 @@ async function phaseGeocode() {
 
     const nominatimGeo = await geocode(first.city_town, first.location);
     const geo = nominatimGeo || first._geo;
-    const geoFilledFrom = nominatimGeo ? 'nominatim' : (first._geo ? 'pre-filled' : null);
+
+    let geoFilledFrom = null;
+    if (nominatimGeo) {
+      const level = nominatimGeo.query_level || 'unknown';
+      geoFilledFrom = `nominatim:${level}`;
+
+      // Track quality
+      if (level === 'address') addressLevel++;
+      else if (level === 'city') cityLevel++;
+      else unknownLevel++;
+    } else if (first._geo) {
+      geoFilledFrom = 'pre-filled';
+    }
 
     if (!geo) {
       skipped++;
@@ -118,6 +141,10 @@ async function phaseGeocode() {
   saveGeocache();
 
   console.log(`[geocode] Done: ${groups.size} groups, ${cached} cached, ${corrected} corrected, ${skipped} skipped.`);
+  console.log(`[geocode] Quality: ${addressLevel} address-level, ${cityLevel} city-fallback, ${unknownLevel} unknown.`);
+  if (cityLevel > 0) {
+    console.log(`[geocode] Warning: ${cityLevel} markets resolved to city center — consider manual verification.`);
+  }
 }
 
 // ============================================================
@@ -180,6 +207,11 @@ function phaseValidate() {
       } else if (m._geo.lat < 50 || m._geo.lat > 54 || m._geo.lng < 3 || m._geo.lng > 8) {
         issue(i, m, `_geo outside Netherlands bounds: [${m._geo.lat}, ${m._geo.lng}]`);
       }
+    }
+
+    // Warn about city-level geocoding fallbacks (non-blocking)
+    if (m.geo_filled_from === 'nominatim:city') {
+      console.warn(`  [warn] ${m.city_town} / ${m.location}: Geo resolved at city level only (fallback)`);
     }
 
     const dupKey = `${m.city_town}|${m.location}|${m.day}`;
