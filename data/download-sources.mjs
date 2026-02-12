@@ -1,20 +1,13 @@
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dirname, '..');
-const SOURCE_PATH = join(ROOT, 'static', 'weekly_markets_netherlands.json');
-const SOURCES_DIR = join(__dirname, 'sources');
-const MANIFEST_PATH = join(SOURCES_DIR, 'manifest.json');
+import { writeFileSync, existsSync, mkdirSync } from 'fs';
+import { join } from 'path';
+import {
+  SOURCES_DIR, MANIFEST_PATH,
+  sleep, loadSourceJson, loadJsonFile, saveJsonFile,
+} from './lib.mjs';
 
 const FORCE = process.argv.includes('--force');
 const RATE_LIMIT_MS = 1100;
 const BACKOFF_MS = 5000;
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
 function slugifyUrl(url) {
   try {
@@ -30,7 +23,7 @@ function slugifyUrl(url) {
 }
 
 async function main() {
-  const source = JSON.parse(readFileSync(SOURCE_PATH, 'utf-8'));
+  const source = loadSourceJson();
   const markets = source.markets;
 
   // Collect unique source URLs and count markets per URL
@@ -42,13 +35,12 @@ async function main() {
 
   console.log(`Found ${urlCounts.size} unique source URLs across ${markets.length} entries.`);
 
-  // Ensure output directory exists
   mkdirSync(SOURCES_DIR, { recursive: true });
 
   // Load existing manifest
   let manifest = {};
   if (existsSync(MANIFEST_PATH)) {
-    manifest = JSON.parse(readFileSync(MANIFEST_PATH, 'utf-8'));
+    manifest = loadJsonFile(MANIFEST_PATH);
   }
 
   let downloaded = 0;
@@ -60,7 +52,6 @@ async function main() {
     const filename = `${slug}.html`;
     const filepath = join(SOURCES_DIR, filename);
 
-    // Skip if already downloaded (unless --force)
     if (!FORCE && existsSync(filepath) && manifest[url]?.status === 'ok') {
       skipped++;
       continue;
@@ -95,7 +86,6 @@ async function main() {
         failed++;
         console.log(`${res.status}`);
 
-        // Back off on rate limit or forbidden
         if (res.status === 429 || res.status === 403) {
           await sleep(BACKOFF_MS);
           continue;
@@ -112,15 +102,11 @@ async function main() {
       console.log(`error: ${err.message}`);
     }
 
-    // Save manifest after each URL (resume-friendly)
-    writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + '\n');
-
-    // Rate limit
+    saveJsonFile(MANIFEST_PATH, manifest);
     await sleep(RATE_LIMIT_MS);
   }
 
-  // Final manifest save
-  writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + '\n');
+  saveJsonFile(MANIFEST_PATH, manifest);
 
   console.log(`\nDone. Downloaded: ${downloaded}, Skipped: ${skipped}, Failed: ${failed}`);
   console.log(`Manifest: ${MANIFEST_PATH}`);

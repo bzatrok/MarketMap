@@ -22,31 +22,47 @@ A Progressive Web App for finding weekly markets in the Netherlands. Search by d
    cp .env.example .env
    ```
 
-3. Start Meilisearch:
+3. Start Meilisearch (auto-seeds market data):
    ```bash
    docker compose up -d
    ```
 
-4. Seed market data:
-   ```bash
-   npm run seed
-   ```
-
-5. Start the dev server:
+4. Start the dev server:
    ```bash
    npm run dev
    ```
 
-6. Open [http://localhost:3000](http://localhost:3000)
+5. Open [http://localhost:3000](http://localhost:3000)
 
 ## Data Pipeline
 
-Before each Docker build, two scripts run automatically to keep market data accurate:
+A single command runs the full pipeline — geocode, validate, transform, and index:
 
-1. **`scripts/geocode-markets.mjs`** — Geocodes markets missing `_geo` coordinates via Nominatim
-2. **`data/fix-provinces.mjs`** — Reverse-geocodes each market's coordinates to assign the correct province via Nominatim
+```bash
+npm run seed
+```
 
-Both scripts update `static/weekly_markets_netherlands.json` in-place. API results are cached locally (`data/geocache.json`, `data/province-cache.json`) to avoid redundant calls.
+The pipeline has four phases (plus an optional fifth):
+
+1. **Geocode** — fills missing `_geo` coordinates via Nominatim (auto-skips if all entries have coordinates)
+2. **Validate** — checks JSON integrity (required fields, valid days/times, geo bounds, duplicates). Exits on errors.
+3. **Transform** — groups raw entries by city/location into unique market documents
+4. **Index** — configures and populates the Meilisearch index
+5. **AI Verify** *(optional)* — if `OPENAI_API_KEY` is set, runs AI-powered source verification
+
+Flags: `--skip-geocode`, `--skip-verify`
+
+Geocode results are cached in `data/geocache.json` to avoid redundant Nominatim calls. In Docker, geocoding auto-skips since all committed entries already have coordinates.
+
+### Source Verification
+
+Standalone scripts for verifying market data against source web pages:
+
+```bash
+npm run download-sources           # Download source HTML pages (~90 sec)
+npm run compare-sources            # Regex-based comparison report
+npm run ai-verify                  # AI-powered verification (requires OPENAI_API_KEY in .env)
+```
 
 ## Production
 

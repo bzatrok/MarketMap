@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "geocode": "node data/geocode.mjs",
     "seed": "node data/seed.mjs",
-    "validate": "node data/validate.mjs",
     "download-sources": "node data/download-sources.mjs",
     "compare-sources": "node data/compare-sources.mjs",
     "ai-verify": "node --env-file=.env data/ai-verify-sources.mjs"

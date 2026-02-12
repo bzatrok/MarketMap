@@ -10,53 +10,21 @@
  */
 
 import { readFileSync, writeFileSync, existsSync } from 'fs';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+import { join } from 'path';
 import OpenAI from 'openai';
+import {
+  SOURCE_PATH, SOURCES_DIR, MANIFEST_PATH,
+  sleep, stripToText, loadJsonFile,
+} from './lib.mjs';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dirname, '..');
-const SOURCE_PATH = join(ROOT, 'static', 'weekly_markets_netherlands.json');
-const SOURCES_DIR = join(__dirname, 'sources');
-const MANIFEST_PATH = join(SOURCES_DIR, 'manifest.json');
 const REPORT_PATH = join(SOURCES_DIR, 'ai-report.json');
-
-// CLI args
-const FORCE = process.argv.includes('--force');
-const URL_FLAG_IDX = process.argv.indexOf('--url');
-const SINGLE_URL = URL_FLAG_IDX !== -1 ? process.argv[URL_FLAG_IDX + 1] : null;
-const MODEL_FLAG_IDX = process.argv.indexOf('--model');
-const MODEL = MODEL_FLAG_IDX !== -1 ? process.argv[MODEL_FLAG_IDX + 1] : 'gpt-4o-mini';
-
 const RATE_LIMIT_MS = 1000;
 const MAX_RETRIES = 3;
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
 /** Extract <article> content from full HTML page, falling back to full HTML */
 function extractArticle(html) {
   const match = html.match(/<article[^>]*>([\s\S]*?)<\/article>/i);
   return match ? match[0] : html;
-}
-
-/** Strip HTML tags for a cleaner text representation, keeping structure hints */
-function stripToText(html) {
-  return html
-    .replace(/<script[\s\S]*?<\/script>/gi, '')
-    .replace(/<style[\s\S]*?<\/style>/gi, '')
-    .replace(/<br\s*\/?>/gi, '\n')
-    .replace(/<\/p>/gi, '\n')
-    .replace(/<\/li>/gi, '\n')
-    .replace(/<\/h[1-6]>/gi, '\n')
-    .replace(/<[^>]+>/g, '')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&#8211;/g, '–')
-    .replace(/&#8217;/g, "'")
-    .replace(/&amp;/g, '&')
-    .replace(/\n{3,}/g, '\n\n')
-    .trim();
 }
 
 function buildPrompt(articleHtml, jsonEntries, sourceUrl) {
@@ -111,11 +79,11 @@ Respond with ONLY valid JSON (no markdown, no code fences) in this exact format:
 }`;
 }
 
-async function callOpenAI(client, prompt) {
+async function callOpenAI(client, prompt, model) {
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
       const response = await client.chat.completions.create({
-        model: MODEL,
+        model,
         messages: [
           { role: 'system', content: 'You are a data verification assistant. Respond with valid JSON only.' },
           { role: 'user', content: prompt },
@@ -125,8 +93,6 @@ async function callOpenAI(client, prompt) {
       });
 
       const content = response.choices[0].message.content.trim();
-
-      // Strip markdown fences if model adds them
       const cleaned = content.replace(/^```(?:json)?\s*\n?/i, '').replace(/\n?```\s*$/i, '').trim();
 
       return JSON.parse(cleaned);
@@ -147,7 +113,15 @@ async function callOpenAI(client, prompt) {
   throw new Error(`Failed after ${MAX_RETRIES} retries`);
 }
 
-async function main() {
+/**
+ * Run AI verification. Can be called programmatically from seed.mjs
+ * or standalone via direct execution.
+ */
+export async function runAiVerify(options = {}) {
+  const force = options.force ?? false;
+  const singleUrl = options.url ?? null;
+  const model = options.model ?? 'gpt-4o-mini';
+
   if (!process.env.OPENAI_API_KEY) {
     console.error('Error: OPENAI_API_KEY not set in environment. Add it to .env');
     process.exit(1);
@@ -155,8 +129,8 @@ async function main() {
 
   const client = new OpenAI();
 
-  const source = JSON.parse(readFileSync(SOURCE_PATH, 'utf-8'));
-  const manifest = JSON.parse(readFileSync(MANIFEST_PATH, 'utf-8'));
+  const source = loadJsonFile(SOURCE_PATH);
+  const manifest = loadJsonFile(MANIFEST_PATH);
 
   // Group JSON markets by source_url
   const bySource = new Map();
@@ -169,17 +143,17 @@ async function main() {
   // Load existing report (for resumability)
   let report = {};
   if (existsSync(REPORT_PATH)) {
-    report = JSON.parse(readFileSync(REPORT_PATH, 'utf-8'));
+    report = loadJsonFile(REPORT_PATH);
   }
 
   // Determine which URLs to process
   let urls;
-  if (SINGLE_URL) {
-    if (!manifest[SINGLE_URL]) {
-      console.error(`URL not found in manifest: ${SINGLE_URL}`);
+  if (singleUrl) {
+    if (!manifest[singleUrl]) {
+      console.error(`URL not found in manifest: ${singleUrl}`);
       process.exit(1);
     }
-    urls = [SINGLE_URL];
+    urls = [singleUrl];
   } else {
     urls = Object.keys(manifest).filter((url) => manifest[url].status === 'ok');
   }
@@ -188,13 +162,12 @@ async function main() {
   let skipped = 0;
   let failed = 0;
 
-  console.log(`AI Source Verification (model: ${MODEL})`);
+  console.log(`AI Source Verification (model: ${model})`);
   console.log(`Sources to process: ${urls.length}`);
   console.log('');
 
   for (const url of urls) {
-    // Skip already-verified unless --force or --url
-    if (!FORCE && !SINGLE_URL && report[url]) {
+    if (!force && !singleUrl && report[url]) {
       skipped++;
       continue;
     }
@@ -221,14 +194,14 @@ async function main() {
       const articleHtml = extractArticle(html);
       const prompt = buildPrompt(articleHtml, jsonEntries, url);
 
-      const result = await callOpenAI(client, prompt);
+      const result = await callOpenAI(client, prompt, model);
 
       report[url] = {
         ...result,
         file: entry.file,
         json_count: jsonEntries.length,
         verified_at: new Date().toISOString(),
-        model: MODEL,
+        model,
       };
 
       processed++;
@@ -244,14 +217,10 @@ async function main() {
       console.log(`ERROR: ${err.message}`);
     }
 
-    // Save after each URL (crash-safe)
     writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2) + '\n');
-
-    // Rate limit
     await sleep(RATE_LIMIT_MS);
   }
 
-  // Print summary
   console.log('');
   console.log(`Done. Processed: ${processed}, Skipped: ${skipped}, Failed: ${failed}`);
   console.log(`Report: ${REPORT_PATH}`);
@@ -272,7 +241,17 @@ async function main() {
   console.log(`\nVerification totals: ${totalConclusive} conclusive, ${totalInconclusive} inconclusive, ${totalExtra} extra in HTML`);
 }
 
-main().catch((err) => {
-  console.error('AI verification failed:', err);
-  process.exit(1);
-});
+// --- Standalone execution ---
+const isDirectRun = process.argv[1] && import.meta.url.endsWith(process.argv[1].replace(/.*\//, ''));
+if (isDirectRun) {
+  const FORCE = process.argv.includes('--force');
+  const URL_FLAG_IDX = process.argv.indexOf('--url');
+  const SINGLE_URL = URL_FLAG_IDX !== -1 ? process.argv[URL_FLAG_IDX + 1] : null;
+  const MODEL_FLAG_IDX = process.argv.indexOf('--model');
+  const MODEL = MODEL_FLAG_IDX !== -1 ? process.argv[MODEL_FLAG_IDX + 1] : undefined;
+
+  runAiVerify({ force: FORCE, url: SINGLE_URL, model: MODEL }).catch((err) => {
+    console.error('AI verification failed:', err);
+    process.exit(1);
+  });
+}

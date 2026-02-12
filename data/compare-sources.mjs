@@ -6,14 +6,11 @@
  */
 
 import { readFileSync, existsSync } from 'fs';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dirname, '..');
-const SOURCE_PATH = join(ROOT, 'static', 'weekly_markets_netherlands.json');
-const SOURCES_DIR = join(__dirname, 'sources');
-const MANIFEST_PATH = join(SOURCES_DIR, 'manifest.json');
+import { join } from 'path';
+import {
+  SOURCES_DIR, MANIFEST_PATH,
+  stripHtml, loadSourceJson, loadJsonFile,
+} from './lib.mjs';
 
 const JSON_OUTPUT = process.argv.includes('--json');
 
@@ -27,17 +24,6 @@ const DAY_MAP = {
   zaterdag: 'saturday',
   zondag: 'sunday',
 };
-
-function stripHtml(str) {
-  return str
-    .replace(/<[^>]+>/g, '')
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&#8211;/g, '–')
-    .replace(/&#8217;/g, "'")
-    .replace(/&amp;/g, '&')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
 
 function normalizeTime(t) {
   if (!t) return null;
@@ -57,7 +43,6 @@ function normalizeLocation(loc) {
 /**
  * Parse municipality-style pages:
  * <p><strong>Day</strong><br>Location – Place – HH:MM tot HH:MM</p>
- * Can have multiple entries under one day (separated by <br>)
  */
 function parseMunicipalityFormat(html) {
   const results = [];
@@ -87,7 +72,6 @@ function parseMunicipalityFormat(html) {
 function parseProvinceFormat(html) {
   const results = [];
 
-  // Match <h2>Day</h2> with or without <strong> wrapping
   const dayHeadingPattern = /<h2[^>]*>\s*(?:<strong>)?(Maandag|Dinsdag|Woensdag|Donderdag|Vrijdag|Zaterdag|Zondag)(?:<\/strong>)?\s*<\/h2>/gi;
 
   const dayPositions = [];
@@ -124,7 +108,6 @@ function parseProvinceFormat(html) {
  * "Location – HH:MM tot HH:MM" (2-part, no separate city)
  */
 function parseMarketLine(line) {
-  // 3-part: City – Location – time_from tot/– time_to [uur]
   const m3 = line.match(/^(.+?)\s*[–\-]\s*(.+?)\s*[–\-]\s*(\d{1,2}[:.]\d{2})\s*(?:uur\s*)?(?:tot|[–\-])\s*(\d{1,2}[:.]\d{2})(?:\s*uur)?/i);
   if (m3) {
     return {
@@ -135,7 +118,6 @@ function parseMarketLine(line) {
     };
   }
 
-  // 2-part: Location – time_from tot/– time_to [uur] (no city)
   const m2 = line.match(/^(.+?)\s*[–\-]\s*(\d{1,2}[:.]\d{2})\s*(?:uur\s*)?(?:tot|[–\-])\s*(\d{1,2}[:.]\d{2})(?:\s*uur)?/i);
   if (m2) {
     return {
@@ -150,8 +132,8 @@ function parseMarketLine(line) {
 }
 
 function main() {
-  const source = JSON.parse(readFileSync(SOURCE_PATH, 'utf-8'));
-  const manifest = JSON.parse(readFileSync(MANIFEST_PATH, 'utf-8'));
+  const source = loadSourceJson();
+  const manifest = loadJsonFile(MANIFEST_PATH);
 
   // Group JSON markets by source_url
   const bySource = new Map();
@@ -180,7 +162,6 @@ function main() {
     const html = readFileSync(filepath, 'utf-8');
     const jsonMarkets = bySource.get(url) || [];
 
-    // Try both parsers, use whichever finds more results
     const municipalityResults = parseMunicipalityFormat(html);
     const provinceResults = parseProvinceFormat(html);
     const htmlMarkets = municipalityResults.length >= provinceResults.length
@@ -209,7 +190,6 @@ function main() {
       missingFromHtml: [],
     };
 
-    // Try to match each JSON entry against HTML entries
     const matchedHtml = new Set();
 
     for (const jm of jsonMarkets) {

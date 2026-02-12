@@ -8,9 +8,11 @@ PWA for discovering weekly markets in the Netherlands and surrounding regions. B
 Amberglass.MarketMap/
 ├── static/                         # Raw market data (JSON, manually curated)
 ├── data/
-│   ├── seed.mjs                    # Transforms, geocodes, indexes into Meilisearch
-│   ├── validate.mjs                # Validates JSON data integrity
+│   ├── lib.mjs                     # Shared utilities (paths, sleep, slugify, JSON I/O)
+│   ├── seed.mjs                    # Unified pipeline: geocode → validate → transform → index
+│   ├── ai-verify-sources.mjs       # AI source verification (OpenAI, standalone or via seed)
 │   ├── download-sources.mjs        # Downloads source HTML for verification
+│   ├── compare-sources.mjs         # Regex-based source comparison
 │   ├── geocache.json               # Nominatim geocoding cache (gitignored)
 │   └── sources/                    # Downloaded source HTML + manifest (gitignored)
 ├── public/
@@ -50,7 +52,7 @@ Amberglass.MarketMap/
 ## Architecture
 
 - **API proxy pattern**: Frontend calls `/api/markets`, never Meilisearch directly. Master key stays server-side.
-- **Data flow**: `static/*.json` → `data/seed.mjs` (geocode + transform) → Meilisearch → `/api/markets` → components
+- **Data flow**: `static/*.json` → `npm run seed` (geocode → validate → transform → index) → Meilisearch → `/api/markets` → components
 - **Map**: MapLibre GL with MapTiler tiles (API key in `NEXT_PUBLIC_MAPTILER_KEY`). Uses `[lng, lat]` order.
 - **Geocoding**: Nominatim (free, no API key). Results cached in `data/geocache.json`. Rate limited to 1 req/sec.
 
@@ -140,8 +142,8 @@ Each market entry has three verification fields: `verified_geo`, `verified_times
 npm run download-sources          # skips already-downloaded
 npm run download-sources -- --force  # re-download all
 
-# Validate JSON structure + verification fields
-npm run validate
+# Validation runs automatically as part of npm run seed
+# Seed flags: --skip-geocode, --skip-verify
 ```
 
 - Source HTML saved to `data/sources/` (gitignored)
