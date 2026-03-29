@@ -76,7 +76,7 @@ if (existing) {
 // Seed default settings
 const defaults = {
   siteName: 'Weekmarkten Nederland',
-  openaiModel: 'gpt-5-mini',
+  openaiModel: 'gpt-4o-mini',
   analyticsEnabled: 'true',
   seoDefaultDescription: 'Vind weekmarkten in heel Nederland. Zoek op dag, provincie of stad.',
 };

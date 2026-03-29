@@ -18,7 +18,7 @@ const FORCE = process.argv.includes('--force');
 const SLUG_FLAG = process.argv.indexOf('--slug');
 const SINGLE_SLUG = SLUG_FLAG !== -1 ? process.argv[SLUG_FLAG + 1] : null;
 
-const MODEL = process.env.OPENAI_MODEL || 'gpt-5-mini';
+const MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 const API_KEY = process.env.OPENAI_API_KEY;
 
 if (!API_KEY) {
