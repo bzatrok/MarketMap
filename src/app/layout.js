@@ -4,8 +4,28 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Market Map - Weekly Market Finder',
-  description: 'Find weekly markets in the Netherlands and surrounding regions. Search by day, region, or name.',
+  title: {
+    default: 'Weekmarkten Nederland — Vind jouw weekmarkt',
+    template: '%s | Weekmarkten Nederland',
+  },
+  description:
+    'Vind weekmarkten in heel Nederland. Zoek op dag, provincie of stad. Bekijk openingstijden, locaties en routebeschrijvingen.',
+  metadataBase: new URL('https://marketmap.amberglass.nl'),
+  alternates: { canonical: '/' },
+  openGraph: {
+    title: 'Weekmarkten Nederland — Vind jouw weekmarkt',
+    description:
+      'Vind weekmarkten in heel Nederland. Zoek op dag, provincie of stad. Bekijk openingstijden, locaties en routebeschrijvingen.',
+    url: 'https://marketmap.amberglass.nl',
+    siteName: 'Weekmarkten Nederland',
+    locale: 'nl_NL',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Weekmarkten Nederland',
+    description: 'Vind weekmarkten in heel Nederland. Zoek op dag, provincie of stad.',
+  },
 };
 
 export const viewport = {
@@ -15,7 +35,7 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="nl">
       <body className="flex flex-col h-dvh">
         <Header />
         <main className="flex-1 relative overflow-hidden">{children}</main>
