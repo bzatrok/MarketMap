@@ -49,3 +49,5 @@ data/sources/
 # misc
 *.tsbuildinfo
 next-env.d.ts
+yarn.lock
+static/weekly_markets_netherlands_BAK.json
