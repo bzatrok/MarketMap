@@ -39,7 +39,7 @@ export async function POST(request, { params }) {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) return NextResponse.json({ error: 'OPENAI_API_KEY not configured' }, { status: 500 });
 
-  const model = getSetting('openaiModel') || process.env.OPENAI_MODEL || 'gpt-4o-mini';
+  const model = getSetting('openaiModel') || process.env.OPENAI_MODEL || 'gpt-5-mini';
   const typeLabel = formatTypeNL(market.type);
   const scheduleText = formatScheduleNL(market.schedule);
 
