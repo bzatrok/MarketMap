@@ -2,6 +2,7 @@ import { auth } from '@/auth';
 import { NextResponse } from 'next/server';
 import { getDescription, updateDescriptionContent, deleteDescription, upsertDescription } from '@/lib/descriptions';
 import { getMarketBySlug } from '@/lib/markets';
+import { getSetting } from '@/lib/settings';
 import { formatTypeNL, formatScheduleNL } from '@/lib/i18n';
 import OpenAI from 'openai';
 
@@ -38,7 +39,7 @@ export async function POST(request, { params }) {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) return NextResponse.json({ error: 'OPENAI_API_KEY not configured' }, { status: 500 });
 
-  const model = process.env.OPENAI_MODEL || 'gpt-5-mini';
+  const model = getSetting('openaiModel') || process.env.OPENAI_MODEL || 'gpt-5-mini';
   const typeLabel = formatTypeNL(market.type);
   const scheduleText = formatScheduleNL(market.schedule);
 

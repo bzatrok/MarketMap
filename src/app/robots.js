@@ -4,7 +4,7 @@ export default function robots() {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/'],
+        disallow: ['/api/', '/admin/', '/login'],
       },
     ],
     sitemap: 'https://marketmap.amberglass.nl/sitemap.xml',

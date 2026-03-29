@@ -11,6 +11,7 @@ export default function ContentPage() {
   const [editContent, setEditContent] = useState('');
   const [loading, setLoading] = useState(true);
   const [generating, setGenerating] = useState(null); // slug being generated
+  const [error, setError] = useState(null);
 
   const fetchMarkets = useCallback(async () => {
     setLoading(true);
@@ -28,9 +29,13 @@ export default function ContentPage() {
 
   async function handleRegenerate(slug) {
     setGenerating(slug);
+    setError(null);
     const res = await fetch(`/api/admin/descriptions/${slug}`, { method: 'POST' });
     if (res.ok) {
       await fetchMarkets();
+    } else {
+      const data = await res.json().catch(() => ({}));
+      setError(data.error || `Genereren mislukt (${res.status})`);
     }
     setGenerating(null);
   }
@@ -45,14 +50,20 @@ export default function ContentPage() {
   }
 
   async function handleSave() {
-    await fetch(`/api/admin/descriptions/${editing}`, {
+    setError(null);
+    const res = await fetch(`/api/admin/descriptions/${editing}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ content: editContent }),
     });
-    setEditing(null);
-    setEditContent('');
-    fetchMarkets();
+    if (res.ok) {
+      setEditing(null);
+      setEditContent('');
+      fetchMarkets();
+    } else {
+      const data = await res.json().catch(() => ({}));
+      setError(data.error || `Opslaan mislukt (${res.status})`);
+    }
   }
 
   const filtered = markets.filter((m) => {
@@ -85,6 +96,12 @@ export default function ContentPage() {
           </button>
         ))}
       </div>
+
+      {error && (
+        <div className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-md p-3 mb-4">
+          {error}
+        </div>
+      )}
 
       {editing && (
         <div className="bg-white border border-gray-200 rounded-lg p-4 mb-4">

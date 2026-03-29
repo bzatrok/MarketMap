@@ -13,7 +13,8 @@ export async function GET(request) {
   const token = searchParams.get('token');
 
   // Check token
-  if (token !== process.env.REINDEX_TOKEN) {
+  const expectedToken = process.env.REINDEX_TOKEN;
+  if (!expectedToken || token !== expectedToken) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
