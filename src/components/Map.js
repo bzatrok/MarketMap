@@ -19,13 +19,14 @@ function buildPopupHTML(market) {
   const navUrl = `https://www.google.com/maps/dir/?api=1&destination=${market._geo.lat},${market._geo.lng}`;
 
   return `<div style="font-size:13px;max-width:220px">
-    <strong>${market.name}</strong><br/>
+    <a href="/markets/${market.id}" style="font-weight:600;color:#111;text-decoration:none">${market.name}</a><br/>
     ${scheduleLines}
     ${locationLine ? `<br/><span style="color:#666">${locationLine}</span>` : ''}
-    ${market.url ? `<br/><a href="${market.url}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Website →</a>` : ''}
-    ${market.sourceUrl ? `<br/><a href="${market.sourceUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Bron →</a>` : ''}
-    ${market.municipalityUrl ? `<br/><a href="${market.municipalityUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Gemeente →</a>` : ''}
-    <br/><a href="${navUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Route →</a>
+    <div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:4px 10px;font-size:12px">
+      <a href="/markets/${market.id}" style="color:#2563eb;text-decoration:underline">Details →</a>
+      <a href="${navUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline">Route →</a>
+      ${market.url ? `<a href="${market.url}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline">Website →</a>` : ''}
+    </div>
   </div>`;
 }
 
@@ -50,6 +51,7 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
   const popupsRef = useRef(new globalThis.Map());
   const clusterRef = useRef(null);
   const marketsRef = useRef([]);
+  const activePopupId = useRef(null);
   const provinceLayersReady = useRef(false);
 
   // Initialize map + province layers
@@ -256,6 +258,14 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
         popupsRef.current.set(market.id, marker);
       }
     });
+
+    // Re-open popup for the active market after re-render
+    if (activePopupId.current) {
+      const activeMarker = popupsRef.current.get(activePopupId.current);
+      if (activeMarker && !activeMarker.getPopup()?.isOpen()) {
+        activeMarker.togglePopup();
+      }
+    }
   }, [onMarkerClick]);
 
   // Update supercluster index and fit viewport when markets change
@@ -316,9 +326,10 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
   useEffect(() => {
     if (!mapRef.current || !selectedMarket?._geo) return;
 
-    const marker = popupsRef.current.get(selectedMarket.id);
+    // Track which popup should stay open (renderMarkers will handle opening it)
+    activePopupId.current = selectedMarket.id;
 
-    // Close all popups before flying
+    // Close all currently open popups
     markersRef.current.forEach((m) => {
       if (m.getPopup()?.isOpen()) m.togglePopup();
     });
@@ -328,15 +339,6 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
       zoom: 14,
       duration: 1000,
     });
-
-    // Open popup after flyTo animation completes
-    if (marker) {
-      mapRef.current.once('moveend', () => {
-        if (!marker.getPopup()?.isOpen()) {
-          marker.togglePopup();
-        }
-      });
-    }
   }, [selectedMarket]);
 
   return <div ref={containerRef} className="w-full h-full" />;
