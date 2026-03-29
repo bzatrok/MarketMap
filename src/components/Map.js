@@ -1,8 +1,9 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useCallback } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import Supercluster from 'supercluster';
 import { MAP_DEFAULTS } from '@/lib/constants';
 import { DAY_LABELS } from '@/lib/constants';
 
@@ -22,10 +23,24 @@ function buildPopupHTML(market) {
     ${scheduleLines}
     ${locationLine ? `<br/><span style="color:#666">${locationLine}</span>` : ''}
     ${market.url ? `<br/><a href="${market.url}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Website →</a>` : ''}
-    ${market.sourceUrl ? `<br/><a href="${market.sourceUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Source →</a>` : ''}
-    ${market.municipalityUrl ? `<br/><a href="${market.municipalityUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Municipality →</a>` : ''}
-    <br/><a href="${navUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Navigate →</a>
+    ${market.sourceUrl ? `<br/><a href="${market.sourceUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Bron →</a>` : ''}
+    ${market.municipalityUrl ? `<br/><a href="${market.municipalityUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Gemeente →</a>` : ''}
+    <br/><a href="${navUrl}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:underline;font-size:12px">Route →</a>
   </div>`;
+}
+
+function createClusterElement(count) {
+  const size = count < 10 ? 32 : count < 50 ? 40 : 48;
+  const el = document.createElement('div');
+  el.style.cssText = `
+    width:${size}px;height:${size}px;border-radius:50%;
+    background:#2563eb;color:white;font-size:13px;font-weight:600;
+    display:flex;align-items:center;justify-content:center;
+    border:3px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.3);
+    cursor:pointer;
+  `;
+  el.textContent = count;
+  return el;
 }
 
 export default function Map({ markets = [], onMarkerClick, selectedMarket, selectedProvinces = [], sidebarOpen = true }) {
@@ -33,6 +48,8 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
   const mapRef = useRef(null);
   const markersRef = useRef([]);
   const popupsRef = useRef(new globalThis.Map());
+  const clusterRef = useRef(null);
+  const marketsRef = useRef([]);
   const provinceLayersReady = useRef(false);
 
   // Initialize map + province layers
@@ -187,36 +204,80 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
     };
   }, [selectedProvinces]);
 
-  // Update markers when markets change
-  useEffect(() => {
-    if (!mapRef.current) return;
+  // Render visible clusters/markers for the current viewport
+  const renderMarkers = useCallback(() => {
+    const map = mapRef.current;
+    const cluster = clusterRef.current;
+    if (!map || !cluster) return;
 
+    // Clear existing markers
     markersRef.current.forEach((m) => m.remove());
     markersRef.current = [];
     popupsRef.current.clear();
 
-    markets.forEach((market) => {
-      if (!market._geo) return;
+    const bounds = map.getBounds();
+    const zoom = Math.floor(map.getZoom());
+    const bbox = [bounds.getWest(), bounds.getSouth(), bounds.getEast(), bounds.getNorth()];
+    const clusters = cluster.getClusters(bbox, zoom);
 
-      const popup = new maplibregl.Popup({ offset: 25 }).setHTML(
-        buildPopupHTML(market)
-      );
+    clusters.forEach((feature) => {
+      const [lng, lat] = feature.geometry.coordinates;
 
-      const marker = new maplibregl.Marker({ color: '#2563eb' })
-        .setLngLat([market._geo.lng, market._geo.lat])
-        .setPopup(popup)
-        .addTo(mapRef.current);
+      if (feature.properties.cluster) {
+        // Cluster marker
+        const count = feature.properties.point_count;
+        const el = createClusterElement(count);
+        el.addEventListener('click', () => {
+          const expansionZoom = Math.min(cluster.getClusterExpansionZoom(feature.id), 20);
+          map.flyTo({ center: [lng, lat], zoom: expansionZoom, duration: 500 });
+        });
 
-      marker.getElement().addEventListener('click', () => {
-        onMarkerClick?.(market);
-      });
+        const marker = new maplibregl.Marker({ element: el })
+          .setLngLat([lng, lat])
+          .addTo(map);
+        markersRef.current.push(marker);
+      } else {
+        // Individual market marker
+        const market = feature.properties;
+        const popup = new maplibregl.Popup({ offset: 25 }).setHTML(
+          buildPopupHTML(market)
+        );
 
-      markersRef.current.push(marker);
-      popupsRef.current.set(market.id, marker);
+        const marker = new maplibregl.Marker({ color: '#2563eb' })
+          .setLngLat([lng, lat])
+          .setPopup(popup)
+          .addTo(map);
+
+        marker.getElement().addEventListener('click', () => {
+          onMarkerClick?.(market);
+        });
+
+        markersRef.current.push(marker);
+        popupsRef.current.set(market.id, marker);
+      }
     });
+  }, [onMarkerClick]);
+
+  // Update supercluster index and fit viewport when markets change
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+
+    // Build GeoJSON features for supercluster
+    const withGeo = markets.filter((m) => m._geo);
+    marketsRef.current = withGeo;
+
+    const points = withGeo.map((market) => ({
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [market._geo.lng, market._geo.lat] },
+      properties: { ...market },
+    }));
+
+    const cluster = new Supercluster({ radius: 60, maxZoom: 16 });
+    cluster.load(points);
+    clusterRef.current = cluster;
 
     // Fit map viewport to results
-    const withGeo = markets.filter((m) => m._geo);
     const pad = { top: 60, bottom: 60, left: sidebarOpen ? 420 : 60, right: 60 };
 
     if (withGeo.length >= 2) {
@@ -227,21 +288,29 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
         if (_geo.lat < minLat) minLat = _geo.lat;
         if (_geo.lat > maxLat) maxLat = _geo.lat;
       });
-      mapRef.current.fitBounds([[minLng, minLat], [maxLng, maxLat]], { padding: pad });
+      map.fitBounds([[minLng, minLat], [maxLng, maxLat]], { padding: pad });
     } else if (withGeo.length === 1) {
-      mapRef.current.flyTo({
+      map.flyTo({
         center: [withGeo[0]._geo.lng, withGeo[0]._geo.lat],
         zoom: 14,
         padding: pad,
       });
     } else {
-      mapRef.current.flyTo({
+      map.flyTo({
         center: [MAP_DEFAULTS.center[1], MAP_DEFAULTS.center[0]],
         zoom: MAP_DEFAULTS.zoom,
         padding: { top: 0, bottom: 0, left: sidebarOpen ? 380 : 0, right: 0 },
       });
     }
-  }, [markets, onMarkerClick, sidebarOpen]);
+
+    // Render after viewport settles
+    renderMarkers();
+
+    // Re-render on zoom/pan
+    const onMoveEnd = () => renderMarkers();
+    map.on('moveend', onMoveEnd);
+    return () => map.off('moveend', onMoveEnd);
+  }, [markets, sidebarOpen, renderMarkers]);
 
   // Fly to selected market and open its popup
   useEffect(() => {

@@ -20,7 +20,7 @@ export default function SearchInput({ value, onChange }) {
     <div className="relative w-full">
       <input
         type="text"
-        placeholder="Search markets..."
+        placeholder="Zoek markten..."
         value={local}
         onChange={(e) => setLocal(e.target.value)}
         className="w-full px-3 py-2 pr-8 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"

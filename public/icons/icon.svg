@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#2563eb"/>
+  <g transform="translate(256,240)" fill="none" stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Market stall roof -->
+    <path d="M-140,-80 L-160,-20 L160,-20 L140,-80 Z" fill="white" stroke="none"/>
+    <path d="M-160,-20 L-160,-20 C-160,-50 -120,-50 -120,-20 C-120,-50 -80,-50 -80,-20 C-80,-50 -40,-50 -40,-20 C-40,-50 0,-50 0,-20 C0,-50 40,-50 40,-20 C40,-50 80,-50 80,-20 C80,-50 120,-50 120,-20 C120,-50 160,-50 160,-20" fill="white" stroke="#2563eb" stroke-width="16"/>
+    <!-- Stall legs -->
+    <line x1="-140" y1="-20" x2="-140" y2="100" stroke="white" stroke-width="20"/>
+    <line x1="140" y1="-20" x2="140" y2="100" stroke="white" stroke-width="20"/>
+    <!-- Counter -->
+    <line x1="-140" y1="40" x2="140" y2="40" stroke="white" stroke-width="16"/>
+  </g>
+  <!-- Pin dot -->
+  <circle cx="256" cy="400" r="24" fill="white"/>
+</svg>

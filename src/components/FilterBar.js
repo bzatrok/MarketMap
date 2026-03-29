@@ -1,8 +1,17 @@
 'use client';
 
-import { DAYS_OF_WEEK, DAY_LABELS, PROVINCES } from '@/lib/constants';
+import { DAYS_OF_WEEK, DAY_LABELS, PROVINCES, MARKET_TYPES } from '@/lib/constants';
 
-export default function FilterBar({ selectedDays, onDaysChange, selectedProvinces, onProvincesChange }) {
+export default function FilterBar({
+  selectedDays,
+  onDaysChange,
+  selectedProvinces,
+  onProvincesChange,
+  openNow,
+  onOpenNowChange,
+  selectedType,
+  onTypeChange,
+}) {
   function toggleDay(day) {
     if (selectedDays.includes(day)) {
       onDaysChange(selectedDays.filter((d) => d !== day));
@@ -21,9 +30,22 @@ export default function FilterBar({ selectedDays, onDaysChange, selectedProvince
 
   return (
     <div className="space-y-4">
+      <div className="flex items-center gap-3">
+        <button
+          onClick={() => onOpenNowChange(!openNow)}
+          className={`px-3 py-1.5 text-xs rounded-full border font-medium transition-colors ${
+            openNow
+              ? 'bg-green-50 text-green-700 border-green-500'
+              : 'bg-white text-gray-600 border-gray-300 hover:border-green-400'
+          }`}
+        >
+          Nu open
+        </button>
+      </div>
+
       <div>
         <label className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2 block">
-          Days
+          Dagen
         </label>
         <div className="flex gap-1">
           {DAYS_OF_WEEK.map((day) => (
@@ -44,7 +66,28 @@ export default function FilterBar({ selectedDays, onDaysChange, selectedProvince
 
       <div>
         <label className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2 block">
-          Provinces
+          Type
+        </label>
+        <div className="flex flex-wrap gap-1">
+          {MARKET_TYPES.map(({ value, label }) => (
+            <button
+              key={value}
+              onClick={() => onTypeChange(selectedType === value ? '' : value)}
+              className={`px-2 py-1 text-xs rounded-md border transition-colors ${
+                selectedType === value
+                  ? 'bg-blue-50 text-blue-700 border-blue-500'
+                  : 'bg-white text-gray-600 border-gray-300 hover:border-blue-400'
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <label className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2 block">
+          Provincies
         </label>
         <div className="flex flex-wrap gap-1">
           {PROVINCES.map((province) => (
