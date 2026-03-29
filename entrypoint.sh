@@ -9,6 +9,9 @@ until wget -q --spider "$MEILI_INTERNAL_URL/health" 2>/dev/null; do
 done
 echo "Meilisearch is ready."
 
+echo "Initializing database..."
+node data/init-db.mjs
+
 echo "Seeding market data..."
 node data/seed.mjs
 

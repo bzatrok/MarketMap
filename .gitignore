@@ -38,6 +38,11 @@ docker-compose.override.yml
 # API caches (ephemeral)
 data/province-cache.json
 
+# SQLite database (runtime state)
+data/marketmap.db
+data/marketmap.db-wal
+data/marketmap.db-shm
+
 # downloaded source HTML (ephemeral)
 data/sources/
 

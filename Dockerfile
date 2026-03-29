@@ -3,6 +3,7 @@ FROM node:20-alpine AS base
 # --- Dependencies ---
 FROM base AS deps
 WORKDIR /app
+RUN apk add --no-cache python3 make g++
 COPY package.json package-lock.json ./
 RUN npm ci
 
@@ -29,6 +30,10 @@ COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 COPY --from=builder --chown=nextjs:nodejs /app/data ./data
 COPY --from=builder /app/static ./static
 COPY --from=deps /app/node_modules/meilisearch ./node_modules/meilisearch
+COPY --from=deps /app/node_modules/better-sqlite3 ./node_modules/better-sqlite3
+COPY --from=deps /app/node_modules/bindings ./node_modules/bindings
+COPY --from=deps /app/node_modules/prebuild-install ./node_modules/prebuild-install
+COPY --from=deps /app/node_modules/file-uri-to-path ./node_modules/file-uri-to-path
 COPY entrypoint.sh ./
 RUN chmod +x entrypoint.sh
 

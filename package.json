@@ -1,6 +1,6 @@
 {
   "name": "amberglass-marketmap",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +9,17 @@
     "seed": "node data/seed.mjs",
     "download-sources": "node data/download-sources.mjs",
     "compare-sources": "node data/compare-sources.mjs",
-    "ai-verify": "node --env-file=.env data/ai-verify-sources.mjs"
+    "ai-verify": "node --env-file=.env data/ai-verify-sources.mjs",
+    "init-db": "node --env-file=.env data/init-db.mjs",
+    "generate-descriptions": "node --env-file=.env data/generate-descriptions.mjs"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.8.0",
     "maplibre-gl": "^4.7.1",
     "meilisearch": "^0.45.0",
     "next": "^15.1.0",
+    "next-auth": "^5.0.0-beta.30",
     "openai": "^6.19.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

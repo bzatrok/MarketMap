@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getMarkets, getMarketBySlug, slugifyProvince } from '@/lib/markets';
+import { getDescription } from '@/lib/descriptions';
 import { DAY_LABELS_NL, formatTypeNL, formatScheduleNL } from '@/lib/i18n';
 
 export async function generateStaticParams() {
@@ -82,6 +83,7 @@ export default async function MarketDetailPage({ params }) {
   if (!market) notFound();
 
   const typeLabel = formatTypeNL(market.type);
+  const description = getDescription(slug);
   const jsonLd = buildJsonLd(market);
   const navUrl = market._geo
     ? `https://www.google.com/maps/dir/?api=1&destination=${market._geo.lat},${market._geo.lng}`
@@ -155,6 +157,15 @@ export default async function MarketDetailPage({ params }) {
           </a>
         )}
       </div>
+
+      {description && (
+        <div className="mt-6 mb-6">
+          <h2 className="text-lg font-semibold text-gray-900 mb-2">Over deze markt</h2>
+          <div className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">
+            {description.content}
+          </div>
+        </div>
+      )}
 
       {market.lastVerified && (
         <div className="text-xs text-gray-400">

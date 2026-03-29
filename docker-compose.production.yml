@@ -9,8 +9,13 @@ services:
       - MEILI_MASTER_KEY=${MEILI_MASTER_KEY}
       - NEXT_PUBLIC_MAPTILER_KEY=${NEXT_PUBLIC_MAPTILER_KEY}
       - REINDEX_TOKEN=${REINDEX_TOKEN}
+      - AUTH_SECRET=${AUTH_SECRET}
+      - ADMIN_EMAIL=${ADMIN_EMAIL}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
     volumes:
       - ./data/weekly_markets_netherlands.json:/app/static/weekly_markets_netherlands.json:ro
+      - app_data:/app/data
     depends_on:
       meilisearch:
         condition: service_healthy
@@ -21,3 +26,6 @@ services:
       - MEILI_MASTER_KEY=${MEILI_MASTER_KEY}
       - MEILI_ENV=production
     restart: unless-stopped
+
+volumes:
+  app_data:
