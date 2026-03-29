@@ -1,6 +1,8 @@
-# Market Map
+# Weekmarkten Nederland
 
-A Progressive Web App for finding weekly markets in the Netherlands. Search by day, province, or name and see results on an interactive map with province boundary overlays.
+A Progressive Web App for discovering weekly markets across the Netherlands. Search by day, province, type or name — see results on an interactive clustered map with province overlays.
+
+856 markets across all 12 provinces, with Dutch-language SEO pages, JSON-LD structured data, and AI-generated descriptions.
 
 ## Getting Started
 
@@ -10,14 +12,14 @@ A Progressive Web App for finding weekly markets in the Netherlands. Search by d
 
 ### Setup
 
-1. Clone the repo and install dependencies:
+1. Clone and install:
    ```bash
    git clone <repo-url>
    cd MarketMap
    npm install
    ```
 
-2. Copy the environment file and add your MapTiler API key:
+2. Copy the environment file and fill in your keys:
    ```bash
    cp .env.example .env
    ```
@@ -27,41 +29,69 @@ A Progressive Web App for finding weekly markets in the Netherlands. Search by d
    docker compose up -d
    ```
 
-4. Start the dev server:
+4. Initialize the database (creates admin user + default settings):
+   ```bash
+   npm run init-db
+   ```
+
+5. Start the dev server:
    ```bash
    npm run dev
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000)
+6. Open [http://localhost:3000](http://localhost:3000)
+
+## Features
+
+- **Interactive map** — MapLibre GL with clustered markers (supercluster) and province overlays
+- **Search & filter** — full-text search, day/province/type filters, "Nu open" toggle
+- **765 market detail pages** — SSR with JSON-LD structured data, Dutch metadata, OG tags
+- **12 province landing pages** — markets grouped by day
+- **AI-generated descriptions** — city + market descriptions via OpenAI (gpt-5-mini)
+- **Admin panel** (`/admin`) — content management, settings, description generation
+- **SEO** — sitemap.xml, robots.txt, canonical URLs, Open Graph, Twitter cards
+- **PWA** — service worker, installable, offline-capable for static assets
+
+## Admin Panel
+
+Protected by NextAuth 5 (credentials + JWT). Login at `/login`.
+
+- **Dashboard** — market count, description coverage stats
+- **Content** — generate, edit, regenerate AI descriptions per market
+- **Settings** — site name, SEO defaults, OpenAI model, analytics toggle
+
+```bash
+# Create/reset admin user
+npm run init-db
+
+# Bulk-generate descriptions for all markets
+npm run generate-descriptions
+
+# Generate for a single market
+npm run generate-descriptions -- --slug amsterdam-albert-cuyp
+```
 
 ## Data Pipeline
-
-A single command runs the full pipeline — geocode, validate, transform, and index:
 
 ```bash
 npm run seed
 ```
 
-The pipeline has four phases (plus an optional fifth):
-
-1. **Geocode** — fills missing `_geo` coordinates via Nominatim (auto-skips if all entries have coordinates)
-2. **Validate** — checks JSON integrity (required fields, valid days/times, geo bounds, duplicates). Exits on errors.
-3. **Transform** — groups raw entries by city/location into unique market documents
-4. **Index** — configures and populates the Meilisearch index
-5. **AI Verify** *(optional)* — if `OPENAI_API_KEY` is set, runs AI-powered source verification
+Phases:
+1. **Geocode** — Nominatim, cached in `data/geocache.json`
+2. **Validate** — required fields, time formats, geo bounds, duplicates
+3. **Transform** — groups entries into unique market documents
+4. **Index** — populates Meilisearch
+5. **AI Verify** *(optional)* — source verification if `OPENAI_API_KEY` is set
 
 Flags: `--skip-geocode`, `--skip-verify`
 
-Geocode results are cached in `data/geocache.json` to avoid redundant Nominatim calls. In Docker, geocoding auto-skips since all committed entries already have coordinates.
-
 ### Source Verification
 
-Standalone scripts for verifying market data against source web pages:
-
 ```bash
-npm run download-sources           # Download source HTML pages (~90 sec)
-npm run compare-sources            # Regex-based comparison report
-npm run ai-verify                  # AI-powered verification (requires OPENAI_API_KEY in .env)
+npm run download-sources           # Download source HTML pages
+npm run compare-sources            # Regex-based comparison
+npm run ai-verify                  # AI-powered verification
 ```
 
 ## Production
@@ -70,10 +100,27 @@ npm run ai-verify                  # AI-powered verification (requires OPENAI_AP
 docker compose -f docker-compose.yml -f docker-compose.production.yml up -d
 ```
 
+The entrypoint script initializes the database, seeds Meilisearch, then starts Next.js.
+
+SQLite data (`data/marketmap.db`) is persisted via the `app_data` Docker volume.
+
 ## Tech Stack
 
-- **Next.js 15** (App Router) — SSR for content pages, client-side map interactions
+- **Next.js 15** (App Router, JavaScript) — SSR pages, API routes
 - **Meilisearch** — geo filtering, faceted search, full-text search
-- **MapLibre GL JS** — vector map rendering with province boundary overlays
+- **MapLibre GL JS** — vector map with supercluster and province overlays
+- **SQLite** (better-sqlite3) — admin users, AI descriptions, settings
+- **NextAuth 5** — authentication with JWT sessions
+- **OpenAI** — AI content generation (gpt-5-mini)
 - **Tailwind CSS** — styling
-- **Docker Compose** — containerized deployment
+- **Docker Compose** — containerized deployment (Meilisearch + app)
+
+## Environment Variables
+
+See [.env.example](.env.example) for all required variables:
+- `MEILI_URL`, `MEILI_MASTER_KEY` — Meilisearch connection
+- `NEXT_PUBLIC_MAPTILER_KEY` — MapTiler tiles
+- `OPENAI_API_KEY` — AI descriptions + source verification
+- `AUTH_SECRET` — NextAuth JWT signing
+- `ADMIN_EMAIL`, `ADMIN_PASSWORD` — initial admin user seed
+- `REINDEX_TOKEN` — hot reload endpoint auth
