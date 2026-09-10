@@ -119,7 +119,7 @@ SQLite data (`data/marketmap.db`) is persisted via the `app_data` Docker volume.
 
 See [.env.example](.env.example) for all required variables:
 - `MEILI_URL`, `MEILI_MASTER_KEY` — Meilisearch connection
-- `NEXT_PUBLIC_MAPTILER_KEY` — MapTiler tiles
+- `NEXT_PUBLIC_CARTO_KEY` — CARTO basemap tiles
 - `OPENAI_API_KEY` — AI descriptions + source verification
 - `AUTH_SECRET` — NextAuth JWT signing
 - `ADMIN_EMAIL`, `ADMIN_PASSWORD` — initial admin user seed

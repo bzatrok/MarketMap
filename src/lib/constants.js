@@ -68,3 +68,13 @@ export const MAP_DEFAULTS = {
   center: [52.1326, 5.2913], // Netherlands center
   zoom: 7,
 };
+
+// CARTO basemaps require an API key since 2025 (free to 5M tile requests/month,
+// see https://carto.com/basemaps/apikey/). The key is public by design -- it ships
+// in the client bundle -- and is domain-locked in the CARTO dashboard.
+// CARTO's GL styles carry no key parameter, so Map.js appends it per request.
+export const BASEMAP = {
+  styleUrl: 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json',
+  host: 'cartocdn.com',
+  key: process.env.NEXT_PUBLIC_CARTO_KEY,
+};

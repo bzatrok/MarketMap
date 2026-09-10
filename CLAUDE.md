@@ -45,7 +45,7 @@ Amberglass.MarketMap/
 
 - **Framework**: Next.js (app router, JavaScript - no TypeScript)
 - **Search/Data**: Meilisearch (primary data store + search engine)
-- **Maps**: MapLibre GL JS with OSM Bright style (MapTiler tiles)
+- **Maps**: MapLibre GL JS with CARTO Voyager style
 - **Styling**: Tailwind CSS
 - **Containerization**: Docker Compose (Meilisearch + seed in dev, app + Meilisearch in prod)
 
@@ -53,7 +53,7 @@ Amberglass.MarketMap/
 
 - **API proxy pattern**: Frontend calls `/api/markets`, never Meilisearch directly. Master key stays server-side.
 - **Data flow**: `static/*.json` → `npm run seed` (geocode → validate → transform → index) → Meilisearch → `/api/markets` → components
-- **Map**: MapLibre GL with MapTiler tiles (API key in `NEXT_PUBLIC_MAPTILER_KEY`). Uses `[lng, lat]` order.
+- **Map**: MapLibre GL with CARTO Voyager tiles (API key in `NEXT_PUBLIC_CARTO_KEY`). Uses `[lng, lat]` order.
 - **Geocoding**: Nominatim (free, no API key). Results cached in `data/geocache.json`. Rate limited to 1 req/sec.
 
 ## Development
@@ -157,9 +157,9 @@ npm run download-sources -- --force  # re-download all
 ```
 MEILI_URL=http://localhost:7700
 MEILI_MASTER_KEY=devMasterKey123
-NEXT_PUBLIC_MAPTILER_KEY=<your-key>
+NEXT_PUBLIC_CARTO_KEY=<your-key>
 ```
 
 ### Template (.env.example — committed)
 
-Copy to `.env` and fill in your MapTiler key. Pre-commit hook blocks real API keys from being committed.
+Copy to `.env` and fill in your CARTO key. Pre-commit hook blocks real API keys from being committed.

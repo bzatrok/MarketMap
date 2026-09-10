@@ -4,7 +4,7 @@ import { useRef, useEffect, useCallback } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import Supercluster from 'supercluster';
-import { MAP_DEFAULTS } from '@/lib/constants';
+import { MAP_DEFAULTS, BASEMAP } from '@/lib/constants';
 import { DAY_LABELS } from '@/lib/constants';
 
 const PROVINCE_SOURCE = 'provinces';
@@ -58,14 +58,17 @@ export default function Map({ markets = [], onMarkerClick, selectedMarket, selec
   useEffect(() => {
     if (mapRef.current) return;
 
-    const key = process.env.NEXT_PUBLIC_MAPTILER_KEY;
-    const styleUrl = `https://api.maptiler.com/maps/bright-v2/style.json?key=${key}`;
-
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: styleUrl,
+      style: BASEMAP.styleUrl,
       center: [MAP_DEFAULTS.center[1], MAP_DEFAULTS.center[0]],
       zoom: MAP_DEFAULTS.zoom,
+      // The style JSON has no key placeholder, so stamp the key onto every
+      // basemap request it spawns: tiles, sprites and glyphs.
+      transformRequest: (url) => {
+        if (!BASEMAP.key || !url.includes(BASEMAP.host)) return undefined;
+        return { url: `${url}${url.includes('?') ? '&' : '?'}key=${BASEMAP.key}` };
+      },
     });
 
     map.addControl(new maplibregl.NavigationControl(), 'top-right');
